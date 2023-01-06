@@ -1,7 +1,7 @@
 {
   "private": false,
-  "name": "@antv/s2-react",
-  "version": "1.35.0",
+  "name": "@tant/s2-react",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "unpkg": "dist/index.min.js",
   "module": "esm/index.js",
@@ -59,7 +59,7 @@
   },
   "peerDependencies": {
     "@ant-design/icons": ">=4.7.0",
-    "@antv/s2": ">=1.0.0",
+    "@tant/s2": ">=1.0.0",
     "antd": ">=4.16.13",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
@@ -71,9 +71,9 @@
     "react-beautiful-dnd": "^13.1.0"
   },
   "devDependencies": {
-    "@antv/s2": "*",
-    "@antv/s2-shared": "*",
     "@ant-design/icons": "^4.7.0",
+    "@tant/s2": "*",
+    "@tant/s2-shared": "*",
     "@testing-library/react": "^12.1.4",
     "@testing-library/react-hooks": "^7.0.2",
     "@types/react": "17.0.41",
