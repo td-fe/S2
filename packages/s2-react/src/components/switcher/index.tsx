@@ -5,7 +5,7 @@ import React, {
   useState,
   isValidElement,
 } from 'react';
-import { i18n } from '@antv/s2';
+import { i18n } from '@tant/s2';
 import { SwitcherIcon } from '../icons';
 import { SwitcherContent, type SwitcherContentProps } from './content';
 import { getSwitcherClassName } from './util';

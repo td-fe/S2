@@ -1,5 +1,5 @@
 import React from 'react';
-import { S2Event, SpreadSheet } from '@antv/s2';
+import { S2Event, SpreadSheet } from '@tant/s2';
 import { get, isEmpty } from 'lodash';
 import { useUpdateEffect } from 'ahooks';
 import type { SheetComponentsProps } from '../components';

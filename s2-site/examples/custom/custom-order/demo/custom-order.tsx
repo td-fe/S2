@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
-import { SheetComponent } from "@antv/s2-react";
+import { SheetComponent } from "@tant/s2-react";
 
 const SortMethodType = {
     asc: 'asc',

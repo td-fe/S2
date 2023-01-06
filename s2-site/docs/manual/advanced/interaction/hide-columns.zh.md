@@ -130,7 +130,7 @@ s2.interaction.hideColumns(hiddenColumnFields)
 可通过 `S2Event` 透出的 `LAYOUT_COLS_EXPANDED` 和 `LAYOUT_COLS_HIDDEN` 分别监听列头的展开和隐藏
 
 ```ts
-import { S2Event } from '@antv/s2'
+import { S2Event } from '@tant/s2'
 
 const s2 = new PivotSheet(...);
 

@@ -17,7 +17,7 @@ order: 8
 | ----------- | :----: | :---: | :-----: | :---: | :---: | :----: | :---: | :------------: | :------------: |
 | **AntV S2** |   40   |  12   |   85    |   9   |  40   |   14   |  6.2  |       12       |      7.3       |
 
-`@antv/s2-react` 和 `@antv/s2-vue` 见官方 [React JavaScript 环境要求](https://zh-hans.reactjs.org/docs/javascript-environment-requirements.html) 和 [Vite 浏览器兼容性](https://cn.vitejs.dev/guide/build.html#browser-compatibility)
+`@tant/s2-react` 和 `@tant/s2-vue` 见官方 [React JavaScript 环境要求](https://zh-hans.reactjs.org/docs/javascript-environment-requirements.html) 和 [Vite 浏览器兼容性](https://cn.vitejs.dev/guide/build.html#browser-compatibility)
 
 ### 浏览器引入
 
@@ -129,13 +129,13 @@ s2.render(false)
 
 请查看 [这篇文章](/docs/manual/advanced/get-cell-data)
 
-### 为什么 tooltip 在 `@antv/s2` 中不显示，在 `@antv/s2-react` `@antv/s2-vue` 中可以正常显示？
+### 为什么 tooltip 在 `@tant/s2` 中不显示，在 `@tant/s2-react` `@tant/s2-vue` 中可以正常显示？
 
 请查看 [Tooltip 注意事项](/docs/manual/basic/tooltip#%E7%AE%80%E4%BB%8B)
 
 ### 如何在 Vue 中自定义 Tooltip?
 
-可直接使用 S2 的 Vue3 版本 `@antv/s2-vue`, 或查看 [在 Vue3 中自定义](/docs/manual/basic/tooltip/#在-vue3-中自定义)
+可直接使用 S2 的 Vue3 版本 `@tant/s2-vue`, 或查看 [在 Vue3 中自定义](/docs/manual/basic/tooltip/#在-vue3-中自定义)
 
 ### 表格支持导出 `Excel` 吗？
 
@@ -167,17 +167,17 @@ s2.render(false)
 
 目前，S2 由三个包构成
 
-- `@antv/s2`: 基于 `canvas` 和 [AntV/G](https://g.antv.vision/zh/docs/guide/introduce) 开发，提供基本的表格展示/交互等能力
-- `@antv/s2-react`: 基于 `@antv/s2` 封装，提供配套的分析组件
-- `@antv/s2-vue`: 基于 `Vue3` 和 `@antv/s2` 封装，提供配套的分析组件
+- `@tant/s2`: 基于 `canvas` 和 [AntV/G](https://g.antv.vision/zh/docs/guide/introduce) 开发，提供基本的表格展示/交互等能力
+- `@tant/s2-react`: 基于 `@tant/s2` 封装，提供配套的分析组件
+- `@tant/s2-vue`: 基于 `Vue3` 和 `@tant/s2` 封装，提供配套的分析组件
 
-也就是说 `@antv/s2` 和**框架无关**，你可以在 `Vue`, `Angular` 等框架中使用。
+也就是说 `@tant/s2` 和**框架无关**，你可以在 `Vue`, `Angular` 等框架中使用。
 
 以下是版本概览：
 
 <embed src="@/docs/common/packages.zh.md"></embed>
 
-配套的 [分析组件](/examples/gallery#category-表格组件)，目前还没有 `@antv/s2-angular` 的开发计划，欢迎社区一起建设 👏🏻.
+配套的 [分析组件](/examples/gallery#category-表格组件)，目前还没有 `@tant/s2-angular` 的开发计划，欢迎社区一起建设 👏🏻.
 
 ### 如何贡献代码？
 

@@ -1,4 +1,4 @@
-import { PivotSheet, CornerCell } from '@antv/s2';
+import { PivotSheet, CornerCell } from '@tant/s2';
 
 /**
  * 自定义 CornerCell，给角头添加背景图

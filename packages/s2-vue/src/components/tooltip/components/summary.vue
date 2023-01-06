@@ -5,7 +5,7 @@ import {
   type TooltipSummaryProps,
   type TooltipSummaryOptions,
   TOOLTIP_PREFIX_CLS,
-} from '@antv/s2';
+} from '@tant/s2';
 import { computed, defineComponent } from 'vue';
 import type { GetInitProps } from '../../../interface';
 

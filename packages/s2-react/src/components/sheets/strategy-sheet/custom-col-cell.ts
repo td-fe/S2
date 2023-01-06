@@ -6,7 +6,7 @@ import {
   safeJsonParse,
   SpreadSheet,
   type MultiData,
-} from '@antv/s2';
+} from '@tant/s2';
 import { isArray } from 'lodash';
 
 /**

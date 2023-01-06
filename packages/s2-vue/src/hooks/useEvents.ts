@@ -1,4 +1,4 @@
-import { S2Event, type SpreadSheet, getBaseCellData, GEvent } from '@antv/s2';
+import { S2Event, type SpreadSheet, getBaseCellData, GEvent } from '@tant/s2';
 import { onMounted, type Ref } from 'vue';
 import type { BaseSheetInitEmits, EmitFn } from './../interface';
 

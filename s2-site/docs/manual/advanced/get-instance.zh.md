@@ -10,8 +10,8 @@ order: 8
 ### ref 方式（推荐）
 
 ```tsx
-import { SpreadSheet } from '@antv/s2'
-import { SheetComponent } from '@antv/s2-react'
+import { SpreadSheet } from '@tant/s2'
+import { SheetComponent } from '@tant/s2-react'
 
 function App() {
   const s2Ref = React.useRef<SpreadSheet>()
@@ -28,11 +28,11 @@ function App() {
 
 ### getSpreadSheet 方式
 
-> ⚠️ @antv/s2-react@1.29.0 已废弃
+> ⚠️ @tant/s2-react@1.29.0 已废弃
 
 ```tsx
-import { SpreadSheet } from '@antv/s2'
-import { SheetComponent } from '@antv/s2-react'
+import { SpreadSheet } from '@tant/s2'
+import { SheetComponent } from '@tant/s2-react'
 
 function App() {
   const s2Ref = React.useRef<SpreadSheet>()
@@ -76,8 +76,8 @@ pivot => table
 变更前注册事件会被注销，`S2` 对这种场景进行了优化，不管是 `ref` 还是 `getSpreadSheet` 方式，拿到的都是最新的实例，开发者无需关心
 
 ```tsx
-import { SpreadSheet, S2Event } from '@antv/s2'
-import { SheetComponent } from '@antv/s2-react'
+import { SpreadSheet, S2Event } from '@tant/s2'
+import { SheetComponent } from '@tant/s2-react'
 
 function App() {
   const s2Ref = React.useRef<SpreadSheet>()
@@ -130,8 +130,8 @@ ref 方式得到的是一个对象，其中的`instance`属性才对应真正的
 
 ```vue
 <script lang="ts">
-import type { S2DataConfig, S2Options } from '@antv/s2';
-import { Sheet } from '@antv/s2-vue';
+import type { S2DataConfig, S2Options } from '@tant/s2';
+import { Sheet } from '@tant/s2-vue';
 import { defineComponent, onMounted, shallowRef } from 'vue';
 
 export default defineComponent({
@@ -157,14 +157,14 @@ export default defineComponent({
 </template>
 ```
 
-### getSpreadSheet 方式 (@antv/s2-vue@1.4.0 已废弃）
+### getSpreadSheet 方式 (@tant/s2-vue@1.4.0 已废弃）
 
-> ⚠️ @antv/s2-vue@1.4.0 已废弃
+> ⚠️ @tant/s2-vue@1.4.0 已废弃
 
 ```vue
 <script lang="ts">
-import type { S2DataConfig, S2Options } from '@antv/s2';
-import { Sheet } from '@antv/s2-vue';
+import type { S2DataConfig, S2Options } from '@tant/s2';
+import { Sheet } from '@tant/s2-vue';
 import { defineComponent, shallowRef } from 'vue';
 
 export default defineComponent({

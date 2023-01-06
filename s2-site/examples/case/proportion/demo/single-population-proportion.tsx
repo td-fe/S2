@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import insertCss from 'insert-css';
-import { SheetComponent } from '@antv/s2-react';
-import '@antv/s2-react/dist/style.min.css';
-import { S2Options } from '@antv/s2';
+import { SheetComponent } from '@tant/s2-react';
+import '@tant/s2-react/dist/style.min.css';
+import { S2Options } from '@tant/s2';
 
 const PALETTE_COLORS = [
   {

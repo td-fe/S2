@@ -1,4 +1,4 @@
-import { getSafetyDataConfig, S2_PREFIX_CLS, SpreadSheet } from '@antv/s2';
+import { getSafetyDataConfig, S2_PREFIX_CLS, SpreadSheet } from '@tant/s2';
 import { Spin } from 'antd';
 import React from 'react';
 import { useSpreadSheet } from '../../../hooks/useSpreadSheet';

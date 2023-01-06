@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { DataCell, S2Event, S2_PREFIX_CLS } from '@antv/s2';
-import type { ScrollOffset } from '@antv/s2';
+import { DataCell, S2Event, S2_PREFIX_CLS } from '@tant/s2';
+import type { ScrollOffset } from '@tant/s2';
 import { isEqual, pick } from 'lodash';
 import type { Event as CanvasEvent } from '@antv/g-canvas';
 import { useS2Event } from '../../../../hooks';

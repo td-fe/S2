@@ -6,7 +6,7 @@ import {
   VALUE_FIELD,
   type Meta,
   i18n,
-} from '@antv/s2';
+} from '@tant/s2';
 
 export class StrategyDataSet extends CustomTreePivotDataSet {
   processDataCfg(dataCfg: S2DataConfig): S2DataConfig {

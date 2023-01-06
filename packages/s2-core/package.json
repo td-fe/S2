@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@tant/s2",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "lib/index.js",
   "unpkg": "dist/index.min.js",
   "module": "esm/index.js",

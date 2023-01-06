@@ -15,12 +15,12 @@ First, you need to configure the `pagination` attribute in `s2Options`
 
 <img data-mdast="html" src="https://gw.alipayobjects.com/zos/antfincdn/LVw2QOvjgW/b1563a7b-4070-4d61-a18b-6558e2c5b27b.png" width="600" alt="preview">
 
-If you develop based on `@antv/s2-core` , you need to **introduce** or **implement paging components** yourself. The `core` layer only provides paging capabilities. Refer to the example
+If you develop based on `@tant/s2-core` , you need to **introduce** or **implement paging components** yourself. The `core` layer only provides paging capabilities. Refer to the example
 
 * [React](https://github.com/antvis/S2/blob/master/packages/s2-react/src/components/pagination/index.tsx)
 * [Vue 3.0](https://github.com/antvis/S2/blob/master/packages/s2-vue/src/components/pagination/index.vue)
 
-If you develop based on `@antv/s2-react` or `@antv/s2-vue` , you only need to configure pagination-related configuration items to use it out of the box.
+If you develop based on `@tant/s2-react` or `@tant/s2-vue` , you only need to configure pagination-related configuration items to use it out of the box.
 
 ### SpreadsheetProps
 

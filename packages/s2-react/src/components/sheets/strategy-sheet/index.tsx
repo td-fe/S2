@@ -1,4 +1,4 @@
-import type { S2CellType } from '@antv/s2';
+import type { S2CellType } from '@tant/s2';
 import {
   type ColHeaderConfig,
   customMerge,
@@ -9,7 +9,7 @@ import {
   type ViewMeta,
   type MultiData,
   type TooltipShowOptions,
-} from '@antv/s2';
+} from '@tant/s2';
 import { isArray, isEmpty, isFunction, isNil, size } from 'lodash';
 import React from 'react';
 import { BaseSheet } from '../base-sheet';

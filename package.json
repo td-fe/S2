@@ -1,6 +1,6 @@
 {
   "name": "@tant/s2",
-  "private": false,
+  "private": true,
   "workspaces": [
     "packages/*"
   ],

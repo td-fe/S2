@@ -1,6 +1,6 @@
 import { isEmpty } from 'lodash';
 import React from 'react';
-import { getTooltipDefaultOptions } from '@antv/s2';
+import { getTooltipDefaultOptions } from '@tant/s2';
 import type {
   TooltipDetailListItem,
   TooltipOperatorOptions,
@@ -8,7 +8,7 @@ import type {
   TooltipNameTipsOptions,
   TooltipHeadInfo as TooltipHeadInfoType,
   TooltipInterpretationOptions,
-} from '@antv/s2';
+} from '@tant/s2';
 import { TooltipDetail } from './components/detail';
 import { TooltipHead } from './components/head-info';
 import { TooltipInfos } from './components/infos';

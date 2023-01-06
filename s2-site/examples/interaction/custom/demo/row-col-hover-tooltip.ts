@@ -1,4 +1,4 @@
-import { PivotSheet, BaseEvent, S2Event } from '@antv/s2';
+import { PivotSheet, BaseEvent, S2Event } from '@tant/s2';
 
 class RowColumnHoverTooltipInteraction extends BaseEvent {
   bindEvents() {

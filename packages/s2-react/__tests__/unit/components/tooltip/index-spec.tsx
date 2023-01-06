@@ -1,4 +1,4 @@
-import { getTooltipOperatorSortMenus, S2CellType } from '@antv/s2';
+import { getTooltipOperatorSortMenus, S2CellType } from '@tant/s2';
 import { render, screen } from '@testing-library/react';
 import React from 'react';
 import { TooltipComponent } from '../../../../src';

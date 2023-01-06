@@ -1,5 +1,5 @@
-import { S2DataConfig, S2Options } from '@antv/s2';
-import { PivotSheet } from '@antv/s2';
+import { S2DataConfig, S2Options } from '@tant/s2';
+import { PivotSheet } from '@tant/s2';
 
 fetch('https://assets.antv.antgroup.com/s2/basic.json')
   .then((res) => res.json())

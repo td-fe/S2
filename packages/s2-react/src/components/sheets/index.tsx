@@ -1,8 +1,8 @@
-import type { SpreadSheet } from '@antv/s2';
+import type { SpreadSheet } from '@tant/s2';
 import React from 'react';
 import zhCN from 'antd/es/locale/zh_CN';
 import enUS from 'antd/es/locale/en_US';
-import { getLang } from '@antv/s2';
+import { getLang } from '@tant/s2';
 import { ConfigProvider } from 'antd';
 import { EditableSheet } from './editable-sheet';
 import { GridAnalysisSheet } from './grid-analysis-sheet';

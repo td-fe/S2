@@ -1,4 +1,4 @@
-import { PivotSheet } from '@antv/s2';
+import { PivotSheet } from '@tant/s2';
 import { Group } from '@antv/g-canvas';
 import { get } from 'lodash';
 

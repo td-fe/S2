@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { SheetComponent } from '@antv/s2-react';
-import '@antv/s2-react/dist/style.min.css';
+import { SheetComponent } from '@tant/s2-react';
+import '@tant/s2-react/dist/style.min.css';
 
 fetch('https://assets.antv.antgroup.com/s2/basic.json')
   .then((res) => res.json())

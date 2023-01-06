@@ -24,7 +24,7 @@ import type {
   CellMeta,
   TooltipContentType,
   Pagination,
-} from '@antv/s2';
+} from '@tant/s2';
 
 // 是否开启自适应宽高，并指定容器
 export type Adaptive =

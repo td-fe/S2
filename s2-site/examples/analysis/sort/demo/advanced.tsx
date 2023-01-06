@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import { SheetComponent } from '@antv/s2-react';
+import { SheetComponent } from '@tant/s2-react';
 import insertCss from 'insert-css';
 import 'antd/es/cascader/style/index.css';
-import '@antv/s2-react/dist/style.min.css';
+import '@tant/s2-react/dist/style.min.css';
 
 fetch(
   'https://gw.alipayobjects.com/os/bmw-prod/21ffc284-50a2-4a30-8bb0-b2f9ac4a8fbc.json',

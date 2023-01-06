@@ -6,9 +6,9 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import type { S2Options } from '@antv/s2';
+import type { S2Options } from '@tant/s2';
 import * as mockDataConfig from 'tests/data/simple-data.json';
-import type { SheetType } from '@antv/s2-shared';
+import type { SheetType } from '@tant/s2-shared';
 import { getContainer } from '../util/helpers';
 import { SheetComponent } from '@/components/sheets';
 import type { SheetComponentsProps } from '@/components/sheets/interface';

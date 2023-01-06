@@ -89,7 +89,7 @@ const PartDrillDown = {
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { SheetComponent } from '@antv/s2-react';
+import { SheetComponent } from '@tant/s2-react';
 
 const s2Options = {
   hierarchyType: 'tree', // 树形结构

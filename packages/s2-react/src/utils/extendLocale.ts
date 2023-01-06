@@ -1,4 +1,4 @@
-import { extendLocale } from '@antv/s2';
-import { Locale } from '@antv/s2-shared';
+import { extendLocale } from '@tant/s2';
+import { Locale } from '@tant/s2-shared';
 
 extendLocale(Locale);

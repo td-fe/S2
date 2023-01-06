@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Switcher } from '@antv/s2-react';
+import { Switcher } from '@tant/s2-react';
 
 const switcherFields = {
   rows: {

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { act } from 'react-dom/test-utils';
-import { LangType, S2Options, setLang } from '@antv/s2';
+import { LangType, S2Options, setLang } from '@tant/s2';
 import * as mockDataConfig from '../data/simple-data.json';
 import { SheetComponent } from '../../src';
 import { getContainer } from '../util/helpers';

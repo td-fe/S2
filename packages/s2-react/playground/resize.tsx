@@ -1,4 +1,4 @@
-import { customMerge, type ThemeCfg, ResizeType } from '@antv/s2';
+import { customMerge, type ThemeCfg, ResizeType } from '@tant/s2';
 import { Checkbox, Switch } from 'antd';
 import type { CheckboxValueType } from 'antd/lib/checkbox/Group';
 import React from 'react';

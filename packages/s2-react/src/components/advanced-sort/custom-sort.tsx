@@ -1,6 +1,6 @@
 import { Card } from 'antd';
 import React from 'react';
-import { ADVANCED_SORT_PRE_CLS } from '@antv/s2-shared';
+import { ADVANCED_SORT_PRE_CLS } from '@tant/s2-shared';
 import { HtmlIcon } from '../../common/icons';
 
 export interface CustomSortProps {

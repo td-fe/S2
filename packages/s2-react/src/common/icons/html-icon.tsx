@@ -1,6 +1,6 @@
 import React from 'react';
 import cx from 'classnames';
-import { getIcon, S2_PREFIX_CLS } from '@antv/s2';
+import { getIcon, S2_PREFIX_CLS } from '@tant/s2';
 
 import './html-icon.less';
 

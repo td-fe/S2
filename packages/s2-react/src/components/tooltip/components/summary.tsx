@@ -1,6 +1,6 @@
 import React from 'react';
 import { size, sumBy } from 'lodash';
-import { i18n, TOOLTIP_PREFIX_CLS, type TooltipSummaryProps } from '@antv/s2';
+import { i18n, TOOLTIP_PREFIX_CLS, type TooltipSummaryProps } from '@tant/s2';
 import cls from 'classnames';
 
 export const TooltipSummary: React.FC<TooltipSummaryProps> = React.memo(

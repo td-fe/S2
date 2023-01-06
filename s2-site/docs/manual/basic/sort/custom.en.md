@@ -26,7 +26,7 @@ in [dataConfig](/docs/api/general/S2DataConfig)
 | sortFunc      | Function for custom sorting                                                    | `(v: SortFuncParam) => Array<string>` | -        |          |
 
 ```ts
- import { EXTRA_FIELD } from "@antv/s2";
+ import { EXTRA_FIELD } from "@tant/s2";
 
 const s2DataConfig = {
   sortParams: [
@@ -137,7 +137,7 @@ Sort column headers by`Row Total/Row Subtotal`, examples are as follows:
 **Row subtotal** :
 
 ```js
- import { TOTAL_VALUE, EXTRA_FIELD } from "@antv/s2";
+ import { TOTAL_VALUE, EXTRA_FIELD } from "@tant/s2";
 
 ...
 
@@ -171,7 +171,7 @@ totals = {
 row total:
 
 ```ts
- import { TOTAL_VALUE, EXTRA_FIELD } from "@antv/s2";
+ import { TOTAL_VALUE, EXTRA_FIELD } from "@tant/s2";
 
 ...
 sortParams = [
@@ -206,7 +206,7 @@ data = [
 Sort row headers by`Column Total/Column Subtotal`, examples are as follows:
 
 ```js
- import { TOTAL_VALUE, EXTRA_FIELD } from "@antv/s2";
+ import { TOTAL_VALUE, EXTRA_FIELD } from "@tant/s2";
 
 ...
 

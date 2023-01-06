@@ -58,6 +58,7 @@ export const KEY_COL_REAL_WIDTH_INFO = 'col-real-width-info';
 export const ROOT_ID = 'root';
 export const ID_SEPARATOR = '[&]';
 export const EMPTY_PLACEHOLDER = '-';
+export const DATA_CELL_ID_CONNECTOR = '[-]';
 
 export const PADDING_TOP = 0;
 export const PADDING_RIGHT = 1;

@@ -1,7 +1,7 @@
 import {
   type TooltipInterpretationOptions,
   TOOLTIP_PREFIX_CLS,
-} from '@antv/s2';
+} from '@tant/s2';
 import React from 'react';
 import { ReactElement } from '../../../common/react-element';
 import { TooltipIcon } from './icon';

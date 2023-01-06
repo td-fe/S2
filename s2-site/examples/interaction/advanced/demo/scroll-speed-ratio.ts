@@ -1,4 +1,4 @@
-import { TableSheet } from '@antv/s2';
+import { TableSheet } from '@tant/s2';
 
 import insertCss from 'insert-css';
 

@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import { max, min, replace } from 'lodash';
 import insertCss from 'insert-css';
 
-import { SheetComponent } from '@antv/s2-react';
-import '@antv/s2-react/dist/style.min.css';
+import { SheetComponent } from '@tant/s2-react';
+import '@tant/s2-react/dist/style.min.css';
 
 const PALETTE_COLORS = [
   '#B8E1FF',

@@ -12,7 +12,7 @@ This is the basic format of a custom interaction class:
 Inherit `BaseEvent` to get the current table instance `this.spreadsheet` , implement the `bindEvents` method, combine a [series of methods](/docs/api/basic-class/spreadsheet) provided by `this.spreadsheet` , and customize the interaction. Finally, the default interaction and custom interaction will be registered when the table is initialized.
 
 ```ts
-import { BaseEvent } from '@antv/s2';
+import { BaseEvent } from '@tant/s2';
 
 // 继承 BaseEvent, 可以拿到 this.spreadsheet
 class HiddenInteraction extends BaseEvent {
@@ -24,7 +24,7 @@ class HiddenInteraction extends BaseEvent {
 Listen`列头`double-click event: `S2Event.COL_CELL_DOUBLE_CLICK`
 
 ```ts
-import { BaseEvent, S2Event } from '@antv/s2';
+import { BaseEvent, S2Event } from '@tant/s2';
 
 class HiddenInteraction extends BaseEvent {
   bindEvents() {
@@ -44,7 +44,7 @@ class HiddenInteraction extends BaseEvent {
 ## 2. Register custom interaction
 
 ```ts
-import { TableSheet } from '@antv/s2';
+import { TableSheet } from '@tant/s2';
 
 const s2Options = {
   width: 600,
@@ -69,7 +69,7 @@ s2.render();
 Of course, you can register any number of custom interactions, for example, you don't want the browser's default menu to appear when the user right-clicks the table
 
 ```ts
-import { TableSheet } from '@antv/s2';
+import { TableSheet } from '@tant/s2';
 
 class ContextMenuInteraction extends BaseEvent {
   bindEvents() {

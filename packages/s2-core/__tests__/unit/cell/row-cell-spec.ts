@@ -1,6 +1,6 @@
 import { get } from 'lodash';
 import { createPivotSheet } from 'tests/util/helpers';
-import type { RowCell } from '@antv/s2';
+import type { RowCell } from '@tant/s2';
 import type { SpreadSheet } from '@/sheet-type';
 import type { TextAlign } from '@/common';
 

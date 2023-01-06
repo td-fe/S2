@@ -4,7 +4,7 @@ import {
   DataCell,
   InteractionStateName,
   S2_PREFIX_CLS,
-} from '@antv/s2';
+} from '@tant/s2';
 import type { Point } from '@antv/g-canvas';
 import { throttle, pick, get } from 'lodash';
 import { useSpreadSheetRef } from '../../../../utils/SpreadSheetContext';

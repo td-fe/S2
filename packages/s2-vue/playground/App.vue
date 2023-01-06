@@ -1,11 +1,11 @@
 <script lang="ts">
 /* eslint-disable no-console */
-import type { DataType, S2DataConfig, S2Options } from '@antv/s2';
+import type { DataType, S2DataConfig, S2Options } from '@tant/s2';
 import type {
   PartDrillDown,
   PartDrillDownInfo,
   SheetType,
-} from '@antv/s2-shared';
+} from '@tant/s2-shared';
 import { defineComponent, reactive, ref, shallowRef } from 'vue';
 import { forEach, random } from 'lodash';
 import { SheetComponent } from '../src';

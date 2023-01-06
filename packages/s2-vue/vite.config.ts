@@ -80,7 +80,7 @@ export default defineConfig({
         assetFileNames: `[name]${isUmdFormat ? '.min' : ''}.[ext]`,
         globals: {
           vue: 'Vue',
-          '@antv/s2': 'S2',
+          '@tant/s2': 'S2',
         },
       },
     },

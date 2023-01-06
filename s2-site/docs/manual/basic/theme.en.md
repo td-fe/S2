@@ -175,7 +175,7 @@ s2.render(false);
 There is a large degree of freedom in the deployment of self- [selected swatch colors](#%E8%87%AA%E9%80%89%E8%89%B2%E6%9D%BF%E9%A2%9C%E8%89%B2) , but each color needs to be determined individually, and the overall process is relatively complicated. To meet users' general theme demands, S2 also provides the function of generating color palettes based on theme colors.
 
 ```js
-import { getPalette, generatePalette, PivotSheet } from '@antv/s2';
+import { getPalette, generatePalette, PivotSheet } from '@tant/s2';
 
 const s2 = new PivotSheet(container, s2DataConfig, s2Options);
 

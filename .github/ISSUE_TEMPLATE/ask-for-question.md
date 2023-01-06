@@ -18,9 +18,9 @@ labels: ❔question
 
 | Package        | Version |
 | -------------- | ------- |
-| @antv/s2       |         |
-| @antv/s2-react |         |
-| @antv/s2-vue   |         |
+| @tant/s2       |         |
+| @tant/s2-react |         |
+| @tant/s2-vue   |         |
 
 ### Sheet Type
 

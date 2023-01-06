@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { SheetComponent } from '@antv/s2-react';
-import '@antv/s2-react/dist/style.min.css';
+import { SheetComponent } from '@tant/s2-react';
+import '@tant/s2-react/dist/style.min.css';
 
 // more Info https://observablehq.com/@pearmini/mosaic-antv-s2
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import insertCss from 'insert-css';
-import { SheetComponent } from '@antv/s2-react';
-import { DataCell } from '@antv/s2';
-import '@antv/s2-react/dist/style.min.css';
+import { SheetComponent } from '@tant/s2-react';
+import { DataCell } from '@tant/s2';
+import '@tant/s2-react/dist/style.min.css';
 
 const paletteLegendMap = [
   {

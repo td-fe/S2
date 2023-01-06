@@ -3,7 +3,7 @@ import {
   type TooltipOperatorMenu,
   type S2CellType,
   TOOLTIP_PREFIX_CLS,
-} from '@antv/s2';
+} from '@tant/s2';
 import { Menu } from 'ant-design-vue';
 import { isEmpty } from 'lodash';
 import { defineComponent } from 'vue';

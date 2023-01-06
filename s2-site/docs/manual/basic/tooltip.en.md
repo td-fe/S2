@@ -11,7 +11,7 @@ Expose table information and some analysis functions through table interaction
 
 ## Precautions
 
-`@antv/s2` only retains the core display and hidden logic of `tooltip` , provides corresponding data, and **does not
+`@tant/s2` only retains the core display and hidden logic of `tooltip` , provides corresponding data, and **does not
 render content**
 
 In the `React` version and `Vue3` version, the content of the `tooltip` is rendered
@@ -23,14 +23,14 @@ View the specific implementation of the `React` version and
 the [specific](https://github.com/antvis/S2/blob/master/packages/s2-vue/src/components/tooltip/custom-tooltip.ts) [implementation](https://github.com/antvis/S2/blob/master/packages/s2-react/src/components/tooltip/custom-tooltip.tsx)
 of the `Vue3` version
 
-* If you need a `tooltip` , you can directly use the out-of-the-box `@antv/s2-react` `@antv/s2-vue` , which saves you
+* If you need a `tooltip` , you can directly use the out-of-the-box `@tant/s2-react` `@tant/s2-vue` , which saves you
   secondary packaging and is more convenient to use
 * If you don't want to depend on the framework, or want to use `tooltip` in `Vue` , `Angular` framework, please refer to
   the chapter [of custom Tooltip class](#%E8%87%AA%E5%AE%9A%E4%B9%89-tooltip-%E7%B1%BB)
 * Don't forget to import styles
 
 ```ts
- import "@antv/s2/dist/style.min.css";
+ import "@tant/s2/dist/style.min.css";
 ```
 
 ## use
@@ -120,7 +120,7 @@ Enable by configuring `autoAdjustBoundary` field:
 
 #### Customize Tooltip content
 
-For the use of `@antv/s2` class: tooltip content can be any `dom` node or`string`
+For the use of `@tant/s2` class: tooltip content can be any `dom` node or`string`
 
 ```ts
 const content = document.createElement('div')
@@ -134,7 +134,7 @@ const s2Options = {
 };
 ```
 
-For the use of `@antv/s2-react` components: tooltip content can be any `jsx` element
+For the use of `@tant/s2-react` components: tooltip content can be any `jsx` element
 
 ```ts
  const content = (
@@ -372,9 +372,9 @@ the `renderContent` method to render your package any component
 * [Check out the Vue example](https://codesandbox.io/s/compassionate-booth-hpm3rf?file=/src/App.vue)
 
 ```ts
- import { BaseTooltip, SpreadSheet } from '@antv/s2';
+ import { BaseTooltip, SpreadSheet } from '@tant/s2';
 // 引入`tooltip` 样式文件
-import "@antv/s2/dist/style.min.css";
+import "@tant/s2/dist/style.min.css";
 
 export class CustomTooltip extends BaseTooltip {
   constructor(spreadsheet: SpreadSheet) {
@@ -427,7 +427,7 @@ of the row header cell by customizing the interaction [details](/docs/manual/adv
 . [Example](/examples/interaction/custom#row-col-hover-tooltip)
 
 ```ts
- import { PivotSheet, BaseEvent, S2Event } from '@antv/s2';
+ import { PivotSheet, BaseEvent, S2Event } from '@tant/s2';
 
 class RowHoverInteraction extends BaseEvent {
   bindEvents() {
@@ -478,7 +478,7 @@ const onRowCellHover = ({ event, viewMeta }) => {
 
 There are two ways to customize content in `Vue3` .
 
-[![Edit @antv/s2 Vue3 Tooltip Demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/antv-s2-vue3-tooltip-demo-hpm3rf?autoresize=1\&fontsize=14\&hidenavigation=1\&theme=dark)
+[![Edit @tant/s2 Vue3 Tooltip Demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/antv-s2-vue3-tooltip-demo-hpm3rf?autoresize=1\&fontsize=14\&hidenavigation=1\&theme=dark)
 
 <img data-mdast="html" src="https://gw.alipayobjects.com/zos/antfincdn/AphZDgJvY/b4654699-927d-4b58-9da2-a5793f964061.png" width="600" alt="preview">
 
@@ -512,9 +512,9 @@ export default defineComponent({
 
 ```ts
  import { defineCustomElement, render, createVNode } from "vue";
-import { BaseTooltip, PivotSheet } from "@antv/s2";
+import { BaseTooltip, PivotSheet } from "@tant/s2";
 import TooltipContent from "./TooltipContent.vue";
-import "@antv/s2/dist/style.min.css";
+import "@tant/s2/dist/style.min.css";
 
 class CustomTooltip extends BaseTooltip {
   constructor(spreadsheet) {
@@ -563,7 +563,7 @@ const s2Options = {
 };
 ```
 
-[@antv/s2 Vue3 Tooltip Demo](https://codesandbox.io/embed/antv-s2-vue3-tooltip-demo-hpm3rf?autoresize=1\&fontsize=14\&hidenavigation=1\&theme=dark)
+[@tant/s2 Vue3 Tooltip Demo](https://codesandbox.io/embed/antv-s2-vue3-tooltip-demo-hpm3rf?autoresize=1\&fontsize=14\&hidenavigation=1\&theme=dark)
 
 #### Override display method
 

@@ -7,7 +7,7 @@ import {
   InteractionStateName,
   CellTypes,
   type InteractionCellSelectedHighlightType,
-  EMPTY_PLACEHOLDER,
+  DATA_CELL_ID_CONNECTOR,
 } from '../../common/constant';
 import type {
   CellMeta,
@@ -39,7 +39,7 @@ export const includeCell = (cells: CellMeta[], currentCell: S2CellType) => {
 };
 
 export const getDataCellId = (rowIndex: string, colIndex: string) => {
-  return `${rowIndex}${EMPTY_PLACEHOLDER}${colIndex}`;
+  return `${rowIndex}${DATA_CELL_ID_CONNECTOR}${colIndex}`;
 };
 
 export const shouldUpdateBySelectedCellsHighlight = (s2: SpreadSheet) => {

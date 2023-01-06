@@ -76,7 +76,7 @@ s2.render();
 Support to mark row header `columns` as link style
 
 ```ts
-import { TableSheet } from '@antv/s2';
+import { TableSheet } from '@tant/s2';
 const s2DataConfig = {
   fields: {
     columns: ['type', 'price', 'province', 'city'],

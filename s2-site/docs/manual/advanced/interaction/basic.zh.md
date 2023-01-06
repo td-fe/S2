@@ -45,7 +45,7 @@ order: 0
 - `cell:xx`:  单元格级别的事件，整个表格分为不同的单元格类型，你可以对特定的单元格进行事件监听，实现自定义需求
 
 ```ts
-import { ColCell, DataCell, PivotSheet, RowCell, S2Event } from '@antv/s2';
+import { ColCell, DataCell, PivotSheet, RowCell, S2Event } from '@tant/s2';
 
 const s2 = new PivotSheet(container, s2DataConfig, s2Options);
 
@@ -73,11 +73,11 @@ s2.on(S2Event.GLOBAL_KEYBOARD_DOWN, (event) => {
 })
 ```
 
-如果使用的是 `@antv/s2-react` 或 `@antv/s2-vue`, 可以拿到 [S2 表格实例](/docs/manual/advanced/get-instance/) 后对所需事件进行监听，和 `@antv/s2` **使用方式完全一致** .
+如果使用的是 `@tant/s2-react` 或 `@tant/s2-vue`, 可以拿到 [S2 表格实例](/docs/manual/advanced/get-instance/) 后对所需事件进行监听，和 `@tant/s2` **使用方式完全一致** .
 
 ```ts
-import { S2Event, SpreadSheet } from '@antv/s2'
-import { SheetComponent } from '@antv/s2-react';
+import { S2Event, SpreadSheet } from '@tant/s2'
+import { SheetComponent } from '@tant/s2-react';
 
 function App() {
   const s2Ref = React.useRef<SpreadSheet>();
@@ -98,7 +98,7 @@ function App() {
 > React
 
 ```tsx
-import { SheetComponent } from '@antv/s2-react';
+import { SheetComponent } from '@tant/s2-react';
 
 const onDataCellClick = () => {}
 
@@ -108,7 +108,7 @@ const onDataCellClick = () => {}
 > Vue
 
 ```tsx
-import { SheetComponent } from '@antv/s2-vue';
+import { SheetComponent } from '@tant/s2-vue';
 
 const onDataCellClick = () => {}
 

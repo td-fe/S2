@@ -7,11 +7,11 @@ redirect_from:
 
 <div align="center">
 <p>
-  <a href="https://www.npmjs.com/package/@antv/s2" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/@antv/s2.svg" alt="version">
+  <a href="https://www.npmjs.com/package/@tant/s2" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/@tant/s2.svg" alt="version">
   </a>
-    <a href="https://www.npmjs.com/package/@antv/s2" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/@antv/s2/beta.svg" alt="version">
+    <a href="https://www.npmjs.com/package/@tant/s2" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/@tant/s2/beta.svg" alt="version">
   </a>
    <a href="https://github.com/antvis/S2/actions/workflows/test.yml" target="_blank">
     <img src="https://github.com/antvis/S2/actions/workflows/test.yml/badge.svg" alt="ci test status"/>
@@ -43,7 +43,7 @@ redirect_from:
 ## 📦 Install
 
 ```bash
-npm install @antv/s2
+npm install @tant/s2
 ```
 
 ## 🔨 use
@@ -179,7 +179,7 @@ const s2Options = {
 ```
 
 ```ts
-import { PivotSheet } from '@antv/s2';
+import { PivotSheet } from '@tant/s2';
 
 const container = document.getElementById('container');
 
@@ -198,7 +198,7 @@ s2.render();
 
 ## 👤 Author
 
-[**@AntV**](https://github.com/orgs/antvis/people)
+[**@tant**](https://github.com/orgs/antvis/people)
 
 ## 🤝 Contribute
 

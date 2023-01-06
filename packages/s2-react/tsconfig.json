@@ -4,8 +4,8 @@
     "target": "ESNext",
     "jsx": "react",
     "paths": {
-      "@antv/s2":["s2-core/src/index.ts"],
-      "@antv/s2-shared":["s2-shared/src/index.ts"],
+      "@tant/s2":["s2-core/src/index.ts"],
+      "@tant/s2-shared":["s2-shared/src/index.ts"],
       "@/*":["s2-react/src/*"],
       "tests/*":["s2-react/__tests__/*"]
     }

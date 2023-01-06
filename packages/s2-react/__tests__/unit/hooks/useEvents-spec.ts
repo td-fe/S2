@@ -5,7 +5,7 @@ import {
   type S2Options,
   SpreadSheet,
   GEvent,
-} from '@antv/s2';
+} from '@tant/s2';
 import { createMockCellInfo, getContainer } from 'tests/util/helpers';
 import * as mockDataConfig from 'tests/data/simple-data.json';
 import type { SheetComponentsProps } from '../../../src/components';

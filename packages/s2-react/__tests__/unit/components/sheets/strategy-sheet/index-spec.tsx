@@ -7,7 +7,7 @@ import {
   InteractionStateName,
   SpreadSheet,
   type S2DataConfig,
-} from '@antv/s2';
+} from '@tant/s2';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { act } from 'react-dom/test-utils';
@@ -290,7 +290,7 @@ describe('<StrategySheet/> Tests', () => {
 
     // https://github.com/antvis/S2/issues/1960
     it('should selected cell and update spotlight style', () => {
-      const dataCellId = `root[&]自定义节点A[&]指标A-root[&]2022-11[&]["数值","环比","同比"]`;
+      const dataCellId = `root[&]自定义节点A[&]指标A[-]root[&]2022-11[&]["数值","环比","同比"]`;
 
       const selectedDataCell = s2.interaction
         .getPanelGroupAllDataCells()

@@ -5,11 +5,11 @@ import {
   type MultiData,
   type SimpleDataItem,
   type ViewMeta,
-} from '@antv/s2';
+} from '@tant/s2';
 import cls from 'classnames';
 import { first, get, isEmpty, isFunction, isNil } from 'lodash';
 import React from 'react';
-import { getStrategySheetTooltipClsName as tooltipCls } from '@antv/s2-shared';
+import { getStrategySheetTooltipClsName as tooltipCls } from '@tant/s2-shared';
 import { getLeafColNode, getRowName, getRowDescription } from '../utils';
 import type { CustomTooltipProps } from './interface';
 

@@ -1,12 +1,12 @@
 import { Menu, Dropdown, type MenuProps } from 'antd';
 import { isEmpty, map } from 'lodash';
 import React from 'react';
-import { TOOLTIP_PREFIX_CLS } from '@antv/s2';
-import type { TooltipOperatorProps as BaseTooltipOperatorProps } from '@antv/s2-shared';
+import { TOOLTIP_PREFIX_CLS } from '@tant/s2';
+import type { TooltipOperatorProps as BaseTooltipOperatorProps } from '@tant/s2-shared';
 import type { TooltipOperatorMenu } from '../interface';
 import { TooltipIcon } from './icon';
 
-import '@antv/s2-shared/src/styles/tooltip/operator.less';
+import '@tant/s2-shared/src/styles/tooltip/operator.less';
 
 interface TooltipOperatorProps
   extends BaseTooltipOperatorProps<React.ReactNode, React.ReactNode> {

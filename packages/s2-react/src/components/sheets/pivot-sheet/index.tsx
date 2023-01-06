@@ -1,12 +1,12 @@
 import { isEmpty, isObject } from 'lodash';
 import React from 'react';
-import { SpreadSheet, getTooltipOptions } from '@antv/s2';
+import { SpreadSheet, getTooltipOptions } from '@tant/s2';
 import { useLatest } from 'ahooks';
 import {
   buildDrillDownOptions,
   handleDrillDown,
   type ActionIconCallback,
-} from '@antv/s2-shared';
+} from '@tant/s2-shared';
 import { BaseSheet } from '../base-sheet';
 import { usePivotSheetUpdate } from '../../../hooks';
 import { DrillDown } from '../../drill-down';

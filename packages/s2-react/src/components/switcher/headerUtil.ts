@@ -5,8 +5,8 @@ import {
   TableSheet,
   type Fields,
   type Meta,
-} from '@antv/s2';
-import type { SheetType } from '@antv/s2-shared';
+} from '@tant/s2';
+import type { SheetType } from '@tant/s2-shared';
 import { filter, find, isEmpty, map, reduce } from 'lodash';
 import { FieldType, SWITCHER_FIELDS } from './constant';
 import type {

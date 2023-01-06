@@ -2,9 +2,9 @@ import React, { type ReactNode, useEffect, useState } from 'react';
 import { Button, ConfigProvider, Empty, Input, Menu } from 'antd';
 import cx from 'classnames';
 import { isEmpty } from 'lodash';
-import type { BaseDataSet, BaseDrillDownComponentProps } from '@antv/s2-shared';
-import { i18n } from '@antv/s2';
-import { DRILL_DOWN_PRE_CLASS } from '@antv/s2-shared';
+import type { BaseDataSet, BaseDrillDownComponentProps } from '@tant/s2-shared';
+import { i18n } from '@tant/s2';
+import { DRILL_DOWN_PRE_CLASS } from '@tant/s2-shared';
 import {
   CalendarIcon,
   LocationIcon,
@@ -12,7 +12,7 @@ import {
   TextIcon,
 } from '../icons/index';
 
-import '@antv/s2-shared/src/styles/drilldown.less';
+import '@tant/s2-shared/src/styles/drilldown.less';
 
 export interface DataSet extends BaseDataSet {
   icon?: React.ReactNode;

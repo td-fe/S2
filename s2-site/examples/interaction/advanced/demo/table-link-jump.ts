@@ -1,4 +1,4 @@
-import { S2Event, TableSheet } from '@antv/s2';
+import { S2Event, TableSheet } from '@tant/s2';
 
 fetch(
   'https://assets.antv.antgroup.com/s2/basic-table-mode.json',

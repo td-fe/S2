@@ -1,4 +1,4 @@
-import { PivotSheet, ColCell } from '@antv/s2';
+import { PivotSheet, ColCell } from '@tant/s2';
 
 /**
  * 自定义 ColCell，给列头添加背景图

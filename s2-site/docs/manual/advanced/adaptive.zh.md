@@ -28,7 +28,7 @@ const s2Options = {
 如果想让表格撑满整个父容器，可以监听 窗口的 `resize` 事件，或使用 [ResizeObserver](https://developer.mozilla.org/zh-CN/docs/Web/API/ResizeObserver) 监听容器大小变化，然后更新表格宽高：
 
 ```ts
-import { PivotSheet } from '@antv/s2'
+import { PivotSheet } from '@tant/s2'
 import { debounce } from 'lodash'
 
 const s2 = new PivotSheet(...)
@@ -53,7 +53,7 @@ new ResizeObserver(([entry] = []) => {
 如果是容器本身大小发生改变，而不是窗口，那么可以使用 [ResizeObserver](https://developer.mozilla.org/zh-CN/docs/Web/API/ResizeObserver) 获取到实时的容器大小：
 
 ```ts
-import { PivotSheet } from '@antv/s2'
+import { PivotSheet } from '@tant/s2'
 import { debounce } from 'lodash'
 
 const s2 = new PivotSheet(...)
@@ -82,7 +82,7 @@ resizeObserver.observe(parent);
 
 ### React 组件
 
-如果是使用 `@antv/s2-react` 的方式，可以配置 `adaptive` 参数开启自适应。
+如果是使用 `@tant/s2-react` 的方式，可以配置 `adaptive` 参数开启自适应。
 
 #### Adaptive 参数类型
 
@@ -103,7 +103,7 @@ type Adaptive =
 * false: 宽高都以 options 设置的为准
 
 ```tsx
-import { SheetComponent } from '@antv/s2-react';
+import { SheetComponent } from '@tant/s2-react';
 
 <SheetComponent adaptive={true} />
 <SheetComponent adaptive={false} />
@@ -112,7 +112,7 @@ import { SheetComponent } from '@antv/s2-react';
 也可以配置只对宽度或高度开启自适应，上面的配置等同于：
 
 ```tsx
-import { SheetComponent } from '@antv/s2-react';
+import { SheetComponent } from '@tant/s2-react';
 
 <SheetComponent adaptive={{ width: true, height: true }} />
 <SheetComponent adaptive={{ width: false, height: false }} />
@@ -121,7 +121,7 @@ import { SheetComponent } from '@antv/s2-react';
 还可以自定义自适应的容器：
 
 ```tsx
-import { SheetComponent } from '@antv/s2-react';
+import { SheetComponent } from '@tant/s2-react';
 
 const adaptiveRef = React.useRef<HTMLDivElement>();
 const containerId = 'containerId';
@@ -147,7 +147,7 @@ const containerId = 'containerId';
 
 ### Vue 组件
 
-如果是使用 `@antv/s2-vue` 的方式，可以配置 `adaptive` 参数开启自适应，`adaptive`参数的类型和使用方法与`@antv/s2-react`基本一致。
+如果是使用 `@tant/s2-vue` 的方式，可以配置 `adaptive` 参数开启自适应，`adaptive`参数的类型和使用方法与`@tant/s2-react`基本一致。
 
 可以配置为 `boolean` 值：
 

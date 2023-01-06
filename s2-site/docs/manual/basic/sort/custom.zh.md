@@ -25,7 +25,7 @@ order: 2
 | sortFunc      | 自定义排序的 function                        | `(v: SortFuncParam) => Array<string>` | -      |      |
 
 ```ts
-import { EXTRA_FIELD } from "@antv/s2";
+import { EXTRA_FIELD } from "@tant/s2";
 
 const s2DataConfig = {
   sortParams: [
@@ -137,7 +137,7 @@ const s2DataConfig = {
 **行小计** ：
 
 ```ts
-import { TOTAL_VALUE, EXTRA_FIELD } from "@antv/s2";
+import { TOTAL_VALUE, EXTRA_FIELD } from "@tant/s2";
 
 const s2DataConfig = {
   sortParams: [
@@ -172,7 +172,7 @@ const s2Options = {
 行总计：
 
 ```ts
-import { TOTAL_VALUE, EXTRA_FIELD } from "@antv/s2";
+import { TOTAL_VALUE, EXTRA_FIELD } from "@tant/s2";
 
 const s2DataConfig = {
   sortParams: [
@@ -208,7 +208,7 @@ const s2DataConfig = {
 通过 `列总计/列小计` 对行头进行排序，举例如下：
 
 ```ts
-import { TOTAL_VALUE, EXTRA_FIELD } from "@antv/s2";
+import { TOTAL_VALUE, EXTRA_FIELD } from "@tant/s2";
 
 const s2DataConfig = {
   sortParams: [

@@ -1,4 +1,4 @@
-import { PivotSheet } from '@antv/s2';
+import { PivotSheet } from '@tant/s2';
 import insertCss from 'insert-css';
 
 function addScrollToCellButton(s2) {

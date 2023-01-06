@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BaseTooltip } from '@antv/s2';
-import { SheetComponent } from '@antv/s2-react';
+import { BaseTooltip } from '@tant/s2';
+import { SheetComponent } from '@tant/s2-react';
 import insertCss from 'insert-css';
-import '@antv/s2-react/dist/style.min.css';
+import '@tant/s2-react/dist/style.min.css';
 
 const MyCustomTooltipContent = () => (
   <div className="tooltip-custom-component">我是自定义 tooltip 内容</div>

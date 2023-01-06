@@ -10,8 +10,8 @@ For scenarios such as using the `React` component `SheetComponent` , if you need
 ### ref method (recommended)
 
 ```tsx
-import { SpreadSheet } from '@antv/s2'
-import { SheetComponent } from '@antv/s2-react'
+import { SpreadSheet } from '@tant/s2'
+import { SheetComponent } from '@tant/s2-react'
 
 function App() {
   const s2Ref = React.useRef<SpreadSheet>()
@@ -28,11 +28,11 @@ function App() {
 
 ### getSpreadSheet method
 
-> ⚠️ @antv/s2-react\@1.29.0 is deprecated
+> ⚠️ @tant/s2-react\@1.29.0 is deprecated
 
 ```tsx
-import { SpreadSheet } from '@antv/s2'
-import { SheetComponent } from '@antv/s2-react'
+import { SpreadSheet } from '@tant/s2'
+import { SheetComponent } from '@tant/s2-react'
 
 function App() {
   const s2Ref = React.useRef<SpreadSheet>()
@@ -76,8 +76,8 @@ pivot => table
 The registration event will be canceled before the change. `S2` optimizes this scenario. Whether it is `ref` or `getSpreadSheet` , the latest instance is obtained, and developers do not need to care
 
 ```tsx
-import { SpreadSheet, S2Event } from '@antv/s2'
-import { SheetComponent } from '@antv/s2-react'
+import { SpreadSheet, S2Event } from '@tant/s2'
+import { SheetComponent } from '@tant/s2-react'
 
 function App() {
   const s2Ref = React.useRef<SpreadSheet>()
@@ -130,8 +130,8 @@ The ref method gets an object, and the `instance` attribute in it corresponds to
 
 ```vue
 <script lang="ts">
-import type { S2DataConfig, S2Options } from '@antv/s2';
-import { Sheet } from '@antv/s2-vue';
+import type { S2DataConfig, S2Options } from '@tant/s2';
+import { Sheet } from '@tant/s2-vue';
 import { defineComponent, onMounted, shallowRef } from 'vue';
 
 export default defineComponent({
@@ -157,14 +157,14 @@ export default defineComponent({
 </template>
 ```
 
-### getSpreadSheet method (@antv/s2-vue\@1.4.0 is obsolete)
+### getSpreadSheet method (@tant/s2-vue\@1.4.0 is obsolete)
 
-> ⚠️ @antv/s2-vue\@1.4.0 is deprecated
+> ⚠️ @tant/s2-vue\@1.4.0 is deprecated
 
 ```vue
 <script lang="ts">
-import type { S2DataConfig, S2Options } from '@antv/s2';
-import { Sheet } from '@antv/s2-vue';
+import type { S2DataConfig, S2Options } from '@tant/s2';
+import { Sheet } from '@tant/s2-vue';
 import { defineComponent, shallowRef } from 'vue';
 
 export default defineComponent({

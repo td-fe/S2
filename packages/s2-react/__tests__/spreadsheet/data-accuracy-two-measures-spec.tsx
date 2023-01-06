@@ -8,7 +8,7 @@ import {
   type S2DataConfig,
   type S2Options,
   SpreadSheet,
-} from '@antv/s2';
+} from '@tant/s2';
 import {
   data10,
   data6,

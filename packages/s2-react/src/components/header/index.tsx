@@ -1,7 +1,7 @@
 import React from 'react';
 import { Space } from 'antd';
 import cx from 'classnames';
-import type { S2DataConfig, SpreadSheet } from '@antv/s2';
+import type { S2DataConfig, SpreadSheet } from '@tant/s2';
 import { Export, type ExportCfgProps } from '../export';
 import { AdvancedSort, type AdvancedSortCfgProps } from '../advanced-sort';
 import { type SwitcherCfgProps, SwitcherHeader } from '../switcher/header';

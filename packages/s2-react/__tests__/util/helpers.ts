@@ -14,7 +14,7 @@ import {
   DEFAULT_OPTIONS,
   RootInteraction,
   type ViewMeta,
-} from '@antv/s2';
+} from '@tant/s2';
 import { omit } from 'lodash';
 
 export const parseCSV = (csv: string, header?: string[]) => {

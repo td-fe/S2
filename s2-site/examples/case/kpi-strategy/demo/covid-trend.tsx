@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { isNil } from 'lodash';
-import { isUpDataValue } from '@antv/s2';
-import { SheetComponent, SheetComponentOptions } from '@antv/s2-react';
-import '@antv/s2-react/dist/style.min.css';
+import { isUpDataValue } from '@tant/s2';
+import { SheetComponent, SheetComponentOptions } from '@tant/s2-react';
+import '@tant/s2-react/dist/style.min.css';
 
 // 数据来源：https://voice.baidu.com/act/newpneumonia/newpneumonia/?from=osari_pc_1&city=%E5%9B%9B%E5%B7%9D-%E5%9B%9B%E5%B7%9D
 fetch(

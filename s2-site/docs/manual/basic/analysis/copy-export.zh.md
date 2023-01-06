@@ -10,7 +10,7 @@ order: 11
 ### 复制
 
 此功能可快速将表格内容复制到剪切板
-`@antv/s2` 核心层提供了基础的复制功能，可配置 `enableCopy` 开启
+`@tant/s2` 核心层提供了基础的复制功能，可配置 `enableCopy` 开启
 
 #### 全量复制
 
@@ -75,10 +75,10 @@ const s2Options = {
 
 ### 导出
 
-`@antv/s2-react` 组件层提供了导出功能
+`@tant/s2-react` 组件层提供了导出功能
 
 ```ts
-import { SheetComponent } from '@antv/s2-react'
+import { SheetComponent } from '@tant/s2-react'
 
 <SheetComponent
   dataCfg={dataCfg}

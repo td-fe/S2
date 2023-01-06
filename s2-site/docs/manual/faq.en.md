@@ -53,13 +53,13 @@ Yes, please see[This article](#/en/docs/manual/advanced/adaptive)
 
 please check [This article](#/en/docs/manual/advanced/get-cell-data)
 
-### why tooltip is in`@antv/s2` is not displayed in the`@antv/s2-react` `@antv/s2-vue` can be displayed normally?
+### why tooltip is in`@tant/s2` is not displayed in the`@tant/s2-react` `@tant/s2-vue` can be displayed normally?
 
 please check [Tooltip Notes](#/en/docs/manual/basic/tooltip#%E7%AE%80%E4%BB%8B)
 
 ### How to Customize Tooltip in Vue
 
-Vue3 version that works directly with S2`@antv/s2-vue`, or view[Customize in Vue3](<#/en/docs/manual/basic/tooltip/#customize in -vue3->)
+Vue3 version that works directly with S2`@tant/s2-vue`, or view[Customize in Vue3](<#/en/docs/manual/basic/tooltip/#customize in -vue3->)
 
 ### Table support export`Excel` ?
 
@@ -79,17 +79,17 @@ press and hold`Shift` key while scrolling the mouse
 
 Currently, S2 consists of three packages
 
-* `@antv/s2`: based on `canvas` and [AntV/G](https://g.antv.vision/zh/docs/guide/introduce) Develop, provide basic table display/interaction capabilities
-* `@antv/s2-react`: based on `@antv/s2` package, providing supporting analysis components
-* `@antv/s2-vue`: based on `Vue3` and `@antv/s2` package, providing supporting analysis components
+* `@tant/s2`: based on `canvas` and [AntV/G](https://g.antv.vision/zh/docs/guide/introduce) Develop, provide basic table display/interaction capabilities
+* `@tant/s2-react`: based on `@tant/s2` package, providing supporting analysis components
+* `@tant/s2-vue`: based on `Vue3` and `@tant/s2` package, providing supporting analysis components
 
-That is to say`@antv/s2` Regardless of the framework, you can`Vue`,`Angular` used in other frameworks.
+That is to say`@tant/s2` Regardless of the framework, you can`Vue`,`Angular` used in other frameworks.
 
 Here is an overview of the versions:
 
 <embed src="@/docs/common/packages.en.md"></embed>
 
-supplementary [Analysis component](<#/en/examples/gallery#category-table component>),not yet `@antv/s2-angular` The development plan of , welcome the community to build together 👏🏻.
+supplementary [Analysis component](<#/en/examples/gallery#category-table component>),not yet `@tant/s2-angular` The development plan of , welcome the community to build together 👏🏻.
 
 ### How to contribute code?
 

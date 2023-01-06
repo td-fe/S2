@@ -11,18 +11,18 @@ order: 7
 
 ## 注意事项
 
-`@antv/s2` 中只保留了 `tooltip` 的核心显隐逻辑，提供相应数据，**不渲染内容**
+`@tant/s2` 中只保留了 `tooltip` 的核心显隐逻辑，提供相应数据，**不渲染内容**
 
 `React` 版本 和 `Vue3` 版本中通过 [自定义 Tooltip 类](#自定义-tooltip-类) 的方式渲染 `tooltip` 的内容，包括 `排序下拉菜单`, `单元格选中信息汇总`, `列头隐藏按钮` 等。
 
 查看 `React` 版本的 [具体实现](https://github.com/antvis/S2/blob/master/packages/s2-react/src/components/tooltip/custom-tooltip.tsx) 和 `Vue3` 版本的 [具体实现](https://github.com/antvis/S2/blob/master/packages/s2-vue/src/components/tooltip/custom-tooltip.ts)
 
-- 如果您有 `tooltip` 的需求，您可以直接使用开箱即用的 `@antv/s2-react` `@antv/s2-vue`, 免去你二次封装，使用更加方便
+- 如果您有 `tooltip` 的需求，您可以直接使用开箱即用的 `@tant/s2-react` `@tant/s2-vue`, 免去你二次封装，使用更加方便
 - 如果您不希望依赖框架，或者希望在 `Vue`, `Angular` 框架中使用 `tooltip`, 请参考 [自定义 Tooltip 类](#自定义-tooltip-类) 章节
 - 别忘了引入样式
 
 ```ts
-import "@antv/s2/dist/style.min.css";
+import "@tant/s2/dist/style.min.css";
 ```
 
 ## 使用
@@ -110,7 +110,7 @@ const s2Options = {
 
 #### 自定义 Tooltip 内容
 
-对于 `@antv/s2` 类的使用方式：tooltip 内容 可以是任意 `dom` 节点或者 `字符串`
+对于 `@tant/s2` 类的使用方式：tooltip 内容 可以是任意 `dom` 节点或者 `字符串`
 
 ```ts
 const content = document.createElement('div')
@@ -124,7 +124,7 @@ const s2Options = {
 };
 ```
 
-对于 `@antv/s2-react` 组件的使用方式：tooltip 内容 可以是任意的 `jsx` 元素
+对于 `@tant/s2-react` 组件的使用方式：tooltip 内容 可以是任意的 `jsx` 元素
 
 ```ts
 const content = (
@@ -304,7 +304,7 @@ const s2Options = {
 
 <br/>
 
-如果使用的是 `@antv/s2-react`, 那么 `text` 和 `icon` 还支持任意 `ReactNode`
+如果使用的是 `@tant/s2-react`, 那么 `text` 和 `icon` 还支持任意 `ReactNode`
 
 ```tsx
 import { StarOutlined } from '@ant-design/icons';
@@ -375,9 +375,9 @@ const s2Options = {
 - [查看 Vue 示例](https://codesandbox.io/s/compassionate-booth-hpm3rf?file=/src/App.vue)
 
 ```ts
-import { BaseTooltip, SpreadSheet } from '@antv/s2';
+import { BaseTooltip, SpreadSheet } from '@tant/s2';
 // 引入 `tooltip` 样式文件
-import "@antv/s2/dist/style.min.css";
+import "@tant/s2/dist/style.min.css";
 
 export class CustomTooltip extends BaseTooltip {
   constructor(spreadsheet: SpreadSheet) {
@@ -421,7 +421,7 @@ const s2Options = {
 比如想自定义成鼠标悬停行头时显示 `tooltip`, 可通过自定义交互 [详情](/docs/manual/advanced/interaction/custom), 监听行头单元格的 [交互事件](/docs/manual/advanced/interaction/basic#%E4%BA%A4%E4%BA%92%E4%BA%8B%E4%BB%B6) `S2Event.ROW_CELL_HOVER`. [例子](/examples/interaction/custom#row-col-hover-tooltip)
 
 ```ts
-import { PivotSheet, BaseEvent, S2Event } from '@antv/s2';
+import { PivotSheet, BaseEvent, S2Event } from '@tant/s2';
 
 class RowHoverInteraction extends BaseEvent {
   bindEvents() {
@@ -472,7 +472,7 @@ const onRowCellHover = ({ event, viewMeta }) => {
 
 在 `Vue3` 中可以通过两种方式自定义内容。
 
-[![Edit @antv/s2 Vue3 Tooltip Demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/antv-s2-vue3-tooltip-demo-hpm3rf?autoresize=1&fontsize=14&hidenavigation=1&theme=dark)
+[![Edit @tant/s2 Vue3 Tooltip Demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/antv-s2-vue3-tooltip-demo-hpm3rf?autoresize=1&fontsize=14&hidenavigation=1&theme=dark)
 
 <img src="https://gw.alipayobjects.com/zos/antfincdn/AphZDgJvY/b4654699-927d-4b58-9da2-a5793f964061.png" width="600"  alt="preview" />
 
@@ -499,9 +499,9 @@ export default defineComponent({
 
 ```ts
 import { defineCustomElement, render, createVNode } from "vue";
-import { BaseTooltip, PivotSheet } from "@antv/s2";
+import { BaseTooltip, PivotSheet } from "@tant/s2";
 import TooltipContent from "./TooltipContent.vue";
-import "@antv/s2/dist/style.min.css";
+import "@tant/s2/dist/style.min.css";
 
 class CustomTooltip extends BaseTooltip {
   constructor(spreadsheet) {
@@ -552,7 +552,7 @@ const s2Options = {
 
 <iframe src="https://codesandbox.io/embed/antv-s2-vue3-tooltip-demo-hpm3rf?autoresize=1&fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="@antv/s2 Vue3 Tooltip Demo"
+     title="@tant/s2 Vue3 Tooltip Demo"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>

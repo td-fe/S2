@@ -1,5 +1,5 @@
 import React from 'react';
-import type { S2DataConfig, SpreadSheet } from '@antv/s2';
+import type { S2DataConfig, SpreadSheet } from '@tant/s2';
 import { useUpdateEffect } from 'ahooks';
 import type { SheetComponentOptions } from '../sheets/interface';
 import {

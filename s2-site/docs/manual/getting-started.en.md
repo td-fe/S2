@@ -9,20 +9,20 @@ order: 1
 
 ```bash
 # npm
-$ npm install @antv/s2
+$ npm install @tant/s2
 
 # yarn
-$ yarn add @antv/s2
+$ yarn add @tant/s2
 ```
 
 ### Use React or Vue3 version
 
 ```bash
 # React
-$ yarn add @antv/s2 @antv/s2-react
+$ yarn add @tant/s2 @tant/s2-react
 
 # Vue3
-$ yarn add @antv/s2 @antv/s2-vue
+$ yarn add @tant/s2 @tant/s2-vue
 ```
 
 ### Browser introduction (deprecated)
@@ -167,7 +167,7 @@ const s2Options = {
 ```
 
 ```ts
-import { PivotSheet } from '@antv/s2';
+import { PivotSheet } from '@tant/s2';
 
 const container = document.getElementById('container');
 
@@ -189,8 +189,8 @@ s2.render();
 ```ts
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { SheetComponent } from '@antv/s2-react';
-import '@antv/s2-react/dist/style.min.css';
+import { SheetComponent } from '@tant/s2-react';
+import '@tant/s2-react/dist/style.min.css';
 
 const container = document.getElementById('container');
 
@@ -226,10 +226,10 @@ import 'antd/dist/antd.min.css';
 ```ts
 // App.vue
 <script lang="ts">
-import type { S2DataConfig, S2Options } from '@antv/s2';
-import { SheetComponent } from '@antv/s2-vue';
+import type { S2DataConfig, S2Options } from '@tant/s2';
+import { SheetComponent } from '@tant/s2-vue';
 import { defineComponent, onMounted, reactive, ref, shallowRef } from 'vue';
-import "@antv/s2-vue/dist/style.min.css";
+import "@tant/s2-vue/dist/style.min.css";
 
 export default defineComponent({
   setup() {
@@ -272,7 +272,7 @@ yarn add ant-design-vue
 ```
 
 ```ts
-import "@antv/s2-vue/dist/style.min.css";
+import "@tant/s2-vue/dist/style.min.css";
 ```
 
 ​📊 Check out [the Vue3 version pivot table demo](https://codesandbox.io/s/s2-vue-hwg64q) .

@@ -1,5 +1,5 @@
 <script lang="ts">
-import { S2_PREFIX_CLS } from '@antv/s2';
+import { S2_PREFIX_CLS } from '@tant/s2';
 import { Spin } from 'ant-design-vue';
 import { defineComponent } from 'vue';
 import { isBoolean } from 'lodash';

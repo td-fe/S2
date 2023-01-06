@@ -1,4 +1,4 @@
-import { DEFAULT_STYLE, HOVER_FOCUS_DURATION } from '@antv/s2';
+import { DEFAULT_STYLE, HOVER_FOCUS_DURATION } from '@tant/s2';
 import { getBaseSheetComponentOptions } from '../../src';
 
 describe('Options Tests', () => {

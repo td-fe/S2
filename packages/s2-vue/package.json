@@ -1,7 +1,7 @@
 {
   "private": false,
-  "name": "@antv/s2-vue",
-  "version": "1.5.0",
+  "name": "@tant/s2-vue",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "unpkg": "dist/index.min.js",
   "module": "esm/index.js",
@@ -57,7 +57,7 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "peerDependencies": {
-    "@antv/s2": ">=1.0.0",
+    "@tant/s2": ">=1.0.0",
     "ant-design-vue": "^3.2.0",
     "vue": ">=3.x"
   },
@@ -66,8 +66,8 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@antv/s2": "*",
-    "@antv/s2-shared": "*",
+    "@tant/s2": "*",
+    "@tant/s2-shared": "*",
     "@testing-library/vue": "^6.5.1",
     "@vue/tsconfig": "^0.1.3",
     "ant-design-vue": "^3.2.0",

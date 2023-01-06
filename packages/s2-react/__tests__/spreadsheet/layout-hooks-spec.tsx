@@ -13,7 +13,7 @@ import {
   type ViewMeta,
   type LayoutHierarchyReturnType,
   generateId,
-} from '@antv/s2';
+} from '@tant/s2';
 import { getContainer, getMockData } from '../util/helpers';
 import { SheetComponent } from '@/components';
 const data = getMockData('../data/tableau-supermarket.csv');

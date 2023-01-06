@@ -6,8 +6,8 @@ import {
   type S2DataConfig,
   PivotSheet,
   TableSheet,
-} from '@antv/s2';
-import { SheetType } from '@antv/s2-shared';
+} from '@tant/s2';
+import { SheetType } from '@tant/s2-shared';
 import { render } from '@testing-library/react';
 import { SheetComponent, SheetComponentsProps } from '../../../../src';
 import { getContainer } from '../../../util/helpers';

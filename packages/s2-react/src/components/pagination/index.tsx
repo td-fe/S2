@@ -1,7 +1,7 @@
 import React from 'react';
 import { Pagination as AntdPagination } from 'antd';
 import { isEmpty } from 'lodash';
-import { i18n, S2_PREFIX_CLS } from '@antv/s2';
+import { i18n, S2_PREFIX_CLS } from '@tant/s2';
 import type { SheetComponentsProps } from '../sheets/interface';
 
 export interface S2PaginationProps {

@@ -5,10 +5,10 @@ order: 8
 
 ## original export method
 
-Functions such as copying and exporting of the component layer are encapsulated based on a series of tools and methods exposed by the core layer `@antv/s2` , which can be self-encapsulated based on tools and methods according to actual business
+Functions such as copying and exporting of the component layer are encapsulated based on a series of tools and methods exposed by the core layer `@tant/s2` , which can be self-encapsulated based on tools and methods according to actual business
 
 ```tsx
-import { copyData, copyToClipboard, download } from '@antv/s2'
+import { copyData, copyToClipboard, download } from '@tant/s2'
 
 // 拿到复制数据
 const data = copyData(spreadsheet, '\t', false)

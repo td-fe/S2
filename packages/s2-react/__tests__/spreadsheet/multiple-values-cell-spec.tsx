@@ -10,7 +10,7 @@ import {
   SpreadSheet,
   PivotSheet,
   Node,
-} from '@antv/s2';
+} from '@tant/s2';
 import {
   multipleDataWithBottom,
   multipleDataWithCombine,

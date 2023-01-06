@@ -1,7 +1,7 @@
-import { i18n, Node } from '@antv/s2';
+import { i18n, Node } from '@tant/s2';
 import cls from 'classnames';
 import React from 'react';
-import { getStrategySheetTooltipClsName as tooltipCls } from '@antv/s2-shared';
+import { getStrategySheetTooltipClsName as tooltipCls } from '@tant/s2-shared';
 import { isFunction } from 'lodash';
 import type { CustomTooltipProps } from './interface';
 

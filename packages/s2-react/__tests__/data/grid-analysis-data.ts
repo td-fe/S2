@@ -1,4 +1,4 @@
-import type { S2DataConfig } from '@antv/s2';
+import type { S2DataConfig } from '@tant/s2';
 
 export const mockGridAnalysisDataCfg: S2DataConfig = {
   fields: {

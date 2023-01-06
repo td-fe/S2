@@ -11,7 +11,7 @@ import {
   type S2Options,
   SpreadSheet,
   TableSheet,
-} from '@antv/s2';
+} from '@tant/s2';
 import { getContainer, getMockData, sleep } from '../util/helpers';
 import { Switcher } from '@/components/switcher';
 import type { SwitcherFields } from '@/components/switcher/interface';

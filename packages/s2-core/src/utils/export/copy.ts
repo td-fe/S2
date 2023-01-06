@@ -16,13 +16,13 @@ import {
   type CellMeta,
   CellTypes,
   CopyType,
-  EMPTY_PLACEHOLDER,
   EXTRA_FIELD,
   ID_SEPARATOR,
   InteractionStateName,
   VALUE_FIELD,
   SERIES_NUMBER_FIELD,
   type RowData,
+  DATA_CELL_ID_CONNECTOR,
 } from '../../common';
 import type { DataType } from '../../data-set/interface';
 import type { Node } from '../../facet/layout/node';
@@ -127,7 +127,11 @@ const format = (
   spreadsheet: SpreadSheet,
 ) => {
   const formatter = getFormat(meta.colIndex, spreadsheet);
-  return formatter(getValueFromMeta(meta, displayData, spreadsheet));
+  return formatter(
+    getValueFromMeta(meta, displayData, spreadsheet),
+    undefined,
+    meta as any,
+  );
 };
 
 export const convertString = (v: string) => {
@@ -324,6 +328,7 @@ const processTableColSelected = (
     ? selectedCols.map((e) => ({
         field: getColNodeField(spreadsheet, e.id),
         formatter: getFormat(e.colIndex, spreadsheet),
+        meta: e,
       }))
     : spreadsheet.dataCfg.fields.columns
         .map((cName) =>
@@ -332,11 +337,12 @@ const processTableColSelected = (
         .map((node) => ({
           field: getColNodeField(spreadsheet, node.id),
           formatter: getFormat(node.colIndex, spreadsheet),
+          meta: node,
         }));
 
   const dataMatrix = displayData.map((row) => {
-    return selectedFields.map(({ field, formatter }) =>
-      convertString(formatter(row[field])),
+    return selectedFields.map(({ field, formatter, meta }) =>
+      convertString(formatter(row[field], undefined, meta)),
     );
   });
 
@@ -548,7 +554,7 @@ export function getCopyData(
     }, []);
     const rowNodes = rowIndexes.map((index) => {
       return {
-        id: index + '-' + spreadsheet.facet.layoutResult.colLeafNodes[0].id,
+        id: `${index}${DATA_CELL_ID_CONNECTOR}${spreadsheet.facet.layoutResult.colLeafNodes[0].id}`,
         colIndex: 0,
         rowIndex: index,
         type: CellTypes.ROW_CELL,
@@ -575,13 +581,25 @@ const getDataWithHeaderMatrix = (
 ): Copyable => {
   const colMatrix = zip(
     ...map(cellMetaMatrix[0], (cellMeta) => {
-      const colId = cellMeta.id.split(EMPTY_PLACEHOLDER)?.[1] ?? '';
+      const colId = cellMeta.id.split(DATA_CELL_ID_CONNECTOR)?.[1] ?? '';
       return getHeaderList(colId);
     }),
   );
 
+  // 将列头的 指标value 替换成 name
+  const lastCellIdx = colMatrix.length - 1;
+  if (lastCellIdx > 0) {
+    const meta = spreadsheet.dataCfg.meta ?? [];
+    const lastColMatrix = colMatrix[lastCellIdx] as Array<string>;
+    const newColMatrix = lastColMatrix.reduce((result, value, index) => {
+      result[index] = meta.find(({ field }) => field === value)?.name ?? value;
+      return result;
+    }, []);
+    colMatrix[lastCellIdx] = newColMatrix;
+  }
+
   const rowMatrix = map(cellMetaMatrix, (cellsMeta) => {
-    const rowId = cellsMeta[0].id.split(EMPTY_PLACEHOLDER)?.[0] ?? '';
+    const rowId = cellsMeta[0].id.split(DATA_CELL_ID_CONNECTOR)?.[0] ?? '';
     return getHeaderList(rowId);
   });
 

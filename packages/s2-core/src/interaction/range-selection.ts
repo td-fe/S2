@@ -12,6 +12,7 @@ import type { S2CellType, ViewMeta } from '../common/interface';
 import type { Node } from '../facet/layout/node';
 import { getCellMeta, getRangeIndex } from '../utils/interaction/select-event';
 import { getCellsTooltipData } from '../utils/tooltip';
+import { DATA_CELL_ID_CONNECTOR } from './../common/constant/basic';
 import { BaseEvent, type BaseEventImplement } from './base-interaction';
 
 export class RangeSelection extends BaseEvent implements BaseEventImplement {
@@ -96,7 +97,7 @@ export class RangeSelection extends BaseEvent implements BaseEventImplement {
               ? String(row)
               : this.spreadsheet.facet.layoutResult.rowLeafNodes[row].id;
           return {
-            id: cellIdPrefix + '-' + cellIdSuffix,
+            id: `${cellIdPrefix}${DATA_CELL_ID_CONNECTOR}${cellIdSuffix}`,
             colIndex: col,
             rowIndex: row,
             type: cell.cellType,
@@ -203,7 +204,7 @@ export class RangeSelection extends BaseEvent implements BaseEventImplement {
     return range(startIndex, endIndex + 1).map((row) => {
       const cellIdPrefix = String(row);
       return {
-        id: cellIdPrefix + '-' + cellIdSufFix,
+        id: `${cellIdPrefix}${DATA_CELL_ID_CONNECTOR}${cellIdSufFix}`,
         colIndex: 0,
         rowIndex: row,
         type: cell.cellType,

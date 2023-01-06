@@ -1,4 +1,4 @@
-import { PivotSheet, RowCell, renderRect } from '@antv/s2';
+import { PivotSheet, RowCell, renderRect } from '@tant/s2';
 
 /**
  * 继承 RowCell, 单独修改小计/总计的背景色和文字颜色

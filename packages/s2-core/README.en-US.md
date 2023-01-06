@@ -8,14 +8,14 @@ English
 Data-driven multi-dimensional analysis table.
 
 <p>
-  <a href="https://www.npmjs.com/package/@antv/s2" title="npm">
-    <img src="https://img.shields.io/npm/dm/@antv/s2.svg" alt="npm"/>
+  <a href="https://www.npmjs.com/package/@tant/s2" title="npm">
+    <img src="https://img.shields.io/npm/dm/@tant/s2.svg" alt="npm"/>
   </a>
-  <a href="https://www.npmjs.com/package/@antv/s2" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/@antv/s2/latest.svg" alt="version">
+  <a href="https://www.npmjs.com/package/@tant/s2" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/@tant/s2/latest.svg" alt="version">
   </a>
-  <a href="https://www.npmjs.com/package/@antv/s2" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/@antv/s2/next.svg" alt="next version">
+  <a href="https://www.npmjs.com/package/@tant/s2" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/@tant/s2/next.svg" alt="next version">
   </a>
    <a href="https://github.com/antvis/S2/actions/workflows/test.yml" target="_blank">
     <img src="https://github.com/antvis/S2/actions/workflows/test.yml/badge.svg" alt="ci test status"/>
@@ -29,8 +29,8 @@ Data-driven multi-dimensional analysis table.
 </p>
 
 <p>
-  <a href="https://www.npmjs.com/package/@antv/s2" target="_blank">
-    <img alt="npm bundle size" src="https://img.badgesize.io/https:/unpkg.com/@antv/s2@latest/dist/index.min.js?label=gzip%20size&compression=gzip" alt="bundle size"/>
+  <a href="https://www.npmjs.com/package/@tant/s2" target="_blank">
+    <img alt="npm bundle size" src="https://img.badgesize.io/https:/unpkg.com/@tant/s2@latest/dist/index.min.js?label=gzip%20size&compression=gzip" alt="bundle size"/>
   </a>
   <a href="https://github.com/antvis/S2/discussions" target="_blank">
     <img src="https://img.shields.io/badge/discussions-on%20github-blue" alt="Discussions"/>
@@ -39,7 +39,7 @@ Data-driven multi-dimensional analysis table.
     <img src="https://img.shields.io/badge/using-issues--helper-blueviolet" alt="issues-helper"/>
   </a>
   <a href="https://github.com/antvis/S2/blob/master/LICENSE" target="_blank" target="_blank">
-    <img alt="License: MIT@AntV" src="https://img.shields.io/badge/License-MIT@AntV-yellow.svg" alt="license"/>
+    <img alt="License: MIT@tant" src="https://img.shields.io/badge/License-MIT@tant-yellow.svg" alt="license"/>
   </a>
 </p>
 
@@ -68,8 +68,8 @@ demo components and expansion capabilities, it allows developers to use it quick
 ## 📦 Installation
 
 ```bash
-$ npm install @antv/s2
-# yarn add @antv/s2
+$ npm install @tant/s2
+# yarn add @tant/s2
 ```
 
 ## 🔨 Getting Started
@@ -157,7 +157,7 @@ const s2Options = {
 ```
 
 ```ts
-import { PivotSheet } from '@antv/s2';
+import { PivotSheet } from '@tant/s2';
 
 const container = document.getElementById('container');
 
@@ -174,13 +174,13 @@ s2.render()
 
 | Package  | Latest   | Beta   | Alpha   | Next | Size   | Download     |
 | - | - | - | - | - | - | - |
-| [@antv/s2](https://github.com/antvis/S2/tree/master/packages/s2-core)        | ![latest](https://img.shields.io/npm/v/@antv/s2/latest.svg)       | ![beta](https://img.shields.io/npm/v/@antv/s2/beta.svg)       | ![alpha](https://img.shields.io/npm/v/@antv/s2/alpha.svg)   |  ![next](https://img.shields.io/npm/v/@antv/s2/next.svg)  | ![size](https://img.badgesize.io/https:/unpkg.com/@antv/s2@latest/dist/index.min.js?label=gzip%20size&compression=gzip)       | ![download](https://img.shields.io/npm/dm/@antv/s2.svg)       |
-| [@antv/s2-react](https://github.com/antvis/S2/tree/master/packages/s2-react) | ![latest](https://img.shields.io/npm/v/@antv/s2-react/latest.svg) | ![beta](https://img.shields.io/npm/v/@antv/s2-react/beta.svg) | ![alpha](https://img.shields.io/npm/v/@antv/s2-react/alpha.svg) |  ![next](https://img.shields.io/npm/v/@antv/s2-react/next.svg)| ![size](https://img.badgesize.io/https:/unpkg.com/@antv/s2-react@latest/dist/index.min.js?label=gzip%20size&compression=gzip) | ![download](https://img.shields.io/npm/dm/@antv/s2-react.svg) |
-| [@antv/s2-vue](https://github.com/antvis/S2/tree/master/packages/s2-vue)     | ![latest](https://img.shields.io/npm/v/@antv/s2-vue/latest.svg)   | ![beta](https://img.shields.io/npm/v/@antv/s2-vue/beta.svg)   | ![alpha](https://img.shields.io/npm/v/@antv/s2-vue/alpha.svg)  |  ![next](https://img.shields.io/npm/v/@antv/s2-vue/next.svg) | ![size](https://img.badgesize.io/https:/unpkg.com/@antv/s2-vue@latest/dist/index.min.js?label=gzip%20size&compression=gzip)   | ![download](https://img.shields.io/npm/dm/@antv/s2-vue.svg)   |
+| [@tant/s2](https://github.com/antvis/S2/tree/master/packages/s2-core)        | ![latest](https://img.shields.io/npm/v/@tant/s2/latest.svg)       | ![beta](https://img.shields.io/npm/v/@tant/s2/beta.svg)       | ![alpha](https://img.shields.io/npm/v/@tant/s2/alpha.svg)   |  ![next](https://img.shields.io/npm/v/@tant/s2/next.svg)  | ![size](https://img.badgesize.io/https:/unpkg.com/@tant/s2@latest/dist/index.min.js?label=gzip%20size&compression=gzip)       | ![download](https://img.shields.io/npm/dm/@tant/s2.svg)       |
+| [@tant/s2-react](https://github.com/antvis/S2/tree/master/packages/s2-react) | ![latest](https://img.shields.io/npm/v/@tant/s2-react/latest.svg) | ![beta](https://img.shields.io/npm/v/@tant/s2-react/beta.svg) | ![alpha](https://img.shields.io/npm/v/@tant/s2-react/alpha.svg) |  ![next](https://img.shields.io/npm/v/@tant/s2-react/next.svg)| ![size](https://img.badgesize.io/https:/unpkg.com/@tant/s2-react@latest/dist/index.min.js?label=gzip%20size&compression=gzip) | ![download](https://img.shields.io/npm/dm/@tant/s2-react.svg) |
+| [@tant/s2-vue](https://github.com/antvis/S2/tree/master/packages/s2-vue)     | ![latest](https://img.shields.io/npm/v/@tant/s2-vue/latest.svg)   | ![beta](https://img.shields.io/npm/v/@tant/s2-vue/beta.svg)   | ![alpha](https://img.shields.io/npm/v/@tant/s2-vue/alpha.svg)  |  ![next](https://img.shields.io/npm/v/@tant/s2-vue/next.svg) | ![size](https://img.badgesize.io/https:/unpkg.com/@tant/s2-vue@latest/dist/index.min.js?label=gzip%20size&compression=gzip)   | ![download](https://img.shields.io/npm/dm/@tant/s2-vue.svg)   |
 
 ## 👤 Author
 
-[**@AntV**](https://github.com/orgs/antvis/people)
+[**@tant**](https://github.com/orgs/antvis/people)
 
 ## 🤝 Contributing
 

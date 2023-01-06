@@ -8,8 +8,9 @@ import {
   S2Event,
   InteractionStateName,
   CellTypes,
-} from '@antv/s2';
-import { SheetComponent } from '@antv/s2-react';
+  DATA_CELL_ID_CONNECTOR,
+} from '@tant/s2';
+import { SheetComponent } from '@tant/s2-react';
 import {
   Input,
   Divider,
@@ -23,7 +24,7 @@ import {
   message,
 } from 'antd';
 import { get, uniq } from 'lodash';
-import '@antv/s2-react/dist/style.min.css';
+import '@tant/s2-react/dist/style.min.css';
 import 'antd/es/checkbox/style/index.css';
 
 const { Search } = Input;
@@ -224,7 +225,7 @@ const scrollToCell = (rowIndex, colIndex, options, facet, interaction) => {
       {
         colIndex,
         rowIndex,
-        id: `${String(rowIndex)}-${colsNodes[colIndex + 1].id}`,
+        id: `${String(rowIndex)}${DATA_CELL_ID_CONNECTOR}${colsNodes[colIndex + 1].id}`,
         type: CellTypes.DATA_CELL,
       },
     ],

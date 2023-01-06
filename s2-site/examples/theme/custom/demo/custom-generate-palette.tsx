@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
-import { getPalette, generatePalette } from '@antv/s2';
-import { SheetComponent } from '@antv/s2-react';
+import { getPalette, generatePalette } from '@tant/s2';
+import { SheetComponent } from '@tant/s2-react';
 import { ChromePicker } from 'react-color';
 import { Button, Popover, Space } from 'antd';
 
-import '@antv/s2-react/dist/style.min.css';
+import '@tant/s2-react/dist/style.min.css';
 
 fetch(
   'https://gw.alipayobjects.com/os/bmw-prod/2a5dbbc8-d0a7-4d02-b7c9-34f6ca63cff6.json',

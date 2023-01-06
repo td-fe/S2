@@ -9,7 +9,7 @@ import {
   Node,
   SpreadSheet,
   PivotSheet,
-} from '@antv/s2';
+} from '@tant/s2';
 import {
   buildDrillDownOptions,
   DrillDownParams,
@@ -18,7 +18,7 @@ import {
   handleDrillDown,
   type PartDrillDown,
   type PartDrillDownInfo,
-} from '@antv/s2-shared';
+} from '@tant/s2-shared';
 import { sleep, getContainer } from '../../util/helpers';
 import { data as originData } from '../../data/mock-dataset.json';
 import {

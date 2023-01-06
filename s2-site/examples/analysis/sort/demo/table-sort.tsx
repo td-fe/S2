@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { orderBy } from 'lodash';
 import { Button } from 'antd';
-import { SheetComponent } from '@antv/s2-react';
+import { SheetComponent } from '@tant/s2-react';
 import insertCss from 'insert-css';
-import '@antv/s2-react/dist/style.min.css';
+import '@tant/s2-react/dist/style.min.css';
 
 fetch('https://assets.antv.antgroup.com/s2/basic-table-mode.json')
   .then((res) => res.json())

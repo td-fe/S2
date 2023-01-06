@@ -3,7 +3,7 @@
 
   "mainEntryPointFilePath": "<projectFolder>/temp/index.d.ts",
 
-  "bundledPackages": ["@antv/s2-shared"],
+  "bundledPackages": ["@tant/s2-shared"],
 
   "compiler": {
     "tsconfigFilePath": "<projectFolder>/tsconfig.declaration.json"

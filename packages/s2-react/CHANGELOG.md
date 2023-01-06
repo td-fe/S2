@@ -1,4 +1,4 @@
-# [@antv/s2-react-v1.35.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.34.0...@antv/s2-react-v1.35.0) (2023-01-03)
+# [@tant/s2-react-v1.35.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.34.0...@tant/s2-react-v1.35.0) (2023-01-03)
 
 
 ### Bug Fixes
@@ -10,7 +10,7 @@
 
 * selected cell highlight ([#1878](https://github.com/antvis/S2/issues/1878)) ([3e11a37](https://github.com/antvis/S2/commit/3e11a37bf94f758379ba2819ec5d8b3251708814))
 
-# [@antv/s2-react-v1.34.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.33.0...@antv/s2-react-v1.34.0) (2022-12-09)
+# [@tant/s2-react-v1.34.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.33.0...@tant/s2-react-v1.34.0) (2022-12-09)
 
 
 ### Bug Fixes
@@ -22,7 +22,7 @@
 
 * 暴露afterRealCellRender，这样能够更灵活的使用datacell ([#1970](https://github.com/antvis/S2/issues/1970)) ([66c5ab9](https://github.com/antvis/S2/commit/66c5ab9992c51b475be8acaf9a198d49f3114a49))
 
-# [@antv/s2-react-v1.33.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.32.0...@antv/s2-react-v1.33.0) (2022-12-02)
+# [@tant/s2-react-v1.33.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.32.0...@tant/s2-react-v1.33.0) (2022-12-02)
 
 
 ### Bug Fixes
@@ -35,7 +35,7 @@
 
 * **header:** 去除 antd PageHeader 组件依赖 & Header 组件重构 close [#1981](https://github.com/antvis/S2/issues/1981) ([#1957](https://github.com/antvis/S2/issues/1957)) ([a3addd7](https://github.com/antvis/S2/commit/a3addd7494a2002e40c0cd00871bee47bedefb17))
 
-# [@antv/s2-react-v1.32.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.31.0...@antv/s2-react-v1.32.0) (2022-11-21)
+# [@tant/s2-react-v1.32.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.31.0...@tant/s2-react-v1.32.0) (2022-11-21)
 
 
 ### Features
@@ -43,14 +43,14 @@
 * 明细表支持多级表头 ([#1921](https://github.com/antvis/S2/issues/1921)) ([47cdbdc](https://github.com/antvis/S2/commit/47cdbdccafbd7f19a05550a483a42aac11a93778)), closes [#1687](https://github.com/antvis/S2/issues/1687) [#1801](https://github.com/antvis/S2/issues/1801)
 * 编辑表格新增拖拽填充功能 ([#1858](https://github.com/antvis/S2/issues/1858)) ([c607d55](https://github.com/antvis/S2/commit/c607d554208137631b75c5a03bb268d9afa901dd)), closes [#1811](https://github.com/antvis/S2/issues/1811)
 
-# [@antv/s2-react-v1.31.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.30.0...@antv/s2-react-v1.31.0) (2022-11-11)
+# [@tant/s2-react-v1.31.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.30.0...@tant/s2-react-v1.31.0) (2022-11-11)
 
 
 ### Features
 
 * **interaction:** 角头有省略号时 hover 后显示 tooltip ([#1889](https://github.com/antvis/S2/issues/1889)) ([1bd307a](https://github.com/antvis/S2/commit/1bd307ae913c82fd241057366530d16b51abfe69))
 
-# [@antv/s2-react-v1.30.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.29.0...@antv/s2-react-v1.30.0) (2022-10-24)
+# [@tant/s2-react-v1.30.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.29.0...@tant/s2-react-v1.30.0) (2022-10-24)
 
 
 ### Bug Fixes
@@ -68,9 +68,9 @@
 
 ### Reverts
 
-* Revert "chore(release): 🔖@antv/s2@1.32.0 @antv/s2-react@1.29.0 @antv/s2-vue@1…" (#1846) ([7b0bcea](https://github.com/antvis/S2/commit/7b0bceab42acf8dae4a437f86148207848502c8b)), closes [#1846](https://github.com/antvis/S2/issues/1846) [#1844](https://github.com/antvis/S2/issues/1844)
+* Revert "chore(release): 🔖@tant/s2@1.32.0 @tant/s2-react@1.29.0 @tant/s2-vue@1…" (#1846) ([7b0bcea](https://github.com/antvis/S2/commit/7b0bceab42acf8dae4a437f86148207848502c8b)), closes [#1846](https://github.com/antvis/S2/issues/1846) [#1844](https://github.com/antvis/S2/issues/1844)
 
-# [@antv/s2-react-v1.29.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.28.0...@antv/s2-react-v1.29.0) (2022-10-14)
+# [@tant/s2-react-v1.29.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.28.0...@tant/s2-react-v1.29.0) (2022-10-14)
 
 
 ### Bug Fixes
@@ -82,7 +82,7 @@
 
 * ✨ 表头单元格支持字段标记 ([#1809](https://github.com/antvis/S2/issues/1809)) ([307c5f9](https://github.com/antvis/S2/commit/307c5f9227351e57dca3f1d061ddca6be52c734d))
 
-# [@antv/s2-react-v1.28.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.27.0...@antv/s2-react-v1.28.0) (2022-10-02)
+# [@tant/s2-react-v1.28.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.27.0...@tant/s2-react-v1.28.0) (2022-10-02)
 
 
 ### Bug Fixes
@@ -95,7 +95,7 @@
 * **strategysheet:** 支持自定义衍生指标 ([#1762](https://github.com/antvis/S2/issues/1762)) ([97e5124](https://github.com/antvis/S2/commit/97e512404bd5d171c581a53c92d130ef15e9e907))
 * 初版编辑表 ([#1629](https://github.com/antvis/S2/issues/1629)) ([e7bd849](https://github.com/antvis/S2/commit/e7bd84935fe8dcabc8daf853953dc93680a9b448))
 
-# [@antv/s2-react-v1.27.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.26.1...@antv/s2-react-v1.27.0) (2022-09-16)
+# [@tant/s2-react-v1.27.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.26.1...@tant/s2-react-v1.27.0) (2022-09-16)
 
 
 ### Bug Fixes
@@ -107,7 +107,7 @@
 
 * **strategysheet:** 趋势分析表 tooltip 支持显示原始值 ([#1750](https://github.com/antvis/S2/issues/1750)) ([e757b99](https://github.com/antvis/S2/commit/e757b999a85a15d53dfa72bde2805b6b193dcd62))
 
-# [@antv/s2-react-v1.26.1](https://github.com/antvis/S2/compare/@antv/s2-react-v1.26.0...@antv/s2-react-v1.26.1) (2022-09-13)
+# [@tant/s2-react-v1.26.1](https://github.com/antvis/S2/compare/@tant/s2-react-v1.26.0...@tant/s2-react-v1.26.1) (2022-09-13)
 
 
 ### Bug Fixes
@@ -116,7 +116,7 @@
 * 修复趋势分析表多列头情况下，单元格数据为空引起的复制数据偏移问题 ([#1743](https://github.com/antvis/S2/issues/1743)) ([52ff51c](https://github.com/antvis/S2/commit/52ff51ccb350998eb01330a346c7abfc1e8ba579))
 * 修复闭包导致的pagination被错误重置的问题 ([#1739](https://github.com/antvis/S2/issues/1739)) ([6cfad06](https://github.com/antvis/S2/commit/6cfad06f73d49c8f57a966a145846e383130351f))
 
-# [@antv/s2-react-v1.26.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.25.0...@antv/s2-react-v1.26.0) (2022-09-05)
+# [@tant/s2-react-v1.26.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.25.0...@tant/s2-react-v1.26.0) (2022-09-05)
 
 
 ### Bug Fixes
@@ -130,7 +130,7 @@
 
 * 导出组件层CustomTooltip类 ([#1726](https://github.com/antvis/S2/issues/1726)) ([46270ab](https://github.com/antvis/S2/commit/46270ab0ae6e42cf92dcf77c0a35a70e07b9b10c))
 
-# [@antv/s2-react-v1.25.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.24.0...@antv/s2-react-v1.25.0) (2022-08-29)
+# [@tant/s2-react-v1.25.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.24.0...@tant/s2-react-v1.25.0) (2022-08-29)
 
 
 ### Bug Fixes
@@ -142,7 +142,7 @@
 
 * 在树状模式下，增加默认展开层级的配置 ([#1703](https://github.com/antvis/S2/issues/1703)) ([bb1aaf1](https://github.com/antvis/S2/commit/bb1aaf1f5266ec6d6d76c3f7a97e236f4a3c15d3))
 
-# [@antv/s2-react-v1.24.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.23.0...@antv/s2-react-v1.24.0) (2022-08-15)
+# [@tant/s2-react-v1.24.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.23.0...@tant/s2-react-v1.24.0) (2022-08-15)
 
 
 ### Bug Fixes
@@ -157,7 +157,7 @@
 
 * 刷选时支持高亮所有对应的行列头cell ([#1680](https://github.com/antvis/S2/issues/1680)) ([c7fb53f](https://github.com/antvis/S2/commit/c7fb53f403608e5194d745408966cc9b18c92025))
 
-# [@antv/s2-react-v1.23.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.22.0...@antv/s2-react-v1.23.0) (2022-08-05)
+# [@tant/s2-react-v1.23.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.22.0...@tant/s2-react-v1.23.0) (2022-08-05)
 
 
 ### Bug Fixes
@@ -171,7 +171,7 @@
 
 * **interaction:** 宽高调整事件透出 resizedWidth/resizedHeight, 修复错误类型定义 ([#1638](https://github.com/antvis/S2/issues/1638)) ([fbf45df](https://github.com/antvis/S2/commit/fbf45dfffaf7b17409010c16c7f6a5bb73133197))
 
-# [@antv/s2-react-v1.22.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.21.0...@antv/s2-react-v1.22.0) (2022-07-22)
+# [@tant/s2-react-v1.22.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.21.0...@tant/s2-react-v1.22.0) (2022-07-22)
 
 
 ### Bug Fixes
@@ -192,7 +192,7 @@
 * **tooltip:** 支持设置多个class类名 ([#1546](https://github.com/antvis/S2/issues/1546)) ([1fb22c6](https://github.com/antvis/S2/commit/1fb22c64f32d739acbf9dee681b126a703b38a20))
 * 增加允许/禁用指标在行列维度中相互切换的能力 ([#1558](https://github.com/antvis/S2/issues/1558)) ([39f0f89](https://github.com/antvis/S2/commit/39f0f89cc999313d55077c06f72da13dab1f1316))
 
-# [@antv/s2-react-v1.21.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.20.0...@antv/s2-react-v1.21.0) (2022-07-08)
+# [@tant/s2-react-v1.21.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.20.0...@tant/s2-react-v1.21.0) (2022-07-08)
 
 
 ### Bug Fixes
@@ -211,7 +211,7 @@
 * 基础表、趋势分析表tooltip新增显示字段说明功能 ([#1541](https://github.com/antvis/S2/issues/1541)) ([3a9f3cb](https://github.com/antvis/S2/commit/3a9f3cb2f22aeb14b15b8d3fe79f107ff8f04516))
 * 支持 绘制 mini 柱状图 ([#1505](https://github.com/antvis/S2/issues/1505)) ([24a6ca6](https://github.com/antvis/S2/commit/24a6ca643e3b1154e4093c15216b218ef02cf3df))
 
-# [@antv/s2-react-v1.20.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.19.0...@antv/s2-react-v1.20.0) (2022-06-24)
+# [@tant/s2-react-v1.20.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.19.0...@tant/s2-react-v1.20.0) (2022-06-24)
 
 
 ### Bug Fixes
@@ -230,7 +230,7 @@
 * 明细表的 getCellData 可获取单行数据 ([#1482](https://github.com/antvis/S2/issues/1482)) ([c3e1662](https://github.com/antvis/S2/commit/c3e16622cf5e1247a5503c92e694adc7d047a321))
 * 明细表趋势图透出点击透出整行数据 ([#1485](https://github.com/antvis/S2/issues/1485)) ([ea82780](https://github.com/antvis/S2/commit/ea827809e333d37a7301fac4785add8d87ca4c0e))
 
-# [@antv/s2-react-v1.19.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.18.0...@antv/s2-react-v1.19.0) (2022-06-20)
+# [@tant/s2-react-v1.19.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.18.0...@tant/s2-react-v1.19.0) (2022-06-20)
 
 
 ### Bug Fixes
@@ -242,7 +242,7 @@
 
 * **strategy-sheet:** 子弹图支持显示 Tooltip ([#1450](https://github.com/antvis/S2/issues/1450)) ([15a0799](https://github.com/antvis/S2/commit/15a0799a17893610a7aa8b4550e6d3647ad3a2b2))
 
-# [@antv/s2-react-v1.18.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.17.0...@antv/s2-react-v1.18.0) (2022-06-17)
+# [@tant/s2-react-v1.18.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.17.0...@tant/s2-react-v1.18.0) (2022-06-17)
 
 
 ### Bug Fixes
@@ -256,7 +256,7 @@
 
 * **scroll:** 增加边界滚动配置, 解决横屏滚动会触发 mac 回退的问题 ([#1409](https://github.com/antvis/S2/issues/1409)) ([ada5082](https://github.com/antvis/S2/commit/ada5082d299357b1b38af7629a784e3d071e6b77))
 
-# [@antv/s2-react-v1.17.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.16.1...@antv/s2-react-v1.17.0) (2022-06-02)
+# [@tant/s2-react-v1.17.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.16.1...@tant/s2-react-v1.17.0) (2022-06-02)
 
 
 ### Bug Fixes
@@ -270,14 +270,14 @@
 
 * 趋势分析表支持子弹图配置 ([#1367](https://github.com/antvis/S2/issues/1367)) ([b5756cc](https://github.com/antvis/S2/commit/b5756cc2f4d2054f3d5a8eb31134efd23b1dd230))
 
-# [@antv/s2-react-v1.16.1](https://github.com/antvis/S2/compare/@antv/s2-react-v1.16.0...@antv/s2-react-v1.16.1) (2022-05-30)
+# [@tant/s2-react-v1.16.1](https://github.com/antvis/S2/compare/@tant/s2-react-v1.16.0...@tant/s2-react-v1.16.1) (2022-05-30)
 
 
 ### Bug Fixes
 
 * style 引入失败 ([8ee0a0b](https://github.com/antvis/S2/commit/8ee0a0b21c99d6f7bdf4a5d9fb91f9eaedf8d00f))
 
-# [@antv/s2-react-v1.16.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.15.1...@antv/s2-react-v1.16.0) (2022-05-30)
+# [@tant/s2-react-v1.16.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.15.1...@tant/s2-react-v1.16.0) (2022-05-30)
 
 
 ### Bug Fixes
@@ -300,23 +300,23 @@
 
 ### Reverts
 
-* Revert "chore(release): @antv/s2@1.18.0 @antv/s2-react@1.16.0 @antv/s2-vue@1.0.0 (#1384)" (#1386) ([60cdf6a](https://github.com/antvis/S2/commit/60cdf6abe7fb3b44f831051bd55622587a0f5bf8)), closes [#1384](https://github.com/antvis/S2/issues/1384) [#1386](https://github.com/antvis/S2/issues/1386)
+* Revert "chore(release): @tant/s2@1.18.0 @tant/s2-react@1.16.0 @tant/s2-vue@1.0.0 (#1384)" (#1386) ([60cdf6a](https://github.com/antvis/S2/commit/60cdf6abe7fb3b44f831051bd55622587a0f5bf8)), closes [#1384](https://github.com/antvis/S2/issues/1384) [#1386](https://github.com/antvis/S2/issues/1386)
 
-# [@antv/s2-react-v1.15.1](https://github.com/antvis/S2/compare/@antv/s2-react-v1.15.0...@antv/s2-react-v1.15.1) (2022-05-13)
+# [@tant/s2-react-v1.15.1](https://github.com/antvis/S2/compare/@tant/s2-react-v1.15.0...@tant/s2-react-v1.15.1) (2022-05-13)
 
 
 ### Bug Fixes
 
 * **interaction:** 角头单元格增加对自定义tooltip的适配 ([#1322](https://github.com/antvis/S2/issues/1322)) ([11c8e48](https://github.com/antvis/S2/commit/11c8e48d37e4e08742ba2d0dbeccfc99a694beff))
 
-# [@antv/s2-react-v1.15.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.14.0...@antv/s2-react-v1.15.0) (2022-05-06)
+# [@tant/s2-react-v1.15.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.14.0...@tant/s2-react-v1.15.0) (2022-05-06)
 
 
 ### Features
 
 * 允许条件设置数据单元格为空的占位符 ([#1309](https://github.com/antvis/S2/issues/1309)) ([397caf1](https://github.com/antvis/S2/commit/397caf18e3eec7c82bd4f4bb7a6987839474a425))
 
-# [@antv/s2-react-v1.14.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.13.0...@antv/s2-react-v1.14.0) (2022-04-22)
+# [@tant/s2-react-v1.14.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.13.0...@tant/s2-react-v1.14.0) (2022-04-22)
 
 
 ### Bug Fixes
@@ -334,9 +334,9 @@
 * 增加根据主题色生成对应主题风格色板功能 ([#1190](https://github.com/antvis/S2/issues/1190)) ([4c81fa3](https://github.com/antvis/S2/commit/4c81fa3d0ac2c9563f022560cae75335c453b218))
 * 新增 hoverFocusTime 配置项 ([#1281](https://github.com/antvis/S2/issues/1281)) ([b7636cb](https://github.com/antvis/S2/commit/b7636cb038a9a74bbce1dd81781db9128047693d))
 
-# [@antv/s2-react-v1.14.0-alpha.5](https://github.com/antvis/S2/compare/@antv/s2-react-v1.14.0-alpha.4...@antv/s2-react-v1.14.0-alpha.5) (2022-04-21)
+# [@tant/s2-react-v1.14.0-alpha.5](https://github.com/antvis/S2/compare/@tant/s2-react-v1.14.0-alpha.4...@tant/s2-react-v1.14.0-alpha.5) (2022-04-21)
 
-# [@antv/s2-react-v1.13.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.12.1...@antv/s2-react-v1.13.0) (2022-04-08)
+# [@tant/s2-react-v1.13.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.12.1...@tant/s2-react-v1.13.0) (2022-04-08)
 
 ### Bug Fixes
 
@@ -347,7 +347,7 @@
 
 * 支持自定义角头的虚拟数值字段文本 close [#1212](https://github.com/antvis/S2/issues/1212) ([#1223](https://github.com/antvis/S2/issues/1223)) ([84bc978](https://github.com/antvis/S2/commit/84bc9786bf1391a9e7afd21888618403e7f786d3))
 
-# [@antv/s2-react-v1.12.1](https://github.com/antvis/S2/compare/@antv/s2-react-v1.12.0...@antv/s2-react-v1.12.1) (2022-03-25)
+# [@tant/s2-react-v1.12.1](https://github.com/antvis/S2/compare/@tant/s2-react-v1.12.0...@tant/s2-react-v1.12.1) (2022-03-25)
 
 ### Bug Fixes
 
@@ -357,31 +357,31 @@
 
 * 增加根据主题色生成对应主题风格色板功能 ([#1190](https://github.com/antvis/S2/issues/1190)) ([4c81fa3](https://github.com/antvis/S2/commit/4c81fa3d0ac2c9563f022560cae75335c453b218))
 
-# [@antv/s2-react-v1.14.0-alpha.4](https://github.com/antvis/S2/compare/@antv/s2-react-v1.14.0-alpha.3...@antv/s2-react-v1.14.0-alpha.4) (2022-04-18)
+# [@tant/s2-react-v1.14.0-alpha.4](https://github.com/antvis/S2/compare/@tant/s2-react-v1.14.0-alpha.3...@tant/s2-react-v1.14.0-alpha.4) (2022-04-18)
 
 ### Features
 
 * **interaction:** 支持透传 addEventListener 的可选参数 ([#1262](https://github.com/antvis/S2/issues/1262)) ([d6bc064](https://github.com/antvis/S2/commit/d6bc064e971f8e0a18e8590931f6bff8fadabe44))
 
-# [@antv/s2-react-v1.14.0-alpha.3](https://github.com/antvis/S2/compare/@antv/s2-react-v1.14.0-alpha.2...@antv/s2-react-v1.14.0-alpha.3) (2022-04-15)
+# [@tant/s2-react-v1.14.0-alpha.3](https://github.com/antvis/S2/compare/@tant/s2-react-v1.14.0-alpha.2...@tant/s2-react-v1.14.0-alpha.3) (2022-04-15)
 
 ### Bug Fixes
 
 * 修复交叉表分页问题 ([#1260](https://github.com/antvis/S2/issues/1260)) ([a8142b9](https://github.com/antvis/S2/commit/a8142b961e7c839a2de60aea232209f815f5d32d))
 
-# [@antv/s2-react-v1.14.0-alpha.2](https://github.com/antvis/S2/compare/@antv/s2-react-v1.14.0-alpha.1...@antv/s2-react-v1.14.0-alpha.2) (2022-04-14)
+# [@tant/s2-react-v1.14.0-alpha.2](https://github.com/antvis/S2/compare/@tant/s2-react-v1.14.0-alpha.1...@tant/s2-react-v1.14.0-alpha.2) (2022-04-14)
 
 ### Bug Fixes
 
 * headerActionIcons 更新不应清除上一次下钻数据 ([#1254](https://github.com/antvis/S2/issues/1254)) ([92837fa](https://github.com/antvis/S2/commit/92837faadb532b42be164327ca510c47cf2ae336))
 
-# [@antv/s2-react-v1.14.0-alpha.1](https://github.com/antvis/S2/compare/@antv/s2-react-v1.13.0...@antv/s2-react-v1.14.0-alpha.1) (2022-04-11)
+# [@tant/s2-react-v1.14.0-alpha.1](https://github.com/antvis/S2/compare/@tant/s2-react-v1.13.0...@tant/s2-react-v1.14.0-alpha.1) (2022-04-11)
 
 ### Features
 
 * 增加根据主题色生成对应主题风格色板功能 ([9928227](https://github.com/antvis/S2/commit/992822784d65611eed2a1aa80d685e1b0a6d48c3))
 
-# [@antv/s2-react-v1.13.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.12.1...@antv/s2-react-v1.13.0) (2022-04-08)
+# [@tant/s2-react-v1.13.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.12.1...@tant/s2-react-v1.13.0) (2022-04-08)
 
 ### Bug Fixes
 
@@ -392,23 +392,23 @@
 
 - 支持自定义角头的虚拟数值字段文本 close [#1212](https://github.com/antvis/S2/issues/1212) ([#1223](https://github.com/antvis/S2/issues/1223)) ([84bc978](https://github.com/antvis/S2/commit/84bc9786bf1391a9e7afd21888618403e7f786d3))
 
-# [@antv/s2-react-v1.12.1](https://github.com/antvis/S2/compare/@antv/s2-react-v1.12.0...@antv/s2-react-v1.12.1) (2022-03-25)
+# [@tant/s2-react-v1.12.1](https://github.com/antvis/S2/compare/@tant/s2-react-v1.12.0...@tant/s2-react-v1.12.1) (2022-03-25)
 
 ### Bug Fixes
 
 - 未开启自适应，改变浏览器窗口大小，会导致表格重新渲染 close [#1197](https://github.com/antvis/S2/issues/1197) ([#1200](https://github.com/antvis/S2/issues/1200)) ([cfb8eaa](https://github.com/antvis/S2/commit/cfb8eaa5e07490a4935959f714efa33252ddc19a))
 
-# [@antv/s2-react-v1.12.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.11.3...@antv/s2-react-v1.12.0) (2022-03-18)
+# [@tant/s2-react-v1.12.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.11.3...@tant/s2-react-v1.12.0) (2022-03-18)
 
 - 增加根据主题色生成对应主题风格色板功能 ([9928227](https://github.com/antvis/S2/commit/992822784d65611eed2a1aa80d685e1b0a6d48c3))
 
-# [@antv/s2-react-v1.12.1](https://github.com/antvis/S2/compare/@antv/s2-react-v1.12.0...@antv/s2-react-v1.12.1) (2022-03-25)
+# [@tant/s2-react-v1.12.1](https://github.com/antvis/S2/compare/@tant/s2-react-v1.12.0...@tant/s2-react-v1.12.1) (2022-03-25)
 
 ### Bug Fixes
 
 - 未开启自适应，改变浏览器窗口大小，会导致表格重新渲染 close [#1197](https://github.com/antvis/S2/issues/1197) ([#1200](https://github.com/antvis/S2/issues/1200)) ([cfb8eaa](https://github.com/antvis/S2/commit/cfb8eaa5e07490a4935959f714efa33252ddc19a))
 
-# [@antv/s2-react-v1.12.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.11.3...@antv/s2-react-v1.12.0) (2022-03-18)
+# [@tant/s2-react-v1.12.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.11.3...@tant/s2-react-v1.12.0) (2022-03-18)
 
 ### Bug Fixes
 
@@ -420,19 +420,19 @@
 
 - 趋势分析表支持列展示不同数量的指标 ([#1185](https://github.com/antvis/S2/issues/1185)) ([5692176](https://github.com/antvis/S2/commit/569217685e92b87e69bab6741422a23ea603cd45))
 
-# [@antv/s2-react-v1.11.3](https://github.com/antvis/S2/compare/@antv/s2-react-v1.11.2...@antv/s2-react-v1.11.3) (2022-03-16)
+# [@tant/s2-react-v1.11.3](https://github.com/antvis/S2/compare/@tant/s2-react-v1.11.2...@tant/s2-react-v1.11.3) (2022-03-16)
 
 ### Bug Fixes
 
 - 修复趋势分析表空数据不渲染问题 ([#1180](https://github.com/antvis/S2/issues/1180)) ([0b7c54b](https://github.com/antvis/S2/commit/0b7c54be03f43a2c422ea01bf78b326c9b31c0ae))
 
-# [@antv/s2-react-v1.11.2](https://github.com/antvis/S2/compare/@antv/s2-react-v1.11.1...@antv/s2-react-v1.11.2) (2022-03-16)
+# [@tant/s2-react-v1.11.2](https://github.com/antvis/S2/compare/@tant/s2-react-v1.11.1...@tant/s2-react-v1.11.2) (2022-03-16)
 
 ### Bug Fixes
 
 - 修复趋势分析表多指标丢失问题 ([#1175](https://github.com/antvis/S2/issues/1175)) ([2352dbe](https://github.com/antvis/S2/commit/2352dbe3e7ece8ee758fe7cc7ad672d6416f23a1))
 
-# [@antv/s2-react-v1.11.1](https://github.com/antvis/S2/compare/@antv/s2-react-v1.11.0...@antv/s2-react-v1.11.1) (2022-03-11)
+# [@tant/s2-react-v1.11.1](https://github.com/antvis/S2/compare/@tant/s2-react-v1.11.0...@tant/s2-react-v1.11.1) (2022-03-11)
 
 ### Bug Fixes
 
@@ -443,7 +443,7 @@
 - **strategysheet:** :zap: 趋势分析表性能优化 ([#1166](https://github.com/antvis/S2/issues/1166)) ([d02772e](https://github.com/antvis/S2/commit/d02772e771f2cd4c3258f269f714018d53aea4ce))
 - **useResize:** :zap: 减少当 adaptive 为 false 时宽高改变引发的重复渲染 ([#1162](https://github.com/antvis/S2/issues/1162)) ([575c15c](https://github.com/antvis/S2/commit/575c15cc91e1ee3067b90e22c2df2e2a68ded683))
 
-# [@antv/s2-react-v1.11.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.10.0...@antv/s2-react-v1.11.0) (2022-03-01)
+# [@tant/s2-react-v1.11.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.10.0...@tant/s2-react-v1.11.0) (2022-03-01)
 
 ### Bug Fixes
 
@@ -464,7 +464,7 @@
 - 维度切换组件增加 allowEmpty 配置 close [#533](https://github.com/antvis/S2/issues/533) ([#1136](https://github.com/antvis/S2/issues/1136)) ([7250bac](https://github.com/antvis/S2/commit/7250bac8267171a78f1b38b1a6f99dbbff15d98c))
 - 透出 s2 自带翻页器 change 事件 ([#1145](https://github.com/antvis/S2/issues/1145)) ([0dd305e](https://github.com/antvis/S2/commit/0dd305ef4e75a7d61d8ca1b6d97da1763069b0cd))
 
-# [@antv/s2-react-v1.10.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.9.1...@antv/s2-react-v1.10.0) (2022-02-28)
+# [@tant/s2-react-v1.10.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.9.1...@tant/s2-react-v1.10.0) (2022-02-28)
 
 ### Bug Fixes
 
@@ -481,14 +481,14 @@
 - **tooltip:** 支持自定义挂载节点 ([#1139](https://github.com/antvis/S2/issues/1139)) ([b438554](https://github.com/antvis/S2/commit/b438554a193e7df94edea2334268daa3bb2e0577))
 - 维度切换组件增加 allowEmpty 配置 close [#533](https://github.com/antvis/S2/issues/533) ([#1136](https://github.com/antvis/S2/issues/1136)) ([1ddc9c0](https://github.com/antvis/S2/commit/1ddc9c0f65d166f63c3ed9c0ecf34a0fae75f4b1))
 
-# [@antv/s2-react-v1.9.1](https://github.com/antvis/S2/compare/@antv/s2-react-v1.9.0...@antv/s2-react-v1.9.1) (2022-02-17)
+# [@tant/s2-react-v1.9.1](https://github.com/antvis/S2/compare/@tant/s2-react-v1.9.0...@tant/s2-react-v1.9.1) (2022-02-17)
 
 ### Bug Fixes
 
 - **header:** header props types ([#1096](https://github.com/antvis/S2/issues/1096)) ([e85c5df](https://github.com/antvis/S2/commit/e85c5df5b2c3354718b8b27cef847c4ccc52115a))
 - 回退排序筛选事件变量名 ([#1097](https://github.com/antvis/S2/issues/1097)) ([9eeb1cd](https://github.com/antvis/S2/commit/9eeb1cdafdd051834383a1423583e221388a581e))
 
-# [@antv/s2-react-v1.9.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.8.0...@antv/s2-react-v1.9.0) (2022-02-16)
+# [@tant/s2-react-v1.9.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.8.0...@tant/s2-react-v1.9.0) (2022-02-16)
 
 ### Bug Fixes
 
@@ -505,14 +505,14 @@
 - **tooltip:** 支持自定义挂载节点 ([#1139](https://github.com/antvis/S2/issues/1139)) ([b438554](https://github.com/antvis/S2/commit/b438554a193e7df94edea2334268daa3bb2e0577))
 - 维度切换组件增加 allowEmpty 配置 close [#533](https://github.com/antvis/S2/issues/533) ([#1136](https://github.com/antvis/S2/issues/1136)) ([1ddc9c0](https://github.com/antvis/S2/commit/1ddc9c0f65d166f63c3ed9c0ecf34a0fae75f4b1))
 
-# [@antv/s2-react-v1.9.1](https://github.com/antvis/S2/compare/@antv/s2-react-v1.9.0...@antv/s2-react-v1.9.1) (2022-02-17)
+# [@tant/s2-react-v1.9.1](https://github.com/antvis/S2/compare/@tant/s2-react-v1.9.0...@tant/s2-react-v1.9.1) (2022-02-17)
 
 ### Bug Fixes
 
 - **header:** header props types ([#1096](https://github.com/antvis/S2/issues/1096)) ([e85c5df](https://github.com/antvis/S2/commit/e85c5df5b2c3354718b8b27cef847c4ccc52115a))
 - 回退排序筛选事件变量名 ([#1097](https://github.com/antvis/S2/issues/1097)) ([9eeb1cd](https://github.com/antvis/S2/commit/9eeb1cdafdd051834383a1423583e221388a581e))
 
-# [@antv/s2-react-v1.9.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.8.0...@antv/s2-react-v1.9.0) (2022-02-16)
+# [@tant/s2-react-v1.9.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.8.0...@tant/s2-react-v1.9.0) (2022-02-16)
 
 ### Bug Fixes
 
@@ -523,7 +523,7 @@
 
 - s2-react 全量透出事件回调函数 ([#1092](https://github.com/antvis/S2/issues/1092)) ([7e5fe5d](https://github.com/antvis/S2/commit/7e5fe5db5df582966df4ecdc1bb96a33e139a979))
 
-# [@antv/s2-react-v1.8.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.7.0...@antv/s2-react-v1.8.0) (2022-02-11)
+# [@tant/s2-react-v1.8.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.7.0...@tant/s2-react-v1.8.0) (2022-02-11)
 
 ### Bug Fixes
 
@@ -535,19 +535,19 @@
 - ✨ 新趋势分析表 ([#1080](https://github.com/antvis/S2/issues/1080)) ([f88fefb](https://github.com/antvis/S2/commit/f88fefbabc2df1226ef9484d4848aa77db833b67)), closes [#869](https://github.com/antvis/S2/issues/869) [#871](https://github.com/antvis/S2/issues/871) [#876](https://github.com/antvis/S2/issues/876) [#873](https://github.com/antvis/S2/issues/873) [#878](https://github.com/antvis/S2/issues/878) [#897](https://github.com/antvis/S2/issues/897) [#890](https://github.com/antvis/S2/issues/890) [#892](https://github.com/antvis/S2/issues/892) [#906](https://github.com/antvis/S2/issues/906) [#905](https://github.com/antvis/S2/issues/905) [#908](https://github.com/antvis/S2/issues/908) [#916](https://github.com/antvis/S2/issues/916) [#913](https://github.com/antvis/S2/issues/913) [#898](https://github.com/antvis/S2/issues/898) [#902](https://github.com/antvis/S2/issues/902) [#907](https://github.com/antvis/S2/issues/907) [#910](https://github.com/antvis/S2/issues/910) [#919](https://github.com/antvis/S2/issues/919) [#925](https://github.com/antvis/S2/issues/925) [#927](https://github.com/antvis/S2/issues/927) [#929](https://github.com/antvis/S2/issues/929) [#944](https://github.com/antvis/S2/issues/944) [#946](https://github.com/antvis/S2/issues/946) [#958](https://github.com/antvis/S2/issues/958) [#964](https://github.com/antvis/S2/issues/964) [#961](https://github.com/antvis/S2/issues/961) [#970](https://github.com/antvis/S2/issues/970) [#974](https://github.com/antvis/S2/issues/974) [#984](https://github.com/antvis/S2/issues/984) [#986](https://github.com/antvis/S2/issues/986) [#991](https://github.com/antvis/S2/issues/991) [#995](https://github.com/antvis/S2/issues/995) [#996](https://github.com/antvis/S2/issues/996) [#1003](https://github.com/antvis/S2/issues/1003) [#1005](https://github.com/antvis/S2/issues/1005) [#990](https://github.com/antvis/S2/issues/990) [#992](https://github.com/antvis/S2/issues/992) [#993](https://github.com/antvis/S2/issues/993) [#997](https://github.com/antvis/S2/issues/997) [#972](https://github.com/antvis/S2/issues/972) [#1001](https://github.com/antvis/S2/issues/1001) [#1002](https://github.com/antvis/S2/issues/1002) [#1007](https://github.com/antvis/S2/issues/1007) [#1010](https://github.com/antvis/S2/issues/1010) [#1019](https://github.com/antvis/S2/issues/1019) [#1015](https://github.com/antvis/S2/issues/1015) [#1023](https://github.com/antvis/S2/issues/1023) [#1024](https://github.com/antvis/S2/issues/1024) [#1030](https://github.com/antvis/S2/issues/1030) [#1046](https://github.com/antvis/S2/issues/1046) [#1049](https://github.com/antvis/S2/issues/1049) [#1052](https://github.com/antvis/S2/issues/1052) [#1058](https://github.com/antvis/S2/issues/1058) [#1059](https://github.com/antvis/S2/issues/1059) [#1062](https://github.com/antvis/S2/issues/1062) [#1063](https://github.com/antvis/S2/issues/1063) [#1064](https://github.com/antvis/S2/issues/1064) [#1067](https://github.com/antvis/S2/issues/1067) [#1069](https://github.com/antvis/S2/issues/1069) [#1070](https://github.com/antvis/S2/issues/1070) [#1071](https://github.com/antvis/S2/issues/1071) [#1073](https://github.com/antvis/S2/issues/1073) [#1076](https://github.com/antvis/S2/issues/1076) [#1075](https://github.com/antvis/S2/issues/1075) [#1077](https://github.com/antvis/S2/issues/1077)
 - 支持自定义设备像素比 ([#1054](https://github.com/antvis/S2/issues/1054)) ([49ac6ac](https://github.com/antvis/S2/commit/49ac6ac3a259d3622a064333213b9a352ea344bb))
 
-# [@antv/s2-react-v1.8.0-alpha.7](https://github.com/antvis/S2/compare/@antv/s2-react-v1.8.0-alpha.6...@antv/s2-react-v1.8.0-alpha.7) (2022-02-10)
+# [@tant/s2-react-v1.8.0-alpha.7](https://github.com/antvis/S2/compare/@tant/s2-react-v1.8.0-alpha.6...@tant/s2-react-v1.8.0-alpha.7) (2022-02-10)
 
 ### Bug Fixes
 
 - 修复子节点收起后角头全部展开收起不生效 close [#1072](https://github.com/antvis/S2/issues/1072) ([#1074](https://github.com/antvis/S2/issues/1074)) ([6f70f38](https://github.com/antvis/S2/commit/6f70f389fe8a0825dfc80cac871e25adc45280ad))
 
-# [@antv/s2-react-v1.8.0-alpha.6](https://github.com/antvis/S2/compare/@antv/s2-react-v1.8.0-alpha.5...@antv/s2-react-v1.8.0-alpha.6) (2022-02-10)
+# [@tant/s2-react-v1.8.0-alpha.6](https://github.com/antvis/S2/compare/@tant/s2-react-v1.8.0-alpha.5...@tant/s2-react-v1.8.0-alpha.6) (2022-02-10)
 
 ### Features
 
 - 单元格内多指标支持分列导出 ([#1070](https://github.com/antvis/S2/issues/1070)) ([766fdc4](https://github.com/antvis/S2/commit/766fdc4ecb9360b41a921ec24debb4a7d935df13))
 
-# [@antv/s2-react-v1.8.0-alpha.5](https://github.com/antvis/S2/compare/@antv/s2-react-v1.8.0-alpha.4...@antv/s2-react-v1.8.0-alpha.5) (2022-02-09)
+# [@tant/s2-react-v1.8.0-alpha.5](https://github.com/antvis/S2/compare/@tant/s2-react-v1.8.0-alpha.4...@tant/s2-react-v1.8.0-alpha.5) (2022-02-09)
 
 ### Bug Fixes
 
@@ -559,26 +559,26 @@
 - 数据导出适配自定义目录树 ([#1062](https://github.com/antvis/S2/issues/1062)) ([9111f73](https://github.com/antvis/S2/commit/9111f737e9359be7cf3f554d5315dcae4cef10e1))
 - **tooltip:** tooltip 操作项支持动态显示 ([#1067](https://github.com/antvis/S2/issues/1067)) ([41ad27d](https://github.com/antvis/S2/commit/41ad27dd10970dc65b02d1684e54e19d8fae65bb))
 
-# [@antv/s2-react-v1.8.0-alpha.4](https://github.com/antvis/S2/compare/@antv/s2-react-v1.8.0-alpha.3...@antv/s2-react-v1.8.0-alpha.4) (2022-02-08)
+# [@tant/s2-react-v1.8.0-alpha.4](https://github.com/antvis/S2/compare/@tant/s2-react-v1.8.0-alpha.3...@tant/s2-react-v1.8.0-alpha.4) (2022-02-08)
 
 ### Features
 
 - **tooltip:** 支持自定义 tooltip 操作项 ([#1058](https://github.com/antvis/S2/issues/1058)) ([fc9cc66](https://github.com/antvis/S2/commit/fc9cc6621eb0d3794020375929460de94afcab79))
 - 支持自定义设备像素比 ([#1054](https://github.com/antvis/S2/issues/1054)) ([49ac6ac](https://github.com/antvis/S2/commit/49ac6ac3a259d3622a064333213b9a352ea344bb))
 
-# [@antv/s2-react-v1.8.0-alpha.3](https://github.com/antvis/S2/compare/@antv/s2-react-v1.8.0-alpha.2...@antv/s2-react-v1.8.0-alpha.3) (2022-01-28)
+# [@tant/s2-react-v1.8.0-alpha.3](https://github.com/antvis/S2/compare/@tant/s2-react-v1.8.0-alpha.2...@tant/s2-react-v1.8.0-alpha.3) (2022-01-28)
 
 ### Bug Fixes
 
 - **strategy-sheet:** 修复自定义树布局模式下，获取不到字段描述 ([#1052](https://github.com/antvis/S2/issues/1052)) ([21cc6aa](https://github.com/antvis/S2/commit/21cc6aac7577477dea1d82dc3ddfc315970f03e1))
 
-# [@antv/s2-react-v1.8.0-alpha.2](https://github.com/antvis/S2/compare/@antv/s2-react-v1.8.0-alpha.1...@antv/s2-react-v1.8.0-alpha.2) (2022-01-27)
+# [@tant/s2-react-v1.8.0-alpha.2](https://github.com/antvis/S2/compare/@tant/s2-react-v1.8.0-alpha.1...@tant/s2-react-v1.8.0-alpha.2) (2022-01-27)
 
 ### Bug Fixes
 
 - **strategy-sheet:** 修复趋势分析表多列头时 tooltip 不显示指标名 ([d01ba98](https://github.com/antvis/S2/commit/d01ba98cd8eedc8347ddce9a988ca9f7a2a25d73))
 
-# [@antv/s2-react-v1.8.0-alpha.1](https://github.com/antvis/S2/compare/@antv/s2-react-v1.7.0...@antv/s2-react-v1.8.0-alpha.1) (2022-01-26)
+# [@tant/s2-react-v1.8.0-alpha.1](https://github.com/antvis/S2/compare/@tant/s2-react-v1.7.0...@tant/s2-react-v1.8.0-alpha.1) (2022-01-26)
 
 ### Bug Fixes
 
@@ -612,7 +612,7 @@
 - 新增趋势分析表 hover 列头显示指标名 ([#913](https://github.com/antvis/S2/issues/913)) ([4ff9373](https://github.com/antvis/S2/commit/4ff9373d1094150883c0554e636fac1bca4104c7)), closes [#898](https://github.com/antvis/S2/issues/898) [#902](https://github.com/antvis/S2/issues/902) [#907](https://github.com/antvis/S2/issues/907) [#910](https://github.com/antvis/S2/issues/910)
 - 趋势分析表列头支持多文本展示 ([#1049](https://github.com/antvis/S2/issues/1049)) ([7df40f7](https://github.com/antvis/S2/commit/7df40f76cf00ef3736b7cc67634eb682de6a93e2))
 
-# [@antv/s2-react-v1.7.0-alpha.5](https://github.com/antvis/S2/compare/@antv/s2-react-v1.7.0-alpha.4...@antv/s2-react-v1.7.0-alpha.5) (2022-01-26)
+# [@tant/s2-react-v1.7.0-alpha.5](https://github.com/antvis/S2/compare/@tant/s2-react-v1.7.0-alpha.4...@tant/s2-react-v1.7.0-alpha.5) (2022-01-26)
 
 ### Bug Fixes
 
@@ -625,7 +625,7 @@
 - 完善交叉表分页功能 ([#1037](https://github.com/antvis/S2/issues/1037)) ([9c8657d](https://github.com/antvis/S2/commit/9c8657d8c711057a88b19dd1fd1705655b86a94e))
 - 趋势分析表列头支持多文本展示 ([#1049](https://github.com/antvis/S2/issues/1049)) ([7df40f7](https://github.com/antvis/S2/commit/7df40f76cf00ef3736b7cc67634eb682de6a93e2))
 
-# [@antv/s2-react-v1.7.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.6.0...@antv/s2-react-v1.7.0) (2022-01-24)
+# [@tant/s2-react-v1.7.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.6.0...@tant/s2-react-v1.7.0) (2022-01-24)
 
 ### Bug Fixes
 
@@ -637,7 +637,7 @@
 
 - 完善交叉表分页功能 ([#1037](https://github.com/antvis/S2/issues/1037)) ([9c8657d](https://github.com/antvis/S2/commit/9c8657d8c711057a88b19dd1fd1705655b86a94e))
 
-# [@antv/s2-react-v1.6.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.5.0...@antv/s2-react-v1.6.0) (2022-01-14)
+# [@tant/s2-react-v1.6.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.5.0...@tant/s2-react-v1.6.0) (2022-01-14)
 
 ### Bug Fixes
 
@@ -648,7 +648,7 @@
 - **facet:** add scrollBarPosition option ([#997](https://github.com/antvis/S2/issues/997)) ([8937dc8](https://github.com/antvis/S2/commit/8937dc84255c68b9d5b75255263866b8c1c359aa))
 - 增加 supportCSSTransform 设置 ([#990](https://github.com/antvis/S2/issues/990)) ([be45f83](https://github.com/antvis/S2/commit/be45f83ec0bfea402fab127641264c362405d289))
 
-# [@antv/s2-react-v1.5.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.4.0...@antv/s2-react-v1.5.0) (2022-01-07)
+# [@tant/s2-react-v1.5.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.4.0...@tant/s2-react-v1.5.0) (2022-01-07)
 
 ### Bug Fixes
 
@@ -661,7 +661,7 @@
 
 - **interaction:** 支持通过键盘方向键移动选中的单元格 ([#967](https://github.com/antvis/S2/issues/967)) ([c1a98ec](https://github.com/antvis/S2/commit/c1a98ec30c161624a48fda16bce0888b0af60f6b))
 
-# [@antv/s2-react-v1.4.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.3.0...@antv/s2-react-v1.4.0) (2021-12-24)
+# [@tant/s2-react-v1.4.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.3.0...@tant/s2-react-v1.4.0) (2021-12-24)
 
 ### Bug Fixes
 
@@ -674,7 +674,7 @@
 - **facet:** 明细表增加行高 resize 调整 && 行高 resize 增加选项 ([#909](https://github.com/antvis/S2/issues/909)) ([cee6bdc](https://github.com/antvis/S2/commit/cee6bdced0cf3749e683ce157478ea2557da3a53))
 - 自适应机制优化：开启 adaptive 读取容器宽高，关闭情况下再读取配置项 ([#940](https://github.com/antvis/S2/issues/940)) ([62c1bd0](https://github.com/antvis/S2/commit/62c1bd02de2e5538ccf9bd035068ae28d2cd0370))
 
-# [@antv/s2-react-v1.3.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.2.0...@antv/s2-react-v1.3.0) (2021-12-13)
+# [@tant/s2-react-v1.3.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.2.0...@tant/s2-react-v1.3.0) (2021-12-13)
 
 ### Bug Fixes
 
@@ -686,7 +686,7 @@
 
 - ✨ show the sortIcon when the hideMeasureColumn is set ([#884](https://github.com/antvis/S2/issues/884)) ([de1c46a](https://github.com/antvis/S2/commit/de1c46acb12b257e32aa4cc568312abca873775a))
 
-# [@antv/s2-react-v1.2.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.1.1...@antv/s2-react-v1.2.0) (2021-12-06)
+# [@tant/s2-react-v1.2.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.1.1...@tant/s2-react-v1.2.0) (2021-12-06)
 
 ### Bug Fixes
 
@@ -698,13 +698,13 @@
 - **resize:** add resize active options, close [#855](https://github.com/antvis/S2/issues/855) ([#864](https://github.com/antvis/S2/issues/864)) ([1ce0951](https://github.com/antvis/S2/commit/1ce0951c20cc28495bf1c062d7c57128c3ef91fb))
 - **tooltip:** enhance tooltip ([#862](https://github.com/antvis/S2/issues/862)) ([9e411b5](https://github.com/antvis/S2/commit/9e411b555ef320b856f67a0fcf0da8971de1c529))
 
-# [@antv/s2-react-v1.1.1](https://github.com/antvis/S2/compare/@antv/s2-react-v1.1.0...@antv/s2-react-v1.1.1) (2021-11-30)
+# [@tant/s2-react-v1.1.1](https://github.com/antvis/S2/compare/@tant/s2-react-v1.1.0...@tant/s2-react-v1.1.1) (2021-11-30)
 
 ### Bug Fixes
 
 - invalid react tooltip config ([#835](https://github.com/antvis/S2/issues/835)) ([10b44e7](https://github.com/antvis/S2/commit/10b44e7ef3b87fb042a4c515123e86ff94cb053e))
 
-# [@antv/s2-react-v1.1.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.0.3...@antv/s2-react-v1.1.0) (2021-11-29)
+# [@tant/s2-react-v1.1.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.0.3...@tant/s2-react-v1.1.0) (2021-11-29)
 
 ### Bug Fixes
 

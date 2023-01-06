@@ -51,7 +51,7 @@ s2.interaction.getPanelGroupAllUnSelectedDataCells()
 以点击行头单元格为例
 
 ```ts
-import { S2Event } from '@antv/s2'
+import { S2Event } from '@tant/s2'
 
 s2.on(S2Event.ROW_CELL_CLICK, (event) => {
   // 根据 event.target 拿到表格内部当前坐标对应的单元格

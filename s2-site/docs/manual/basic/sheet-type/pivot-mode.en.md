@@ -20,8 +20,8 @@ Pivot table is also called cross table or multi-dimensional table. It is a table
 ```typescript
  import React from "react";
 import ReactDOM from "react-dom";
-import { SheetComponent } from "@antv/s2-react";
-import '@antv/s2-react/dist/style.min.css';
+import { SheetComponent } from "@tant/s2-react";
+import '@tant/s2-react/dist/style.min.css';
 
 // 1. 准备数据
 const data = [
@@ -88,7 +88,7 @@ ReactDOM.render(
 If you don't plan to rely on `React` , you can call it directly after the third step above:
 
 ```ts
- import { PivotSheet } from "@antv/s2";
+ import { PivotSheet } from "@tant/s2";
 
 const container = document.getElementById('container');
 const pivotSheet = new PivotSheet(container, dataCfg, options);

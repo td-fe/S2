@@ -1,4 +1,4 @@
-import type { SheetType } from '@antv/s2-shared';
+import type { SheetType } from '@tant/s2-shared';
 import { FieldType, DroppableType } from '@/components/switcher/constant';
 import type {
   SwitcherItem,

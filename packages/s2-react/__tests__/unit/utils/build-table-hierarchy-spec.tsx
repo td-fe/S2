@@ -10,7 +10,7 @@ import {
   Hierarchy,
   buildTableHierarchy,
   TableSheet,
-} from '@antv/s2';
+} from '@tant/s2';
 import { getContainer } from '../../util/helpers';
 import { data, totalData, meta } from '../../data/mock-dataset.json';
 import { SheetComponent } from '@/components';

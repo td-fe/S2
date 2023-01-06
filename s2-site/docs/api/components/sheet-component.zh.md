@@ -5,7 +5,7 @@ order: 0
 
 # React 表组件
 
-基于 `@antv/s2` 封装的 `React` 版开箱即用的组件 `<SheetComponent />`
+基于 `@tant/s2` 封装的 `React` 版开箱即用的组件 `<SheetComponent />`
 
 ## SpreadsheetProps
 
@@ -95,7 +95,7 @@ order: 0
 | onMouseUp | 表格鼠标松开事件 | (event: CanvasEvent) => void |  |  |
 | onSelected | 单元格选中事件 | (cells: ( [Cell](/docs/api/basic-class/base-cell)[] ) => void |  |  |
 | onReset | 交互状态重置事件 | (event: KeyboardEvent) => void |  |  |
-| onLinkFieldJump | 链接字段跳转事件 (cellData: @antv/s2 1.37.0 新增) | (data: { key: string; cellData: [Node](/docs/api/basic-class/node); record: [Data](/docs/api/general/S2DataConfig#data) }) => void |  |  |
+| onLinkFieldJump | 链接字段跳转事件 (cellData: @tant/s2 1.37.0 新增) | (data: { key: string; cellData: [Node](/docs/api/basic-class/node); record: [Data](/docs/api/general/S2DataConfig#data) }) => void |  |  |
 | onScroll | 单元格滚动事件 （含行头和数值单元格） | ({position: [CellScrollPosition](#cellscrollposition)} ) => void; |  |  |
 | onColCellBrushSelection | 批量选中刷选范围内的列头单元格，刷选过程中，显示刷选范围提示蒙层，刷选完成后，弹出 tooltip, 展示被刷选单元格信息（仅支持透视表） | (cells: [ColCell](/docs/api/basic-class/base-cell)[]) => void; |  |  |
 | onRowCellBrushSelection | 批量选中刷选范围内的行头单元格，刷选过程中，显示刷选范围提示蒙层，刷选完成后，弹出 tooltip, 展示被刷选单元格信息（仅支持透视表） | (cells: [RowCell](/docs/api/basic-class/base-cell)[]) => void; |  |  |
@@ -108,7 +108,7 @@ React 组件 的 `options` 继承于 [S2Options](/docs/api/general/S2Options) , 
 - 分页配置从 S2 的分页配置 变为了 `antd` 的分页配置，即支持对 `antd` 分页组件 的 api 透传
 
 ```ts
-import type { Pagination, S2Options } from '@antv/s2';
+import type { Pagination, S2Options } from '@tant/s2';
 import type { PaginationProps as AntdPaginationProps } from 'antd';
 
 type SheetComponentOptions = S2Options<
@@ -121,7 +121,7 @@ type SheetComponentOptions = S2Options<
 
 # Vue 表组件
 
-基于 `@antv/s2` 层封装的 `Vue 3.0` 版开箱即用的组件 `<SheetComponent />`
+基于 `@tant/s2` 层封装的 `Vue 3.0` 版开箱即用的组件 `<SheetComponent />`
 
 ## props
 
@@ -217,7 +217,7 @@ type SheetComponentOptions = S2Options<
 | mouseUp | 表格鼠标松开事件 | (event: CanvasEvent) => void |  |  |
 | selected | 单元格选中事件 | ( cells: ([Cell](/docs/api/basic-class/base-cell)[] ) => void |  |  |
 | reset | 交互状态重置事件 | (event: KeyboardEvent) => void |  |  |
-| linkFieldJump | 链接字段跳转事件 (cellData: @antv/s2 1.37.0 新增) | (data: { key: string; cellData: [Node](/docs/api/basic-class/node); record: [Data](/docs/api/general/S2DataConfig#data) }) => void |  |  |
+| linkFieldJump | 链接字段跳转事件 (cellData: @tant/s2 1.37.0 新增) | (data: { key: string; cellData: [Node](/docs/api/basic-class/node); record: [Data](/docs/api/general/S2DataConfig#data) }) => void |  |  |
 | scroll | 单元格滚动事件 （含行头和数值单元格） | ({position: [CellScrollPosition](#cellscrollposition)} ) => void; |  |  |
 | colCellBrushSelection | 批量选中刷选范围内的列头单元格，刷选过程中，显示刷选范围提示蒙层，刷选完成后，弹出 tooltip, 展示被刷选单元格信息（仅支持透视表） | (cells: ColCell[]) => void; |  |  |
 | rowCellBrushSelection | 批量选中刷选范围内的行头单元格，刷选过程中，显示刷选范围提示蒙层，刷选完成后，弹出 tooltip, 展示被刷选单元格信息（仅支持透视表） | (cells: RowCell[]) => void; |  |  |
@@ -229,7 +229,7 @@ Vue 组件 的 `options` 继承于 [S2Options](/docs/api/general/S2Options) , �
 - 分页配置从 S2 的分页配置 变为了 `antd-vue` 的分页配置，即支持对 `antd-vue` 分页组件 的 api 透传
 
 ```ts
-import type { Pagination, S2Options } from '@antv/s2';
+import type { Pagination, S2Options } from '@tant/s2';
 import type { PaginationProps } from 'ant-design-vue';
 
 type SheetComponentOptions = S2Options<

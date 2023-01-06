@@ -5,7 +5,7 @@ import {
   type SortParam,
   SpreadSheet,
   TOTAL_VALUE,
-} from '@antv/s2';
+} from '@tant/s2';
 import { Button, Cascader, Form, Layout, Modal, Radio, Select } from 'antd';
 import cx from 'classnames';
 import {
@@ -25,7 +25,7 @@ import {
   ADVANCED_SORT_PRE_CLS,
   getSortRuleOptions,
   getSortMethod,
-} from '@antv/s2-shared';
+} from '@tant/s2-shared';
 import { SortIcon } from '../icons';
 import { CustomSort } from './custom-sort';
 import './index.less';

@@ -1,4 +1,4 @@
-import { TableSheet } from '@antv/s2';
+import { TableSheet } from '@tant/s2';
 
 const s2Options = {
   width: 600,

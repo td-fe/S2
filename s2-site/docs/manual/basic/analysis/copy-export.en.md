@@ -9,7 +9,7 @@ The copied and exported content can be directly displayed in Excel, and S2 has c
 
 ### copy
 
-This function can quickly copy the content of the table to the clipboard `@antv/s2` core layer provides a basic copy function, which can be enabled by configuring `enableCopy`
+This function can quickly copy the content of the table to the clipboard `@tant/s2` core layer provides a basic copy function, which can be enabled by configuring `enableCopy`
 
 #### full copy
 
@@ -73,10 +73,10 @@ const s2Options = {
 
 ### export
 
-`@antv/s2-react` component layer provides export function
+`@tant/s2-react` component layer provides export function
 
 ```ts
-import { SheetComponent } from '@antv/s2-react'
+import { SheetComponent } from '@tant/s2-react'
 
 <SheetComponent
   dataCfg={dataCfg}

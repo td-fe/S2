@@ -3,7 +3,7 @@ import {
   EXTRA_COLUMN_FIELD,
   isUpDataValue,
   type S2DataConfig,
-} from '@antv/s2';
+} from '@tant/s2';
 import { isNil } from 'lodash';
 import type { SheetComponentOptions } from '../../src';
 

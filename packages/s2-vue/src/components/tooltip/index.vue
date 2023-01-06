@@ -1,5 +1,5 @@
 <script lang="ts">
-import { getTooltipDefaultOptions } from '@antv/s2';
+import { getTooltipDefaultOptions } from '@tant/s2';
 import { defineComponent } from 'vue';
 import type { GetInitProps } from '../../interface';
 import TooltipDetail from './components/detail.vue';
@@ -76,6 +76,6 @@ export default defineComponent({
 </template>
 
 <style lang="less">
-@import '@antv/s2/src/ui/tooltip/index.less';
-@import '@antv/s2-shared/src/styles/tooltip/index.less';
+@import '@tant/s2/src/ui/tooltip/index.less';
+@import '@tant/s2-shared/src/styles/tooltip/index.less';
 </style>

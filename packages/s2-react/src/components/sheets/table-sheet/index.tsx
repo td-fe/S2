@@ -1,4 +1,4 @@
-import type { SpreadSheet } from '@antv/s2';
+import type { SpreadSheet } from '@tant/s2';
 import React from 'react';
 import { BaseSheet } from '../base-sheet';
 import type { SheetComponentsProps } from '../interface';

@@ -10,16 +10,16 @@ available. [example](/examples/analysis/sort#advanced)
 
 ## Get started quickly
 
-Use the `SheetComponent` component of `@antv/s2-react` , and configure `advancedSortCfg` for the `header` . For
+Use the `SheetComponent` component of `@tant/s2-react` , and configure `advancedSortCfg` for the `header` . For
 configuration details,
 see [AdvancedSortCfgProps](/docs/api/components/advanced-sort#advancedsortcfgprops)
 
 ```ts
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import { SortParams } from '@antv/s2';
-import { SheetComponent } from '@antv/s2-react';
-import '@antv/s2-react/dist/style.min.css';
+import { SortParams } from '@tant/s2';
+import { SheetComponent } from '@tant/s2-react';
+import '@tant/s2-react/dist/style.min.css';
 
 const AdvancedSortDemo = () => {
   const [dataCfg, setDataCfg] = useState(s2DataConfig);

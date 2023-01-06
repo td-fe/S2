@@ -5,7 +5,7 @@ import {
   S2Event,
   SpreadSheet,
   type TargetCellInfo,
-} from '@antv/s2';
+} from '@tant/s2';
 import React from 'react';
 import type { SheetComponentsProps } from '../components';
 

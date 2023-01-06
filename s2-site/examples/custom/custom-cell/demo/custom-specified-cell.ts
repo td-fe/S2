@@ -1,5 +1,5 @@
 /* eslint-disable max-classes-per-file */
-import { PivotSheet, DataCell, ColCell } from '@antv/s2';
+import { PivotSheet, DataCell, ColCell } from '@tant/s2';
 
 /**
  * 自定义 DataCell，给特定单元格设置背景色, 文字大小, 颜色
@@ -44,7 +44,7 @@ class CustomDataCell extends DataCell {
 
     // 指定单元格
     if (
-      this.meta.id === 'root[&]四川省[&]乐山市-root[&]办公用品[&]纸张[&]number'
+      this.meta.id === 'root[&]四川省[&]乐山市[-]root[&]办公用品[&]纸张[&]number'
     ) {
       return {
         ...defaultTextStyle,

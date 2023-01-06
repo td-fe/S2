@@ -1,6 +1,6 @@
 <script lang="ts">
-import { TOOLTIP_PREFIX_CLS } from '@antv/s2';
-import type { TooltipOperatorProps as BaseTooltipOperatorProps } from '@antv/s2-shared';
+import { TOOLTIP_PREFIX_CLS } from '@tant/s2';
+import type { TooltipOperatorProps as BaseTooltipOperatorProps } from '@tant/s2-shared';
 import { Menu, Dropdown, type MenuProps } from 'ant-design-vue';
 import { defineComponent } from 'vue';
 import type { GetInitProps } from '../../../../interface';
@@ -71,5 +71,5 @@ export default defineComponent({
 </template>
 
 <style lang="less">
-@import '@antv/s2-shared/src/styles/tooltip/operator.less';
+@import '@tant/s2-shared/src/styles/tooltip/operator.less';
 </style>

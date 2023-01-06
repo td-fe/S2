@@ -17,17 +17,17 @@ eg.
 
 | Package        | Version |
 | -------------- | ------- |
-| @antv/s2       |  1.2.0  |
-| @antv/s2-react |  1.3.3  |
-| @antv/s2-vue   |   -     |
+| @tant/s2       |  1.2.0  |
+| @tant/s2-react |  1.3.3  |
+| @tant/s2-vue   |   -     |
 
 -->
 
 | Package        | Version |
 | -------------- | ------- |
-| @antv/s2       |         |
-| @antv/s2-react |         |
-| @antv/s2-vue   |         |
+| @tant/s2       |         |
+| @tant/s2-react |         |
+| @tant/s2-vue   |         |
 
 ### Sheet Type
 

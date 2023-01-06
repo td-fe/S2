@@ -1,4 +1,4 @@
-import { BaseTooltip, SpreadSheet, type TooltipShowOptions } from '@antv/s2';
+import { BaseTooltip, SpreadSheet, type TooltipShowOptions } from '@tant/s2';
 import { createVNode, render, type VNodeProps } from 'vue';
 import TooltipComponent from './index.vue';
 import type { TooltipRenderProps } from './interface';

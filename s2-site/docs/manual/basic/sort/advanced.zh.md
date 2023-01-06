@@ -9,14 +9,14 @@ order: 1
 
 ## 快速上手
 
-使用 `@antv/s2-react` 的 `SheetComponent` 组件 ，并给 `header` 配置 `advancedSortCfg` ，配置具体信息可查看 [AdvancedSortCfgProps](/docs/api/components/advanced-sort#advancedsortcfgprops)
+使用 `@tant/s2-react` 的 `SheetComponent` 组件 ，并给 `header` 配置 `advancedSortCfg` ，配置具体信息可查看 [AdvancedSortCfgProps](/docs/api/components/advanced-sort#advancedsortcfgprops)
 
 ```ts
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import { SortParams } from '@antv/s2';
-import { SheetComponent } from '@antv/s2-react';
-import '@antv/s2-react/dist/style.min.css';
+import { SortParams } from '@tant/s2';
+import { SheetComponent } from '@tant/s2-react';
+import '@tant/s2-react/dist/style.min.css';
 
 const AdvancedSortDemo = () => {
   const [dataCfg, setDataCfg] = useState(s2DataConfig);

@@ -2,7 +2,7 @@ import type {
   S2CellType,
   TooltipShowOptions,
   TooltipOperatorMenu as S2TooltipOperatorMenu,
-} from '@antv/s2';
+} from '@tant/s2';
 
 export interface TooltipRenderProps<
   T = React.ReactNode,

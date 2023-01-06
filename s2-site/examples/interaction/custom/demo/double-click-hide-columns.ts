@@ -1,4 +1,4 @@
-import { TableSheet, BaseEvent, S2Event } from '@antv/s2';
+import { TableSheet, BaseEvent, S2Event } from '@tant/s2';
 
 class HiddenInteraction extends BaseEvent {
   bindEvents() {

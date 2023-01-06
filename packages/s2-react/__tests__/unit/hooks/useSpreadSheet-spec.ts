@@ -4,7 +4,7 @@ import {
   S2Event,
   type S2DataConfig,
   type S2Options,
-} from '@antv/s2';
+} from '@tant/s2';
 import { getContainer } from 'tests/util/helpers';
 import * as mockDataConfig from 'tests/data/simple-data.json';
 import { cloneDeep } from 'lodash';

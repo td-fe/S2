@@ -1,4 +1,4 @@
-import { S2Event, type SpreadSheet } from '@antv/s2';
+import { S2Event, type SpreadSheet } from '@tant/s2';
 import { ref, type ShallowRef, watch } from 'vue';
 
 export const useLoading = (

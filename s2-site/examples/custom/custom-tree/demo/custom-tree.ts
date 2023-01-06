@@ -1,4 +1,4 @@
-import { PivotSheet } from '@antv/s2';
+import { PivotSheet } from '@tant/s2';
 
 fetch(
   'https://gw.alipayobjects.com/os/bmw-prod/af54ea12-01d7-4696-a51c-c4d5e4ede28e.json',

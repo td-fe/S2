@@ -8,7 +8,7 @@ import {
   map,
   omit,
 } from 'lodash';
-import { SheetComponent } from '@antv/s2-react';
+import { SheetComponent } from '@tant/s2-react';
 import insertCss from 'insert-css';
 
 const ID_SEPARATOR = '[&]';

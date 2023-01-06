@@ -1,4 +1,4 @@
-import { PivotSheet, TableSheet } from '@antv/s2';
+import { PivotSheet, TableSheet } from '@tant/s2';
 import { getMockSheetInstance } from 'tests/util/helpers';
 import {
   generateSwitcherFieldsCfgFromResult,

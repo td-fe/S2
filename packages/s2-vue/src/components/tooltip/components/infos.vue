@@ -1,5 +1,5 @@
 <script lang="ts">
-import { TOOLTIP_PREFIX_CLS } from '@antv/s2';
+import { TOOLTIP_PREFIX_CLS } from '@tant/s2';
 import { defineComponent } from 'vue';
 import type { GetInitProps } from '../../../interface';
 import type { TooltipInfosProps } from '../interface';

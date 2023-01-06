@@ -6,7 +6,7 @@ import React, {
   useCallback,
 } from 'react';
 import { Input } from 'antd';
-import { BaseCell, S2Event, SpreadSheet, type ViewMeta } from '@antv/s2';
+import { BaseCell, S2Event, SpreadSheet, type ViewMeta } from '@tant/s2';
 import type { Event as CanvasEvent } from '@antv/g-canvas';
 import { pick } from 'lodash';
 import { useS2Event } from '../../../../hooks';

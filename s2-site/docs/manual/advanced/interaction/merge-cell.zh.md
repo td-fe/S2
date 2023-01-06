@@ -268,7 +268,7 @@ order: 4
 </details>
 
 ```tsx
-import { S2Event } from '@antv/s2';
+import { S2Event } from '@tant/s2';
 
 const s2DataConfig = {
   fields: {

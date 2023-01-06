@@ -1,4 +1,4 @@
-import type { SheetUpdateCallback } from '@antv/s2-shared';
+import type { SheetUpdateCallback } from '@tant/s2-shared';
 import React from 'react';
 import type { PartDrillDown } from '../components';
 

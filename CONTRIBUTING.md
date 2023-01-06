@@ -57,5 +57,5 @@ npm i -g yarn
 4. `yarn core:start` 可视化的方式调试核心层测试 (基于 jest-electron)
 5. `yarn react:start` 可视化的方式调试组件层测试 (基于 jest-electron)
 6. `yarn react:playground` 启动本地的组件层demo (基于 vite)
-7. `yarn build` 构建 `@antv/s2` 和 `@antv/s2-react` 两个包, 分别输出 `umd`, `esm` 和 `lib` 目录
+7. `yarn build` 构建 `@tant/s2` 和 `@tant/s2-react` 两个包, 分别输出 `umd`, `esm` 和 `lib` 目录
 8. `yarn test` 运行单元格测试

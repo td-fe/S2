@@ -19,8 +19,8 @@ order: 1
 ```typescript
 import React from "react";
 import ReactDOM from "react-dom";
-import { SheetComponent } from "@antv/s2-react";
-import '@antv/s2-react/dist/style.min.css';
+import { SheetComponent } from "@tant/s2-react";
+import '@tant/s2-react/dist/style.min.css';
 
 // 1. 准备数据
 const data = [
@@ -88,7 +88,7 @@ ReactDOM.render(
 如果不打算依赖 `React`，可以在上面第三步之后直接调用：
 
 ```ts
-import { PivotSheet } from "@antv/s2";
+import { PivotSheet } from "@tant/s2";
 
 const container = document.getElementById('container');
 const s2 = new PivotSheet(container, dataCfg, options);

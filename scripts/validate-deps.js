@@ -1,7 +1,7 @@
-const corePkg = require('@antv/s2/package.json');
+const corePkg = require('@tant/s2/package.json');
 const reactPkg = require('../packages/s2-react/package.json');
 const vuePkg = require('../packages/s2-vue/package.json');
-const sharedPkg = require('@antv/s2-shared/package.json');
+const sharedPkg = require('@tant/s2-shared/package.json');
 const { getCurrentBranch } = require('./util');
 
 const branchList = ['alpha', 'next', 'beta'];
@@ -18,10 +18,10 @@ function bootstrap() {
 
   const versionStatus = [reactPkg, vuePkg, sharedPkg].map(
     ({ name, version, devDependencies }) => {
-      const devDepVersion = devDependencies['@antv/s2'];
+      const devDepVersion = devDependencies['@tant/s2'];
 
       console.log(
-        `📦 [${name}] version: ${version} | @antv/s2 devDependencies version: ${devDepVersion}`,
+        `📦 [${name}] version: ${version} | @tant/s2 devDependencies version: ${devDepVersion}`,
       );
 
       return {
@@ -41,7 +41,7 @@ function bootstrap() {
       .filter(({ pass }) => !pass)
       .forEach(({ name }) => {
         console.error(
-          `⛑ 请将 ${name} 下的 devDependencies @antv/s2 版本修改为: ${corePkg.version} \n`,
+          `⛑ 请将 ${name} 下的 devDependencies @tant/s2 版本修改为: ${corePkg.version} \n`,
         );
       });
     process.exit(1);

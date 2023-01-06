@@ -1,4 +1,4 @@
-import { TableSheet } from '@antv/s2';
+import { TableSheet } from '@tant/s2';
 
 fetch(
   'https://gw.alipayobjects.com/os/bmw-prod/986d48ce-cfdf-475d-980c-553762770928.json',

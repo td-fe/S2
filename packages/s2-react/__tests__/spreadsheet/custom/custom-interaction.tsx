@@ -7,7 +7,7 @@ import {
   InteractionStateName,
   getCellMeta,
   GEvent,
-} from '@antv/s2';
+} from '@tant/s2';
 
 export class CustomHover extends BaseEvent {
   public bindEvents() {

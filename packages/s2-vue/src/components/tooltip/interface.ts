@@ -1,4 +1,4 @@
-import type { S2CellType, TooltipShowOptions } from '@antv/s2';
+import type { S2CellType, TooltipShowOptions } from '@tant/s2';
 
 export interface TooltipRenderProps<T = HTMLElement | string>
   extends TooltipShowOptions<T> {

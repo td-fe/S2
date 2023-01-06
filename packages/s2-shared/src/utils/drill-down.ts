@@ -1,4 +1,4 @@
-import { S2Event } from '@antv/s2';
+import { S2Event } from '@tant/s2';
 import type {
   HeaderActionIconProps,
   PartDrillDownDataCache,
@@ -7,7 +7,7 @@ import type {
   Node,
   PivotDataSet,
   SpreadSheet,
-} from '@antv/s2';
+} from '@tant/s2';
 import { clone, filter, isEmpty } from 'lodash';
 import type { PartDrillDown, PartDrillDownInfo } from '../interface';
 

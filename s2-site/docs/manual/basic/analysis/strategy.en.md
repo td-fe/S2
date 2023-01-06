@@ -56,8 +56,8 @@ const s2Options = {
 ```ts
 import React from "react";
 import ReactDOM from "react-dom";
-import { SheetComponent } from "@antv/s2-react";
-import '@antv/s2-react/dist/style.min.css';
+import { SheetComponent } from "@tant/s2-react";
+import '@tant/s2-react/dist/style.min.css';
 
 ReactDOM.render(
   <SheetComponent
@@ -104,7 +104,7 @@ Function description: used to support custom data cell rendering of multiple ind
 
 ## Tooltips
 
-The `Tooltip` of the trend analysis table uses the [customization capabilities](/docs/manual/basic/tooltip#%E8%87%AA%E5%AE%9A%E4%B9%89-tooltip-%E5%86%85%E5%AE%B9) provided by `S2` to [customize](https://github.com/antvis/S2/blob/f35ff01400384cd2f3d84705e9daf75fc11b0149/packages/s2-react/src/components/sheets/strategy-sheet/index.tsx#L105) the`行头 (row)` ,`列头 (col)` and`数值 (data)` , and can be imported separately in the `@antv/s2-react` package
+The `Tooltip` of the trend analysis table uses the [customization capabilities](/docs/manual/basic/tooltip#%E8%87%AA%E5%AE%9A%E4%B9%89-tooltip-%E5%86%85%E5%AE%B9) provided by `S2` to [customize](https://github.com/antvis/S2/blob/f35ff01400384cd2f3d84705e9daf75fc11b0149/packages/s2-react/src/components/sheets/strategy-sheet/index.tsx#L105) the`行头 (row)` ,`列头 (col)` and`数值 (data)` , and can be imported separately in the `@tant/s2-react` package
 
 | Configuration item name   | illustrate                             | type                            | Defaults                                                         | required |
 | ------------------------- | -------------------------------------- | ------------------------------- | ---------------------------------------------------------------- | -------- |
@@ -114,7 +114,7 @@ The `Tooltip` of the trend analysis table uses the [customization capabilities](
 | showOriginalValue         | Whether to display raw values (if any) | `boolean`                       | `false`                                                          |          |
 
 ```ts
-import { StrategySheetRowTooltip, StrategySheetColTooltip, StrategySheetDataTooltip } from '@antv/s2-react'
+import { StrategySheetRowTooltip, StrategySheetColTooltip, StrategySheetDataTooltip } from '@tant/s2-react'
 
 const s2Options = {
   tooltip: {
@@ -168,7 +168,7 @@ You can use `renderDerivedValue` to customize the value of the same ring ratio, 
 
 ## Configure the mini map
 
-In the indicator trend analysis scenario, usually we want to see the global trend of the data. Trend analysis not only needs to include specific ups and downs, but it is also better to show the trend chart within a fixed period of time, or the completion status (progress) of indicators, so we provide the drawing of mini charts in the table. In order to reduce the dependence on external component libraries, we built a very lightweight mini library based on `@antv/g` drawing, which can draw bullet charts, line charts and histograms in cells with minimal performance overhead.
+In the indicator trend analysis scenario, usually we want to see the global trend of the data. Trend analysis not only needs to include specific ups and downs, but it is also better to show the trend chart within a fixed period of time, or the completion status (progress) of indicators, so we provide the drawing of mini charts in the table. In order to reduce the dependence on external component libraries, we built a very lightweight mini library based on `@tant/g` drawing, which can draw bullet charts, line charts and histograms in cells with minimal performance overhead.
 
 <playground data-mdast="html" path="react-component/sheet/demo/strategy-mini-chart.tsx" rid="container2"></playground>
 

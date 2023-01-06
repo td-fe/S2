@@ -220,7 +220,7 @@ s2.render(false);
 [自选色板颜色](#自选色板颜色) 的调配自由度大，但每个颜色都需要单独确定，整体过程较为复杂。为满足用户的一般主题诉求，S2 还提供了根据主题色生成色板的功能。
 
 ```js
-import { getPalette, generatePalette, PivotSheet } from '@antv/s2';
+import { getPalette, generatePalette, PivotSheet } from '@tant/s2';
 
 const s2 = new PivotSheet(container, s2DataConfig, s2Options);
 

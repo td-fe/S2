@@ -44,7 +44,7 @@ Through these events, permutations and combinations, to achieve commonly used in
 [View full event list](/docs/api/general/S2Event)
 
 ```ts
-import { ColCell, DataCell, PivotSheet, RowCell, S2Event } from '@antv/s2';
+import { ColCell, DataCell, PivotSheet, RowCell, S2Event } from '@tant/s2';
 
 const s2 = new PivotSheet(container, s2DataConfig, s2Options);
 
@@ -75,11 +75,11 @@ s2.on(S2Event.GLOBAL_KEYBOARD_DOWN, (event) => {
 })
 ```
 
-If you are using `@antv/s2-react` or `@antv/s2-vue` , you can get the [S2 table instance](/docs/manual/advanced/get-instance/) and listen to the required events, **which is exactly the same as** `@antv/s2`
+If you are using `@tant/s2-react` or `@tant/s2-vue` , you can get the [S2 table instance](/docs/manual/advanced/get-instance/) and listen to the required events, **which is exactly the same as** `@tant/s2`
 
 ```ts
-import { S2Event, SpreadSheet } from '@antv/s2'
-import { SheetComponent } from '@antv/s2-react';
+import { S2Event, SpreadSheet } from '@tant/s2'
+import { SheetComponent } from '@tant/s2-react';
 
 function App() {
   const s2Ref = React.useRef<SpreadSheet>();
@@ -97,7 +97,7 @@ function App() {
 At the same time, the `React` and `Vue` versions provide the insinuation of events, and you can also use the `onDataCellClick` and `@dataCellClick` methods that are more in line with your habits ( [see all APIs](/docs/api/components/sheet-component) )
 
 ```ts
-import { SheetComponent } from '@antv/s2-react';
+import { SheetComponent } from '@tant/s2-react';
 
 const onDataCellClick = () => {}
 
@@ -105,7 +105,7 @@ const onDataCellClick = () => {}
 ```
 
 ```ts
-import { SheetComponent } from '@antv/s2-vue';
+import { SheetComponent } from '@tant/s2-vue';
 
 const onDataCellClick = () => {}
 

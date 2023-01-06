@@ -85,7 +85,7 @@ export default defineConfig({
         globals: {
           react: 'React',
           'react-dom': 'ReactDOM',
-          '@antv/s2': 'S2',
+          '@tant/s2': 'S2',
         },
       },
     },

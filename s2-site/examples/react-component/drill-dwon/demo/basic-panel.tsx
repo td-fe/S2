@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { DrillDown } from '@antv/s2-react';
+import { DrillDown } from '@tant/s2-react';
 
 const disabledFields = ['name'];
 const clearButtonText = '清除';

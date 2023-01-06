@@ -1,4 +1,4 @@
-import type { LocaleType } from '@antv/s2';
+import type { LocaleType } from '@tant/s2';
 import { EN_US } from './en_US';
 import { ZH_CN } from './zh_CN';
 

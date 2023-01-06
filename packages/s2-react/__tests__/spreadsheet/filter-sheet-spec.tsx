@@ -9,7 +9,7 @@ import {
   type S2Options,
   SpreadSheet,
   TableSheet,
-} from '@antv/s2';
+} from '@tant/s2';
 import { getContainer, getMockData } from '../util/helpers';
 import { SheetComponent } from '@/components';
 

@@ -3,7 +3,7 @@ import {
   type EmitterType,
   type Pagination,
   type SpreadSheet,
-} from '@antv/s2';
+} from '@tant/s2';
 import { computed, ref, watch, type Ref } from 'vue';
 import { isEmpty } from 'lodash';
 import type { BaseSheetProps } from '../utils/initPropAndEmits';

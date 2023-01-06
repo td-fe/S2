@@ -5,7 +5,7 @@ import {
   S2_PREFIX_CLS,
   SpreadSheet,
   i18n,
-} from '@antv/s2';
+} from '@tant/s2';
 import { Dropdown, Menu, message, type DropDownProps } from 'antd';
 import cx from 'classnames';
 import React from 'react';

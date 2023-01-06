@@ -1,4 +1,4 @@
-import { i18n } from '@antv/s2';
+import { i18n } from '@tant/s2';
 
 export const getSortMethod = () => [
   {

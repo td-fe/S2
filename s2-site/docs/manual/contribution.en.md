@@ -51,6 +51,6 @@ npm i -g yarn
 5. `yarn react:start` Debug React version unit tests in a visual way (based on jest-electron)
 6. `yarn react:playground` Start a local interactive React version Demo (vite based)
 7. `yarn vue:playground` Start a local interactive Vue3 version Demo (based on vite)
-8. `yarn build` Construct `@antv/s2`,`@antv/s2-react` and `@antv/s2-vue` 3 packets, output separately`umd`,`esm` and `lib` Table of contents
+8. `yarn build` Construct `@tant/s2`,`@tant/s2-react` and `@tant/s2-vue` 3 packets, output separately`umd`,`esm` and `lib` Table of contents
 9. `yarn test` run unit tests
 10. `yarn lint` Static code detection

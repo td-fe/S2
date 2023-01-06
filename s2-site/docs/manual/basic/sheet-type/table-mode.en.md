@@ -22,8 +22,8 @@ Schedules and pivot tables share [basic interactions](/manual/advanced/interacti
 ```typescript
 import React from "react";
 import ReactDOM from "react-dom";
-import { SheetComponent } from '@antv/s2-react';
-import '@antv/s2-react/dist/style.min.css';
+import { SheetComponent } from '@tant/s2-react';
+import '@tant/s2-react/dist/style.min.css';
 
 // 1. 准备数据
 const data = [
@@ -90,7 +90,7 @@ ReactDOM.render(
 If you don't plan to rely on React, you can call it directly after the third step above:
 
 ```ts
-import { TableSheet } from "@antv/s2";
+import { TableSheet } from "@tant/s2";
 
 const container = document.getElementById('container');
 const s2 = new TableSheet(container, dataCfg, options);

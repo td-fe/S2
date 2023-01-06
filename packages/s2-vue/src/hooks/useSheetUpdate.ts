@@ -1,4 +1,4 @@
-import type { S2Options, SpreadSheet } from '@antv/s2';
+import type { S2Options, SpreadSheet } from '@tant/s2';
 import { reactive, watch, type ShallowRef, isProxy } from 'vue';
 import type { BaseSheetProps } from '../utils/initPropAndEmits';
 

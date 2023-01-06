@@ -1,4 +1,4 @@
-import { BaseTooltip, SpreadSheet } from '@antv/s2';
+import { BaseTooltip, SpreadSheet } from '@tant/s2';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import type { TooltipRenderProps } from './interface';

@@ -5,10 +5,10 @@ order: 8
 
 ## 原始导出方法
 
-组件层的复制，导出等功能，基于核心层 `@antv/s2` 透出的一系列工具方法封装，可以根据实际业务，基于工具方法自行封装
+组件层的复制，导出等功能，基于核心层 `@tant/s2` 透出的一系列工具方法封装，可以根据实际业务，基于工具方法自行封装
 
 ```tsx
-import { copyData, copyToClipboard, download } from '@antv/s2'
+import { copyData, copyToClipboard, download } from '@tant/s2'
 
 // 拿到复制数据
 const data = copyData(spreadsheet, '\t', false)

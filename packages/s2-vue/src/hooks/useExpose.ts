@@ -1,5 +1,5 @@
 import { shallowRef } from 'vue';
-import type { SpreadSheet } from '@antv/s2';
+import type { SpreadSheet } from '@tant/s2';
 
 export interface SheetExpose {
   instance: SpreadSheet | undefined;

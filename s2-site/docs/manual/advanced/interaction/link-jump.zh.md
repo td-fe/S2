@@ -30,7 +30,7 @@ const s2Options = {
 使用 `S2Event.GLOBAL_LINK_FIELD_JUMP` 监听链接点击
 
 ```ts
-import { S2Event } from '@antv/s2'
+import { S2Event } from '@tant/s2'
 
 s2.on(S2Event.GLOBAL_LINK_FIELD_JUMP, (data) => {
   const { key, record } = data;
@@ -43,7 +43,7 @@ s2.on(S2Event.GLOBAL_LINK_FIELD_JUMP, (data) => {
 支持将行头 `rows` 标记为链接样式，`columns` 和 `values` 无效
 
 ```ts
-import { S2Event } from '@antv/s2'
+import { S2Event } from '@tant/s2'
 
 const s2DataConfig = {
   fields: {
@@ -80,7 +80,7 @@ s2.render();
 支持将行头 `columns` 标记为链接样式
 
 ```ts
-import { S2Event } from '@antv/s2';
+import { S2Event } from '@tant/s2';
 
 const s2DataConfig = {
   fields: {

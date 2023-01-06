@@ -3,7 +3,7 @@ import {
   type TooltipDetailListItem,
   type TooltipDetailProps,
   TOOLTIP_PREFIX_CLS,
-} from '@antv/s2';
+} from '@tant/s2';
 import { TooltipIcon } from './icon';
 
 export const TooltipDetail: React.FC<TooltipDetailProps> = (

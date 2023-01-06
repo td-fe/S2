@@ -1,4 +1,4 @@
-import { PivotSheet, DataCell } from '@antv/s2';
+import { PivotSheet, DataCell } from '@tant/s2';
 
 /**
  * 自定义 DataCell，给数值单元格添加背景图

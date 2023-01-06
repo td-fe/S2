@@ -1,4 +1,4 @@
-import { PivotSheet, RowCell } from '@antv/s2';
+import { PivotSheet, RowCell } from '@tant/s2';
 
 /**
  * 自定义 RowCell，给行头添加背景图

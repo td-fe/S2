@@ -60,6 +60,6 @@ npm i -g yarn
 5. `yarn react:start` 可用可视化的方式调试 React 版本的单测 （基于 jest-electron)
 6. `yarn react:playground` 启动本地的交互式 React 版本 Demo （基于 vite)
 7. `yarn vue:playground` 启动本地的交互式 Vue3 版本 Demo （基于 vite)
-8. `yarn build` 构建 `@antv/s2`, `@antv/s2-react` 和 `@antv/s2-vue` 3 个包，分别输出 `umd`, `esm` 和 `lib` 目录
+8. `yarn build` 构建 `@tant/s2`, `@tant/s2-react` 和 `@tant/s2-vue` 3 个包，分别输出 `umd`, `esm` 和 `lib` 目录
 9. `yarn test` 运行单元测试
 10. `yarn lint` 静态代码检测

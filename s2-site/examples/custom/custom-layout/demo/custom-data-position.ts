@@ -1,4 +1,4 @@
-import { PivotSheet, VALUE_FIELD, EXTRA_FIELD } from '@antv/s2';
+import { PivotSheet, VALUE_FIELD, EXTRA_FIELD } from '@tant/s2';
 
 fetch(
   'https://gw.alipayobjects.com/os/bmw-prod/cd9814d0-6dfa-42a6-8455-5a6bd0ff93ca.json',

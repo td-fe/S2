@@ -10,7 +10,7 @@ redirect_from:
 如果使用的是 `s2-react` 或 `s2-vue` 表组件，则已对事件进行封装，无需额外监听，使用其回调函数即可。 [详情](/docs/api/components/sheet-component)
 
 ```ts
-import { S2Event } from '@antv/s2'
+import { S2Event } from '@tant/s2'
 
 s2.on(S2Event.ROW_CELL_CLICK, (event) => {
   console.log('rowCellClick', event)

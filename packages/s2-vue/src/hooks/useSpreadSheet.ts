@@ -3,7 +3,7 @@ import {
   TableSheet,
   type S2Options,
   type SpreadSheet,
-} from '@antv/s2';
+} from '@tant/s2';
 import { onBeforeUnmount, onMounted, ref, shallowRef, toRaw } from 'vue';
 import type { BaseSheetInitEmits, EmitFn } from '../interface';
 import type { BaseSheetProps } from '../utils/initPropAndEmits';

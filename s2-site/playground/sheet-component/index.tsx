@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
-import { SheetComponent, SheetComponentOptions } from '@antv/s2-react';
+import { SheetComponent, SheetComponentOptions } from '@tant/s2-react';
 import {
   type S2DataConfig,
   type ThemeCfg,
   getPalette,
   generatePalette,
-} from '@antv/s2';
-import type { SheetType, Adaptive } from '@antv/s2-shared';
-import '@antv/s2-react/dist/style.min.css';
+} from '@tant/s2';
+import type { SheetType, Adaptive } from '@tant/s2-shared';
+import '@tant/s2-react/dist/style.min.css';
 import { concat, merge } from 'lodash';
 import { sheetDataCfg, subTotalsDimensions } from './config';
 import './index.less';

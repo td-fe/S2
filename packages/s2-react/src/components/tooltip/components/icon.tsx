@@ -1,4 +1,4 @@
-import { getIcon } from '@antv/s2';
+import { getIcon } from '@tant/s2';
 import React from 'react';
 import { HtmlIcon } from '../../../common/icons';
 import { ReactElement } from '../../../common/react-element';

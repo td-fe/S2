@@ -1,18 +1,18 @@
-<h1 align="center">@antv/s2-vue</h1>
+<h1 align="center">@tant/s2-vue</h1>
 
 <div align="center">
 
 数据驱动的多维分析表格 (Vue3 版本）。
 
 <p>
- <a href="https://www.npmjs.com/package/@antv/s2-vue" title="npm">
-    <img src="https://img.shields.io/npm/dm/@antv/s2-vue.svg" alt="npm"/>
+ <a href="https://www.npmjs.com/package/@tant/s2-vue" title="npm">
+    <img src="https://img.shields.io/npm/dm/@tant/s2-vue.svg" alt="npm"/>
   </a>
-  <a href="https://www.npmjs.com/package/@antv/s2-vue" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/@antv/s2-vue/latest.svg" alt="latest version">
+  <a href="https://www.npmjs.com/package/@tant/s2-vue" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/@tant/s2-vue/latest.svg" alt="latest version">
   </a>
-  <a href="https://www.npmjs.com/package/@antv/s2-vue" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/@antv/s2-vue/next.svg" alt="next version">
+  <a href="https://www.npmjs.com/package/@tant/s2-vue" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/@tant/s2-vue/next.svg" alt="next version">
   </a>
    <a href="https://github.com/antvis/S2/actions/workflows/test.yml" target="_blank">
     <img src="https://github.com/antvis/S2/actions/workflows/test.yml/badge.svg" alt="ci test status"/>
@@ -24,8 +24,8 @@
 ## 📦 安装
 
 ```bash
-$ npm install @antv/s2-vue
-# yarn add @antv/s2-vue
+$ npm install @tant/s2-vue
+# yarn add @tant/s2-vue
 ```
 
 ## 🔨 使用
@@ -312,10 +312,10 @@ const rawOptions: S2Options = {
 ```ts
 // App.vue
 <script lang="ts">
-import type { S2DataConfig, S2Options } from '@antv/s2';
-import { SheetComponent } from '@antv/s2-vue';
+import type { S2DataConfig, S2Options } from '@tant/s2';
+import { SheetComponent } from '@tant/s2-vue';
 import { defineComponent, onMounted, reactive, shallowRef } from 'vue';
-import "@antv/s2-vue/dist/style.min.css";
+import "@tant/s2-vue/dist/style.min.css";
 
 export default defineComponent({
   setup() {

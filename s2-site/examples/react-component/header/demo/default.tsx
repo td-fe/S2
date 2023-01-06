@@ -6,9 +6,9 @@ import {
   SheetComponent,
   SheetComponentOptions,
   SheetComponentsProps,
-} from '@antv/s2-react';
-import { S2DataConfig, SortParams } from '@antv/s2';
-import '@antv/s2-react/dist/style.min.css';
+} from '@tant/s2-react';
+import { S2DataConfig, SortParams } from '@tant/s2';
+import '@tant/s2-react/dist/style.min.css';
 
 fetch(
   'https://gw.alipayobjects.com/os/bmw-prod/cd9814d0-6dfa-42a6-8455-5a6bd0ff93ca.json',

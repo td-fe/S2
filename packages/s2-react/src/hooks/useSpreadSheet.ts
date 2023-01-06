@@ -1,5 +1,5 @@
-import { PivotSheet, SpreadSheet, TableSheet } from '@antv/s2';
-import type { S2DataConfig, S2Options, ThemeCfg } from '@antv/s2';
+import { PivotSheet, SpreadSheet, TableSheet } from '@tant/s2';
+import type { S2DataConfig, S2Options, ThemeCfg } from '@tant/s2';
 import { useUpdate, useUpdateEffect } from 'ahooks';
 import { identity } from 'lodash';
 import React from 'react';

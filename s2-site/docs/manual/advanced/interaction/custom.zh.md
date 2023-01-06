@@ -12,7 +12,7 @@ order: 1
 继承 `BaseEvent` 拿到当前表格实例 `this.spreadsheet`, 实现 `bindEvents` 方法，结合 `this.spreadsheet` 提供的 [一系列方法](/docs/api/basic-class/spreadsheet)，自定义交互，最后表格初始化时会注册默认交互，和自定义交互。
 
 ```ts
-import { BaseEvent } from '@antv/s2';
+import { BaseEvent } from '@tant/s2';
 
 // 继承 BaseEvent, 可以拿到 this.spreadsheet
 class HiddenInteraction extends BaseEvent {
@@ -24,7 +24,7 @@ class HiddenInteraction extends BaseEvent {
 监听 `列头` 双击事件：`S2Event.COL_CELL_DOUBLE_CLICK`
 
 ```ts
-import { BaseEvent, S2Event } from '@antv/s2';
+import { BaseEvent, S2Event } from '@tant/s2';
 
 class HiddenInteraction extends BaseEvent {
   bindEvents() {
@@ -45,7 +45,7 @@ class HiddenInteraction extends BaseEvent {
 ## 2. 注册自定义交互
 
 ```ts
-import { TableSheet } from '@antv/s2';
+import { TableSheet } from '@tant/s2';
 
 const s2Options = {
   width: 600,
@@ -70,7 +70,7 @@ s2.render();
 当然，你可以注册任意数量的自定义交互，比如你不想让用户在表格右键时出现 浏览器默认的菜单
 
 ```ts
-import { TableSheet } from '@antv/s2';
+import { TableSheet } from '@tant/s2';
 
 class ContextMenuInteraction extends BaseEvent {
   bindEvents() {

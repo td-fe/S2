@@ -1,4 +1,4 @@
-import type { ViewMeta } from '@antv/s2';
+import type { ViewMeta } from '@tant/s2';
 import { find } from 'lodash';
 
 export const getLeafColNode = (meta: ViewMeta) => {

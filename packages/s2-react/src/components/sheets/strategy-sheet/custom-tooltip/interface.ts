@@ -4,7 +4,7 @@ import type {
   SimpleDataItem,
   TooltipShowOptions,
   ViewMeta,
-} from '@antv/s2';
+} from '@tant/s2';
 
 export interface CustomTooltipProps {
   cell: S2CellType<Node | ViewMeta>;

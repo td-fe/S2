@@ -9,7 +9,7 @@ import {
   type S2Options,
   SpreadSheet,
   PivotSheet,
-} from '@antv/s2';
+} from '@tant/s2';
 import { getContainer } from '../util/helpers';
 import {
   data1,

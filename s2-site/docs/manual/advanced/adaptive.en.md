@@ -28,7 +28,7 @@ const s2Options = {
 If you want the table to fill the entire parent container, you can listen to the `resize` event of the window, or use [ResizeObserver to](https://developer.mozilla.org/zh-CN/docs/Web/API/ResizeObserver) monitor the container size change, and then update the table width and height:
 
 ```ts
-import { PivotSheet } from '@antv/s2'
+import { PivotSheet } from '@tant/s2'
 import { debounce } from 'lodash'
 
 const s2 = new PivotSheet(...)
@@ -53,7 +53,7 @@ new ResizeObserver(([entry] = []) => {
 If the size of the container itself changes instead of the window, you can use [ResizeObserver](https://developer.mozilla.org/zh-CN/docs/Web/API/ResizeObserver) to get the real-time container size:
 
 ```ts
-import { PivotSheet } from '@antv/s2'
+import { PivotSheet } from '@tant/s2'
 import { debounce } from 'lodash'
 
 const s2 = new PivotSheet(...)
@@ -82,7 +82,7 @@ resizeObserver.observe(parent);
 
 ### React components
 
-If you use `@antv/s2-react` , you can configure the `adaptive` parameter to enable self-adaptation.
+If you use `@tant/s2-react` , you can configure the `adaptive` parameter to enable self-adaptation.
 
 #### Adaptive parameter type
 
@@ -103,7 +103,7 @@ When configured as a `boolean` value:
 * false: width and height are subject to the settings of options
 
 ```tsx
-import { SheetComponent } from '@antv/s2-react';
+import { SheetComponent } from '@tant/s2-react';
 
 <SheetComponent adaptive={true} />
 <SheetComponent adaptive={false} />
@@ -112,7 +112,7 @@ import { SheetComponent } from '@antv/s2-react';
 It can also be configured to only enable adaptive width or height. The above configuration is equivalent to:
 
 ```tsx
-import { SheetComponent } from '@antv/s2-react';
+import { SheetComponent } from '@tant/s2-react';
 
 <SheetComponent adaptive={{ width: true, height: true }} />
 <SheetComponent adaptive={{ width: false, height: false }} />
@@ -121,7 +121,7 @@ import { SheetComponent } from '@antv/s2-react';
 You can also customize the adaptive container:
 
 ```tsx
-import { SheetComponent } from '@antv/s2-react';
+import { SheetComponent } from '@tant/s2-react';
 
 const adaptiveRef = React.useRef<HTMLDivElement>();
 const containerId = 'containerId';
@@ -147,7 +147,7 @@ const containerId = 'containerId';
 
 ### Vue components
 
-If you use `@antv/s2-vue` , you can configure the `adaptive` parameter to enable self-adaptation. The type and usage of the `adaptive` parameter are basically the same as `@antv/s2-react` .
+If you use `@tant/s2-vue` , you can configure the `adaptive` parameter to enable self-adaptation. The type and usage of the `adaptive` parameter are basically the same as `@tant/s2-react` .
 
 Can be configured as a `boolean` value:
 

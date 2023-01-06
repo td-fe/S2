@@ -55,7 +55,7 @@ const plugins = [
       stylus: null,
       less: { javascriptEnabled: true },
     },
-    extract: `style${isUmdFormat ? '.min' : ''}.css`,
+    // extract: `style${isUmdFormat ? '.min' : ''}.css`,
   }),
 ];
 
@@ -64,7 +64,7 @@ if (enableAnalysis) {
 }
 
 if (isUmdFormat) {
-  output.file = 'dist/index.min.js';
+  output.file = `dist/tantv_s2_${Date.now()}.min.js`;
   plugins.push(terser());
 } else {
   output.dir = outDir;

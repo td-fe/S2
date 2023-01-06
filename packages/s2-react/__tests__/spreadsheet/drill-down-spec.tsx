@@ -8,7 +8,7 @@ import {
   RowCell,
   S2Options,
   SpreadSheet,
-} from '@antv/s2';
+} from '@tant/s2';
 import { get, noop } from 'lodash';
 import * as mockDataConfig from '../data/simple-data.json';
 import { type SheetComponentsProps, SheetComponent } from '../../src';
