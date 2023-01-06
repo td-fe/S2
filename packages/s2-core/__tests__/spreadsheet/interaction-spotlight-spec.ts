@@ -25,7 +25,7 @@ describe('Interaction SelectedCellsSpotlight Tests', () => {
   });
 
   test('should display tooltip when data cell clicked', () => {
-    const dataCellId = `root[&]浙江[&]杭州-root[&]笔[&]price`;
+    const dataCellId = `root[&]浙江[&]杭州[-]root[&]笔[&]price`;
 
     const selectedDataCell = s2.interaction
       .getPanelGroupAllDataCells()
