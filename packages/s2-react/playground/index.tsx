@@ -1434,38 +1434,16 @@ function MainLayout() {
                 },
                 meta: [
                   {
-                    code: '#active_time@~@1',
                     field: '#active_time@~@1',
                     name: '#active_time',
-                    useAutoWidth: true,
-                    align: 'left',
-                    sort: true,
-                    dType: 'datetime',
-                    isQuota: false,
-                    formatter: (...rest) => {
-                      console.log(rest, '===');
-                      return rest[0];
-                    },
                   },
                   {
-                    code: 'channel@~@1',
                     field: 'channel@~@1',
                     name: 'channel',
-                    useAutoWidth: true,
-                    align: 'left',
-                    sort: true,
-                    dType: 'string',
-                    isQuota: false,
                   },
                   {
-                    code: 'temperature@~@1',
                     field: 'temperature@~@1',
                     name: 'temperature',
-                    useAutoWidth: true,
-                    align: 'right',
-                    sort: true,
-                    dType: 'number',
-                    isQuota: true,
                   },
                 ],
                 sheetType: 'pivot',
