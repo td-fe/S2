@@ -131,7 +131,7 @@ export class EventController {
   private onKeyboardCopy(event: KeyboardEvent) {
     // windows and macos copy
     if (
-      this.isCanvasEffect &&
+      // this.isCanvasEffect &&
       this.spreadsheet.options.interaction.enableCopy &&
       // todo: 在copy header 时有问题
       keyEqualTo(event.key, InteractionKeyboardKey.COPY) &&
