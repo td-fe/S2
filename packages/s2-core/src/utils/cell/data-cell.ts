@@ -1,4 +1,4 @@
-import { isEqual, forEach, uniqueId } from 'lodash';
+import { isEqual, forEach } from 'lodash';
 import type { DataCell } from '../../cell';
 import type { SpreadSheet } from '../../sheet-type';
 import {
@@ -38,7 +38,7 @@ export const includeCell = (cells: CellMeta[], currentCell: S2CellType) => {
 };
 
 export const getDataCellId = (rowIndex: string, colIndex: string) => {
-  return `${rowIndex}${DATA_CELL_ID_CONNECTOR}${colIndex}${DATA_CELL_ID_CONNECTOR}${uniqueId()}`;
+  return `${rowIndex}${DATA_CELL_ID_CONNECTOR}${colIndex}`;
 };
 
 export const shouldUpdateBySelectedCellsHighlight = (s2: SpreadSheet) => {

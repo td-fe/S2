@@ -1,5 +1,5 @@
 import type { Event } from '@antv/g-canvas';
-import { inRange, isNil, range, uniqueId } from 'lodash';
+import { inRange, isNil, range } from 'lodash';
 import { DataCell } from '../cell';
 import {
   CellTypes,
@@ -97,7 +97,7 @@ export class RangeSelection extends BaseEvent implements BaseEventImplement {
               ? String(row)
               : this.spreadsheet.facet.layoutResult.rowLeafNodes[row].id;
           return {
-            id: `${cellIdPrefix}${DATA_CELL_ID_CONNECTOR}${cellIdSuffix}${DATA_CELL_ID_CONNECTOR}${uniqueId()}`,
+            id: `${cellIdPrefix}${DATA_CELL_ID_CONNECTOR}${cellIdSuffix}`,
             colIndex: col,
             rowIndex: row,
             type: cell.cellType,
@@ -204,7 +204,7 @@ export class RangeSelection extends BaseEvent implements BaseEventImplement {
     return range(startIndex, endIndex + 1).map((row) => {
       const cellIdPrefix = String(row);
       return {
-        id: `${cellIdPrefix}${DATA_CELL_ID_CONNECTOR}${cellIdSufFix}${DATA_CELL_ID_CONNECTOR}${uniqueId()}`,
+        id: `${cellIdPrefix}${DATA_CELL_ID_CONNECTOR}${cellIdSufFix}`,
         colIndex: 0,
         rowIndex: row,
         type: cell.cellType,
