@@ -23,7 +23,7 @@ import {
   Checkbox,
   message,
 } from 'antd';
-import { get, uniq } from 'lodash';
+import { get, uniq, uniqueId } from 'lodash';
 import '@tant/s2-react/dist/style.min.css';
 import 'antd/es/checkbox/style/index.css';
 
@@ -225,7 +225,9 @@ const scrollToCell = (rowIndex, colIndex, options, facet, interaction) => {
       {
         colIndex,
         rowIndex,
-        id: `${String(rowIndex)}${DATA_CELL_ID_CONNECTOR}${colsNodes[colIndex + 1].id}`,
+        id: `${String(rowIndex)}${DATA_CELL_ID_CONNECTOR}${
+          colsNodes[colIndex + 1].id
+        }${DATA_CELL_ID_CONNECTOR}${uniqueId()}`,
         type: CellTypes.DATA_CELL,
       },
     ],

@@ -1,5 +1,5 @@
 import type { Event as CanvasEvent } from '@antv/g-canvas';
-import { isBoolean, isEmpty, range } from 'lodash';
+import { isBoolean, isEmpty, range, uniqueId } from 'lodash';
 import { DataCell } from '../../cell/data-cell';
 import { InterceptType, S2Event } from '../../common/constant';
 import {
@@ -87,7 +87,7 @@ export class DataCellBrushSelection extends BaseBrushSelection {
         metas.push({
           colIndex,
           rowIndex,
-          id: `${rowId}${DATA_CELL_ID_CONNECTOR}${colId}`,
+          id: `${rowId}${DATA_CELL_ID_CONNECTOR}${colId}${DATA_CELL_ID_CONNECTOR}${uniqueId()}`,
           type: CellTypes.DATA_CELL,
           rowId,
           colId,

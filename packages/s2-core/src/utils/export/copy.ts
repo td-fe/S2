@@ -10,6 +10,7 @@ import {
   orderBy,
   reduce,
   repeat,
+  uniqueId,
   zip,
 } from 'lodash';
 import {
@@ -554,7 +555,9 @@ export function getCopyData(
     }, []);
     const rowNodes = rowIndexes.map((index) => {
       return {
-        id: `${index}${DATA_CELL_ID_CONNECTOR}${spreadsheet.facet.layoutResult.colLeafNodes[0].id}`,
+        id: `${index}${DATA_CELL_ID_CONNECTOR}${
+          spreadsheet.facet.layoutResult.colLeafNodes[0].id
+        }${DATA_CELL_ID_CONNECTOR}${uniqueId()}`,
         colIndex: 0,
         rowIndex: index,
         type: CellTypes.ROW_CELL,

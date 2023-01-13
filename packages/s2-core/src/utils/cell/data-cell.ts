@@ -1,4 +1,4 @@
-import { isEqual, forEach, isBoolean } from 'lodash';
+import { isEqual, forEach, uniqueId } from 'lodash';
 import type { DataCell } from '../../cell';
 import type { SpreadSheet } from '../../sheet-type';
 import {
@@ -6,7 +6,6 @@ import {
   VALUE_FIELD,
   InteractionStateName,
   CellTypes,
-  type InteractionCellSelectedHighlightType,
   DATA_CELL_ID_CONNECTOR,
 } from '../../common/constant';
 import type {
@@ -39,7 +38,7 @@ export const includeCell = (cells: CellMeta[], currentCell: S2CellType) => {
 };
 
 export const getDataCellId = (rowIndex: string, colIndex: string) => {
-  return `${rowIndex}${DATA_CELL_ID_CONNECTOR}${colIndex}`;
+  return `${rowIndex}${DATA_CELL_ID_CONNECTOR}${colIndex}${DATA_CELL_ID_CONNECTOR}${uniqueId()}`;
 };
 
 export const shouldUpdateBySelectedCellsHighlight = (s2: SpreadSheet) => {
