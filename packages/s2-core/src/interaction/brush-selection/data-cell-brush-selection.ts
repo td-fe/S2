@@ -87,7 +87,9 @@ export class DataCellBrushSelection extends BaseBrushSelection {
         metas.push({
           colIndex,
           rowIndex,
-          id: `${rowId}${DATA_CELL_ID_CONNECTOR}${colId}`,
+          id: `${rowId}${DATA_CELL_ID_CONNECTOR}${colId}${DATA_CELL_ID_CONNECTOR}${
+            rowIndex + '__' + colIndex
+          }`,
           type: CellTypes.DATA_CELL,
           rowId,
           colId,

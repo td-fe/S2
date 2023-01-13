@@ -259,7 +259,7 @@ export class TableFacet extends BaseFacet {
         rowId: String(rowIndex),
         valueField: col.field,
         fieldValue: data,
-        id: getDataCellId(String(rowIndex), col.id),
+        id: getDataCellId(String(rowIndex), col.id, rowIndex, colIndex),
       } as ViewMeta;
     };
 

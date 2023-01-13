@@ -227,7 +227,7 @@ const scrollToCell = (rowIndex, colIndex, options, facet, interaction) => {
         rowIndex,
         id: `${String(rowIndex)}${DATA_CELL_ID_CONNECTOR}${
           colsNodes[colIndex + 1].id
-        }`,
+        }${DATA_CELL_ID_CONNECTOR}${rowIndex + '__' + colIndex}`,
         type: CellTypes.DATA_CELL,
       },
     ],

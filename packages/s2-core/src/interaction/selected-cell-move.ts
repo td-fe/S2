@@ -134,7 +134,7 @@ export class SelectedCellMove extends BaseEvent implements BaseEventImplement {
     return {
       rowIndex: row,
       colIndex: col,
-      id: getDataCellId(rowId, colId),
+      id: getDataCellId(rowId, colId, row, col),
       type: CellTypes.DATA_CELL,
     };
   }

@@ -37,8 +37,15 @@ export const includeCell = (cells: CellMeta[], currentCell: S2CellType) => {
   });
 };
 
-export const getDataCellId = (rowIndex: string, colIndex: string) => {
-  return `${rowIndex}${DATA_CELL_ID_CONNECTOR}${colIndex}`;
+export const getDataCellId = (
+  rowId: string,
+  colId: string,
+  rowIndex: string | number,
+  colIndex: string | number,
+) => {
+  return `${rowId}${DATA_CELL_ID_CONNECTOR}${colId}${DATA_CELL_ID_CONNECTOR}${
+    rowIndex + '__' + colIndex
+  }`;
 };
 
 export const shouldUpdateBySelectedCellsHighlight = (s2: SpreadSheet) => {

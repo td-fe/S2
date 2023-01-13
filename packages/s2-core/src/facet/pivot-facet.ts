@@ -126,7 +126,7 @@ export class PivotFacet extends BaseFacet {
         colQuery,
         rowId: row.id,
         colId: col.id,
-        id: getDataCellId(row.id, col.id),
+        id: getDataCellId(row.id, col.id, i, j),
       } as ViewMeta;
     };
 

@@ -68,8 +68,9 @@ export function getRowCellForSelectedCell(
     if (!options.showSeriesNumber) {
       return [];
     }
-    const colId = facet.layoutResult.colLeafNodes[0].id;
-    const id = getDataCellId(String(meta.rowIndex), colId);
+    const { colId, colIndex } = facet.layoutResult.colLeafNodes[0];
+    const rowIndex = String(meta.rowIndex);
+    const id = getDataCellId(rowIndex, colId, rowIndex, colIndex);
     const result: TableSeriesCell[] = [];
     const rowCell = interaction
       .getAllCells()
@@ -158,8 +159,18 @@ export const getInteractionCellsBySelectedCells = (
     [],
   );
 
+  const uniqIds = [];
   // headerSelectedCell 会有重复的 cell，在这里统一去重
-  return uniqBy([...selectedCells, ...headerSelectedCell], 'id');
+  return [...selectedCells, ...headerSelectedCell].reduce((result, cell) => {
+    const { id, colIndex, rowIndex } = cell;
+    const idx = `${id}__${rowIndex}__${colIndex}`;
+    if (!uniqIds.includes(idx)) {
+      result.push(cell);
+      uniqIds.push(idx);
+    }
+
+    return result;
+  }, []);
 };
 
 export const afterSelectDataCells = (root, updateDataCells) => {

@@ -42,8 +42,10 @@ export function keyEqualTo(key: string, compareKey: string) {
 const newLine = '\r\n';
 const newTab = '\t';
 
-const getColNodeField = (spreadsheet: SpreadSheet, id: string) => {
-  const colNode = spreadsheet.getColumnNodes().find((col) => col.id === id);
+const getColNodeField = (spreadsheet: SpreadSheet, id: string, colIndex) => {
+  const colNode = spreadsheet
+    .getColumnNodes()
+    .find((col) => col.id === id && col.colIndex === colIndex);
   if (spreadsheet.isPivotMode()) {
     return colNode?.value;
   }
@@ -54,7 +56,7 @@ const getFiledIdFromMeta = (colIndex: number, spreadsheet: SpreadSheet) => {
   const colNode = spreadsheet
     .getColumnNodes()
     .find((col) => col.colIndex === colIndex);
-  return getColNodeField(spreadsheet, colNode.id);
+  return getColNodeField(spreadsheet, colNode.id, colIndex);
 };
 
 const getHeaderNodeFromMeta = (meta: CellMeta, spreadsheet: SpreadSheet) => {
@@ -69,7 +71,7 @@ const getFormat = (colIndex: number, spreadsheet: SpreadSheet) => {
   const colNode = spreadsheet
     .getColumnNodes()
     .find((col) => col.colIndex === colIndex);
-  const fieldId = getColNodeField(spreadsheet, colNode.id);
+  const fieldId = getColNodeField(spreadsheet, colNode.id, colIndex);
   if (spreadsheet.options.interaction.copyWithFormat) {
     return spreadsheet.dataSet.getFieldFormatter(fieldId);
   }
@@ -326,7 +328,7 @@ const processTableColSelected = (
   const displayData = spreadsheet.dataSet.getDisplayDataSet();
   const selectedFields = selectedCols.length
     ? selectedCols.map((e) => ({
-        field: getColNodeField(spreadsheet, e.id),
+        field: getColNodeField(spreadsheet, e.id, e.colIndex),
         formatter: getFormat(e.colIndex, spreadsheet),
         meta: e,
       }))
@@ -335,7 +337,7 @@ const processTableColSelected = (
           spreadsheet.getColumnNodes().find((n) => n.field === cName),
         )
         .map((node) => ({
-          field: getColNodeField(spreadsheet, node.id),
+          field: getColNodeField(spreadsheet, node.id, node.colIndex),
           formatter: getFormat(node.colIndex, spreadsheet),
           meta: node,
         }));
@@ -554,7 +556,9 @@ export function getCopyData(
     }, []);
     const rowNodes = rowIndexes.map((index) => {
       return {
-        id: `${index}${DATA_CELL_ID_CONNECTOR}${spreadsheet.facet.layoutResult.colLeafNodes[0].id}`,
+        id: `${index}${DATA_CELL_ID_CONNECTOR}${
+          spreadsheet.facet.layoutResult.colLeafNodes[0].id
+        }${DATA_CELL_ID_CONNECTOR}${index + '__0'}`,
         colIndex: 0,
         rowIndex: index,
         type: CellTypes.ROW_CELL,
