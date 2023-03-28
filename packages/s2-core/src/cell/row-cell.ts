@@ -224,14 +224,7 @@ export class RowCell extends HeaderCell {
   // draw text
   protected drawTextShape() {
     super.drawTextShape();
-    this.drawLinkFieldShape();
-  }
-
-  protected drawLinkFieldShape() {
-    const { linkFields = [] } = this.headerConfig;
-    const { linkTextFill } = this.getTextStyle();
-    const isLinkField = checkIsLinkField(linkFields, this.meta);
-    super.drawLinkFieldShape(isLinkField, linkTextFill);
+    this.drawLinkField(this.meta);
   }
 
   protected drawRectBorder() {
@@ -301,8 +294,8 @@ export class RowCell extends HeaderCell {
       return;
     }
 
-    const offsetX = position.x + x - scrollX + seriesNumberWidth;
-    const offsetY = position.y + y - scrollY;
+    const offsetX = position?.x + x - scrollX + seriesNumberWidth;
+    const offsetY = position?.y + y - scrollY;
 
     const resizeAreaWidth = this.spreadsheet.isFrozenRowHeader()
       ? headerWidth - seriesNumberWidth - (x - scrollX)

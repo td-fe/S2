@@ -46,7 +46,8 @@ const meta = [
   },
 ];
 
-const newLineText = `1\t\n2`;
+const newLineText = `"### 问题摘要
+- **会话地址**："`;
 
 const dataCfg: S2DataConfig = {
   fields: {
@@ -125,7 +126,7 @@ describe('TableSheet normal spec', () => {
     expect(s2.facet.getScrollOffset()).toStrictEqual({
       scrollY: 10,
       scrollX: 10,
-      hRowScrollX: 0,
+      rowHeaderScrollX: 0,
     });
     expect(onScrollFinish).toBeCalled();
 

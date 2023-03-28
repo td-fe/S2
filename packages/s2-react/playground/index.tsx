@@ -259,12 +259,12 @@ function MainLayout() {
   };
 
   const logHandler =
-    (name: string, callback?: () => void) =>
-    (...args: unknown[]) => {
+    (name: string, callback?: (...args: any[]) => void) =>
+    (...args: any[]) => {
       if (s2Ref.current?.options?.debug) {
         console.log(name, ...args);
       }
-      callback?.();
+      callback?.(...args);
     };
 
   const onColCellClick = (cellInfo: TargetCellInfo) => {
@@ -602,6 +602,20 @@ function MainLayout() {
                 </Button>
                 <Button
                   size="small"
+                  onClick={() => {
+                    clearInterval(scrollTimer.current);
+                    s2Ref.current.updateScrollOffset({
+                      rowHeaderOffsetX: {
+                        value: 100,
+                        animate: true,
+                      },
+                    });
+                  }}
+                >
+                  滚动行头
+                </Button>
+                <Button
+                  size="small"
                   danger
                   onClick={() => {
                     if (
@@ -822,7 +836,9 @@ function MainLayout() {
                   onChange={(checked) => {
                     updateOptions({
                       interaction: {
-                        linkFields: checked ? ['province', 'city'] : [],
+                        linkFields: checked
+                          ? ['province', 'city', 'number']
+                          : [],
                       },
                     });
                   }}
@@ -882,8 +898,8 @@ function MainLayout() {
                         selectedCellHighlight = {
                           rowHeader: false,
                           colHeader: false,
-                          rowCells: false,
-                          colCells: false,
+                          currentCol: false,
+                          currentRow: false,
                         };
                         type.forEach((i) => {
                           selectedCellHighlight[i] = true;
@@ -906,11 +922,11 @@ function MainLayout() {
                     <Select.Option value="colHeader">
                       colHeader: 高亮所在列头
                     </Select.Option>
-                    <Select.Option value="rowCells">
-                      rowCells: 高亮所在行
+                    <Select.Option value="currentRow">
+                      currentRow: 高亮所在行
                     </Select.Option>
-                    <Select.Option value="colCells">
-                      colCells: 高亮所在列
+                    <Select.Option value="currentCol">
+                      currentCol: 高亮所在列
                     </Select.Option>
                   </Select>
                 </Tooltip>
@@ -1055,7 +1071,10 @@ function MainLayout() {
               })}
               onColCellClick={onColCellClick}
               onRowCellClick={logHandler('onRowCellClick')}
-              onCornerCellClick={(cellInfo) => {
+              onCornerCellClick={logHandler('onCornerCellClick', (cellInfo) => {
+                if (!showCustomTooltip) {
+                  return;
+                }
                 s2Ref.current.showTooltip({
                   position: {
                     x: cellInfo.event.clientX,
@@ -1063,7 +1082,7 @@ function MainLayout() {
                   },
                   content: 'click',
                 });
-              }}
+              })}
               onDataCellClick={logHandler('onDataCellClick')}
               onLayoutResize={logHandler('onLayoutResize')}
               onCopied={logHandler('onCopied')}

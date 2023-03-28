@@ -109,13 +109,18 @@ export enum ScrollbarPositionType {
 }
 
 export enum ScrollDirection {
-  LEADING = 'leading',
-  TRAILING = 'trailing',
+  SCROLL_UP = 'scrollUp',
+  SCROLL_DOWN = 'scrollDown',
+}
+
+export enum ScrollDirectionRowIndexDiff {
+  SCROLL_UP = -1,
+  SCROLL_DOWN = 1,
 }
 
 export interface InteractionCellSelectedHighlightType {
   rowHeader?: boolean; // 高亮行头
   colHeader?: boolean; // 高亮列头
-  rowCells?: boolean; // 高亮选中单元格所在行
-  colCells?: boolean; // 高亮选中单元格所在列
+  currentRow?: boolean; // 高亮选中单元格所在行
+  currentCol?: boolean; // 高亮选中单元格所在列
 }
