@@ -3,7 +3,9 @@ title: 常见问题
 order: 8
 ---
 
-**在提出问题前，建议仔细阅读一遍文档。**
+:::warning{title="一些建议"}
+**在提出问题前，请确保你已经仔细阅读了一遍文档，查看了相关图表示例，并且已经查看了常见问题。**
+:::
 
 ## 1. 使用问题
 
@@ -177,7 +179,7 @@ s2.render(false)
 
 <embed src="@/docs/common/packages.zh.md"></embed>
 
-配套的 [分析组件](/examples/gallery#category-表格组件)，目前还没有 `@tant/s2-angular` 的开发计划，欢迎社区一起建设 👏🏻.
+配套的 [分析组件](/docs/manual/basic/analysis/editable-mode)，目前还没有 `@antv/s2-angular` 的开发计划，欢迎社区一起建设 👏🏻.
 
 ### 如何贡献代码？
 

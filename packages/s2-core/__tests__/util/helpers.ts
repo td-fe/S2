@@ -53,7 +53,10 @@ export const createFakeSpreadSheet = () => {
   }
 
   const s2 = new FakeSpreadSheet() as unknown as SpreadSheet;
-  s2.options = DEFAULT_OPTIONS;
+  s2.options = {
+    ...DEFAULT_OPTIONS,
+    hdAdapter: false,
+  };
   s2.dataCfg = {
     meta: null,
     data: [],
@@ -92,6 +95,7 @@ export const createFakeSpreadSheet = () => {
   s2.showTooltipWithInfo = jest.fn();
   s2.isTableMode = jest.fn();
   s2.isPivotMode = jest.fn();
+  s2.getRowNodes = jest.fn().mockReturnValue([]);
   s2.getCanvasElement = () => s2.container.get('el');
 
   const interaction = new RootInteraction(s2 as unknown as SpreadSheet);
@@ -128,6 +132,7 @@ export const createMockCellInfo = (
 ) => {
   const mockCellViewMeta: Partial<ViewMeta> = {
     id: cellId,
+    field: cellId,
     colIndex,
     rowIndex,
     colId,
@@ -156,6 +161,7 @@ export const createMockCellInfo = (
     'update',
     'spreadsheet',
     'colId',
+    'field',
   ]);
   const mockCell = {
     ...mockCellViewMeta,
@@ -180,7 +186,10 @@ export const createPivotSheet = (
   return new PivotSheet(
     getContainer(),
     useSimpleData ? simpleDataConfig : dataConfig,
-    s2Options,
+    {
+      hdAdapter: false,
+      ...s2Options,
+    },
   );
 };
 
@@ -191,6 +200,9 @@ export const createTableSheet = (
   return new TableSheet(
     getContainer(),
     useSimpleData ? simpleDataConfig : dataConfig,
-    s2Options,
+    {
+      hdAdapter: false,
+      ...s2Options,
+    },
   );
 };

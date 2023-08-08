@@ -7,11 +7,12 @@ fetch(
   .then((dataCfg) => {
     const container = document.getElementById('container');
 
-    const s2Options = {
+    const s2Options: S2Options = {
       width: 600,
       height: 480,
       interaction: {
-        hoverHighlight: true, // hover highlight
+        // 悬停高亮
+        hoverHighlight: true,
       },
       tooltip: {
         showTooltip: true,

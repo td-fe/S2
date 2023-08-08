@@ -12,6 +12,7 @@ import type { BaseHeaderConfig } from '../../facet/header/base';
 import type { Hierarchy } from '../../facet/layout/hierarchy';
 import type { Node } from '../../facet/layout/node';
 import type { SpreadSheet } from '../../sheet-type';
+import type { MergedCell } from '../../cell';
 import type { S2CellType } from './interaction';
 import type { DataItem } from './s2DataConfig';
 
@@ -296,6 +297,12 @@ export type CellCallback<T extends BaseHeaderConfig> = (
 
 export type DataCellCallback = (viewMeta: ViewMeta) => S2CellType;
 
+export type MergedCellCallback = (
+  spreadsheet: SpreadSheet,
+  cells: S2CellType[],
+  meta?: ViewMeta,
+) => MergedCell;
+
 export type FrameCallback = (cfg: FrameConfig) => Frame;
 
 export type CornerHeaderCallback = (
@@ -460,6 +467,10 @@ export interface LayoutResult {
 }
 
 export interface OffsetConfig {
+  rowHeaderOffsetX?: {
+    value: number | undefined;
+    animate?: boolean;
+  };
   offsetX?: {
     value: number | undefined;
     animate?: boolean;
