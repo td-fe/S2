@@ -1,3 +1,103 @@
+# [@antv/s2-v1.49.1](https://github.com/antvis/S2/compare/@antv/s2-v1.49.0...@antv/s2-v1.49.1) (2023-07-24)
+
+
+### Bug Fixes
+
+* **table-sheet:** 修复明细表获取到错误的实际渲染内容高度 ([#2290](https://github.com/antvis/S2/issues/2290)) ([3e1fb77](https://github.com/antvis/S2/commit/3e1fb7752512654e145728207523e7f2a982beb1))
+* 点击列头后hover拦截消失 ([#2288](https://github.com/antvis/S2/issues/2288)) ([a6b0f81](https://github.com/antvis/S2/commit/a6b0f81acbfc82a7f27d40cb7fa9889186b81467))
+
+# [@antv/s2-v1.49.0](https://github.com/antvis/S2/compare/@antv/s2-v1.48.0...@antv/s2-v1.49.0) (2023-07-14)
+
+
+### Bug Fixes
+
+* **core:** 使用客户端的位置来计算调整大小的偏移量 ([#2273](https://github.com/antvis/S2/issues/2273)) ([ae9f4ec](https://github.com/antvis/S2/commit/ae9f4eca88132292a2a7676d4cd165d8b67ca178))
+* **core:** 删除范围选择中的错误拦截器 ([#2263](https://github.com/antvis/S2/issues/2263)) ([589ebb5](https://github.com/antvis/S2/commit/589ebb543745e3e084aa6cae82f58782a763638d))
+* **core:** 悬停角头单元格后显示图标 ([#2261](https://github.com/antvis/S2/issues/2261)) ([2d85d57](https://github.com/antvis/S2/commit/2d85d5739f5a3a52e92df699a935df93aa2a6a73))
+* **core:** 文本区域高度不应超过视口高度 ([#2265](https://github.com/antvis/S2/issues/2265)) ([00cb47d](https://github.com/antvis/S2/commit/00cb47d107996af23e468c945277c4270e3b092f))
+* **core:** 调用 `setOptions` 设置 `brushSelection` ([#2257](https://github.com/antvis/S2/issues/2257)) ([f610514](https://github.com/antvis/S2/commit/f610514b9122cac396bfe9f7a83ff294164df2b9))
+* 交叉表圈选表头复制内容不正确 ([#2254](https://github.com/antvis/S2/issues/2254)) ([a4021cb](https://github.com/antvis/S2/commit/a4021cbfd62c84f6d6a5f96871b225f24b268f29))
+
+
+### Features
+
+* 为 react 编辑组件添加 onDataCellEditEnd 事件 ([#2247](https://github.com/antvis/S2/issues/2247)) ([b0563ad](https://github.com/antvis/S2/commit/b0563adc8b15538ffa4b74746d5e6d68ba6a0e3f))
+
+# [@antv/s2-v1.48.0](https://github.com/antvis/S2/compare/@antv/s2-v1.47.1...@antv/s2-v1.48.0) (2023-06-09)
+
+
+### Bug Fixes
+
+* **core:** highlight the column header cell and row header when data cell clicked ([#2211](https://github.com/antvis/S2/issues/2211)) ([b2ac77c](https://github.com/antvis/S2/commit/b2ac77c2d7d2e42f61668d6122d0ddbee865d183))
+* **interaction:** 修复列头隐藏后展开 icon 显示异常 close [#2194](https://github.com/antvis/S2/issues/2194) ([#2224](https://github.com/antvis/S2/issues/2224)) ([d23b8f2](https://github.com/antvis/S2/commit/d23b8f2171e2aa09d626bc9227f2f622c3fdd5c7))
+
+
+### Features
+
+* support separate config of `hoverHighlight` ([#2226](https://github.com/antvis/S2/issues/2226)) ([de86300](https://github.com/antvis/S2/commit/de86300b13737bb359e81e11856a4ae0050a99ed))
+* 表格滚动后触发hover ([#2235](https://github.com/antvis/S2/issues/2235)) ([645c85c](https://github.com/antvis/S2/commit/645c85caab24feaf4ca02344b54e63c81f420e3a))
+
+# [@antv/s2-v1.47.1](https://github.com/antvis/S2/compare/@antv/s2-v1.47.0...@antv/s2-v1.47.1) (2023-05-23)
+
+
+### Bug Fixes
+
+* 修复 dataCell linkField 不能点击的问题 ([#2227](https://github.com/antvis/S2/issues/2227)) ([71410e2](https://github.com/antvis/S2/commit/71410e27b8e6a09ba79f1fc570ab782432479cb8))
+
+# [@antv/s2-v1.47.0](https://github.com/antvis/S2/compare/@antv/s2-v1.46.0...@antv/s2-v1.47.0) (2023-05-22)
+
+
+### Bug Fixes
+
+* **core:** can not set field height or width when the field name is surrounded by square brackets ([#2212](https://github.com/antvis/S2/issues/2212)) ([83b8e4d](https://github.com/antvis/S2/commit/83b8e4d11bb822843050ed12cf99eae72ca6ef2b))
+* **core:** can reset tooltip.renderTooltip in setOptions ([#2210](https://github.com/antvis/S2/issues/2210)) ([8b26d9c](https://github.com/antvis/S2/commit/8b26d9c0d8f4298859be8e301dcccc86b7514b87))
+* **core:** only do compatibility of shift + scroll on Windows ([#2206](https://github.com/antvis/S2/issues/2206)) ([740462f](https://github.com/antvis/S2/commit/740462fb8af9591a4567ec808d1d04944017b530))
+* 修复树状模式下，总计小计格式化问题 ([#2219](https://github.com/antvis/S2/issues/2219)) ([d3cdca0](https://github.com/antvis/S2/commit/d3cdca013e778f11527afb54df4fd5be51250450))
+* 明细表存在横向滚动条时多列头文本不居中 close [#2199](https://github.com/antvis/S2/issues/2199) ([#2200](https://github.com/antvis/S2/issues/2200)) ([c15f8c8](https://github.com/antvis/S2/commit/c15f8c83d4fc25fc26f6e138b7c7f874256279bc))
+
+
+### Features
+
+* 在行列头配置为空时，趋势分析表不渲染框架 ([#2216](https://github.com/antvis/S2/issues/2216)) ([f1fbcdb](https://github.com/antvis/S2/commit/f1fbcdb504e8fadff04cd067777a88724a769708))
+
+# [@antv/s2-v1.46.0](https://github.com/antvis/S2/compare/@antv/s2-v1.45.1...@antv/s2-v1.46.0) (2023-05-15)
+
+
+### Bug Fixes
+
+* 修复 meta name 同名时，hoverFocus 出错的问题 ([#2187](https://github.com/antvis/S2/issues/2187)) ([a2d7a81](https://github.com/antvis/S2/commit/a2d7a8162e4a177bf593af463e4bb7a4b0e96fc7))
+* 修复总计小计被意外 format 的问题 ([#2209](https://github.com/antvis/S2/issues/2209)) ([6e98291](https://github.com/antvis/S2/commit/6e982917d15ad66d6caecac6da30050527811875))
+* 复制时移除空控制符 ([#2204](https://github.com/antvis/S2/issues/2204)) ([ce9dcab](https://github.com/antvis/S2/commit/ce9dcab8ffe00cec60fe412ce7a71aa00541dc13))
+* 系统拦截快捷键后多选交互异常 ([#2191](https://github.com/antvis/S2/issues/2191)) ([6a8b85a](https://github.com/antvis/S2/commit/6a8b85ab59ebf2ce9f03e4a3aaa841c251654eb3))
+
+
+### Features
+
+* 行列头和数值为空时，不渲染表格框架 ([#2207](https://github.com/antvis/S2/issues/2207)) ([1a404e1](https://github.com/antvis/S2/commit/1a404e1ec256298801222dacd318a57ba890dbcd))
+
+# [@antv/s2-v1.45.1](https://github.com/antvis/S2/compare/@antv/s2-v1.45.0...@antv/s2-v1.45.1) (2023-04-28)
+
+
+### Bug Fixes
+
+* **tooltip:** 修复特定配置下点击 tooltip 内容后 tooltip 关闭 close [#2170](https://github.com/antvis/S2/issues/2170) ([#2172](https://github.com/antvis/S2/issues/2172)) ([6219e57](https://github.com/antvis/S2/commit/6219e579364cfb7ac3a8b3db4ae01c5672d7f2d4))
+* 行头过宽且不冻结时滚动条渲染错误 ([#2173](https://github.com/antvis/S2/issues/2173)) ([ab79ea0](https://github.com/antvis/S2/commit/ab79ea0664046bc6479a717d7b3b0ee7efe05b31))
+
+# [@antv/s2-v1.45.0](https://github.com/antvis/S2/compare/@antv/s2-v1.44.0...@antv/s2-v1.45.0) (2023-04-21)
+
+
+### Bug Fixes
+
+* 修复 cornerText 配置对树状模式的适配 ([#2167](https://github.com/antvis/S2/issues/2167)) ([e9efcea](https://github.com/antvis/S2/commit/e9efcea944f5d0793d4a1250362e6b6f6b492c52))
+* 修复总计小计 linkField 样式问题 ([#2169](https://github.com/antvis/S2/issues/2169)) ([4450278](https://github.com/antvis/S2/commit/4450278d82888c117e5bd9d31874b88ecdb33d99))
+* 多指标行头总计节点宽度计算错误 ([#2165](https://github.com/antvis/S2/issues/2165)) ([08ef330](https://github.com/antvis/S2/commit/08ef330a02a1fbf11f49090f4fd7f5d2b0cc1093))
+* 微应用环境识别mouseEvent失效 ([bddbe34](https://github.com/antvis/S2/commit/bddbe34104355ac0087bc9f72377889a8f444d7a)), closes [#2162](https://github.com/antvis/S2/issues/2162)
+
+
+### Features
+
+* icon支持更新name与fill ([#2138](https://github.com/antvis/S2/issues/2138)) ([d000aea](https://github.com/antvis/S2/commit/d000aeac332676cfa15d9986ec7f4be948c565d0))
+
 # [@antv/s2-v1.44.0](https://github.com/antvis/S2/compare/@antv/s2-v1.43.0...@antv/s2-v1.44.0) (2023-03-24)
 
 
