@@ -426,7 +426,9 @@ export const copyData = (
 
       // Generate the column dimensions.
       while (curColItem.level !== undefined) {
-        let label = getHeaderLabel(curColItem.label);
+        // let label = getHeaderLabel(curColItem.label);
+        let label = curColItem.label;
+
         if (isArray(label)) {
           arrayLength = max([arrayLength, size(label)]);
         } else {
