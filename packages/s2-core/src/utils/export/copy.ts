@@ -4,6 +4,7 @@ import {
   filter,
   forEach,
   isEmpty,
+  isEqual,
   isNil,
   map,
   max,
@@ -12,15 +13,16 @@ import {
   repeat,
   zip,
 } from 'lodash';
+import type { ColCell, RowCell } from '../../cell';
 import {
-  type CellMeta,
   CellTypes,
   CopyType,
   EXTRA_FIELD,
   ID_SEPARATOR,
   InteractionStateName,
-  VALUE_FIELD,
   SERIES_NUMBER_FIELD,
+  VALUE_FIELD,
+  type CellMeta,
   type RowData,
   DATA_CELL_ID_CONNECTOR,
 } from '../../common';
@@ -28,9 +30,8 @@ import type { DataType } from '../../data-set/interface';
 import type { Node } from '../../facet/layout/node';
 import type { SpreadSheet } from '../../sheet-type';
 import { copyToClipboard } from '../../utils/export';
-import type { ColCell, RowCell } from '../../cell';
-import { getEmptyPlaceholder } from '../text';
 import { flattenDeep } from '../data-set-operate';
+import { getEmptyPlaceholder } from '../text';
 
 export function keyEqualTo(key: string, compareKey: string) {
   if (!key || !compareKey) {
@@ -485,7 +486,14 @@ const processTableRowSelected = (
   const matrix = displayData
     .filter((_, i) => selectedRows.map((row) => row.rowIndex).includes(i))
     .map((entry) => {
+      // 确保顺序和表格中的列顺序一致
+      const idxMap = spreadsheet.getColumnNodes().reduce((prev, curr, idx) => {
+        prev[curr.field] = idx;
+        return prev;
+      }, {});
+
       return Object.keys(entry)
+        .sort((a, b) => idxMap[a] - idxMap[b])
         .map((cName) =>
           spreadsheet.getColumnNodes().find((n) => n.field === cName),
         )
@@ -681,11 +689,20 @@ function getCellMatrix(
     const meta = cell.getMeta();
     const { id, label, isTotals, level } = meta;
     let cellId = id;
+
     // 为总计小计补齐高度
     if (isTotals && level !== maxLevel) {
       cellId = id + ID_SEPARATOR + repeat(label, maxLevel - level);
     }
-    return getHeaderList(cellId, allLevel.size);
+
+    // 将指标维度单元格的标签替换为实际文本
+    const actualText = cell.getActualText();
+    const headerList = getHeaderList(cellId, allLevel.size);
+    const formattedHeaderList = map(headerList, (header) =>
+      isEqual(header, label) ? actualText : header,
+    );
+
+    return formattedHeaderList;
   });
 }
 

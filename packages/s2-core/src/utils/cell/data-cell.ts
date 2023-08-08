@@ -7,6 +7,7 @@ import {
   InteractionStateName,
   CellTypes,
   DATA_CELL_ID_CONNECTOR,
+  EMPTY_PLACEHOLDER,
 } from '../../common/constant';
 import type {
   CellMeta,

@@ -1,3 +1,49 @@
+# [@tant/s2-react-v1.42.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.41.0...@tant/s2-react-v1.42.0) (2023-07-14)
+
+
+### Bug Fixes
+
+* **core:** 悬停角头单元格后显示图标 ([#2261](https://github.com/antvis/S2/issues/2261)) ([2d85d57](https://github.com/antvis/S2/commit/2d85d5739f5a3a52e92df699a935df93aa2a6a73))
+* **core:** 文本区域高度不应超过视口高度 ([#2265](https://github.com/antvis/S2/issues/2265)) ([00cb47d](https://github.com/antvis/S2/commit/00cb47d107996af23e468c945277c4270e3b092f))
+* **core:** 调用 `setOptions` 设置 `brushSelection` ([#2257](https://github.com/antvis/S2/issues/2257)) ([f610514](https://github.com/antvis/S2/commit/f610514b9122cac396bfe9f7a83ff294164df2b9))
+
+
+### Features
+
+* 为 react 编辑组件添加 onDataCellEditEnd 事件 ([#2247](https://github.com/antvis/S2/issues/2247)) ([b0563ad](https://github.com/antvis/S2/commit/b0563adc8b15538ffa4b74746d5e6d68ba6a0e3f))
+
+# [@tant/s2-react-v1.41.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.40.0...@tant/s2-react-v1.41.0) (2023-06-09)
+
+
+### Bug Fixes
+
+* **react:** 更新react分页器定义 ([#2238](https://github.com/antvis/S2/issues/2238)) ([83c48f7](https://github.com/antvis/S2/commit/83c48f71e3b834be5e56e884ee183050ee2c5866))
+
+
+### Features
+
+* support separate config of `hoverHighlight` ([#2226](https://github.com/antvis/S2/issues/2226)) ([de86300](https://github.com/antvis/S2/commit/de86300b13737bb359e81e11856a4ae0050a99ed))
+* 表格滚动后触发hover ([#2235](https://github.com/antvis/S2/issues/2235)) ([645c85c](https://github.com/antvis/S2/commit/645c85caab24feaf4ca02344b54e63c81f420e3a))
+
+# [@tant/s2-react-v1.40.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.39.0...@tant/s2-react-v1.40.0) (2023-05-22)
+
+
+### Bug Fixes
+
+* **core:** can reset tooltip.renderTooltip in setOptions ([#2210](https://github.com/antvis/S2/issues/2210)) ([8b26d9c](https://github.com/antvis/S2/commit/8b26d9c0d8f4298859be8e301dcccc86b7514b87))
+
+
+### Features
+
+* 在行列头配置为空时，趋势分析表不渲染框架 ([#2216](https://github.com/antvis/S2/issues/2216)) ([f1fbcdb](https://github.com/antvis/S2/commit/f1fbcdb504e8fadff04cd067777a88724a769708))
+
+# [@tant/s2-react-v1.39.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.38.0...@tant/s2-react-v1.39.0) (2023-03-31)
+
+
+### Features
+
+* 移除switcher按钮important样式 ([#2139](https://github.com/antvis/S2/issues/2139)) ([d4f9197](https://github.com/antvis/S2/commit/d4f9197f1c3d1b3cfc2bdfb8d375413a2daa79c3))
+
 # [@tant/s2-react-v1.38.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.37.1...@tant/s2-react-v1.38.0) (2023-03-24)
 
 
