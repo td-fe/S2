@@ -40,7 +40,7 @@ s2.on(S2Event.GLOBAL_LINK_FIELD_JUMP, (data) => {
 
 ## 透视表
 
-支持将行头 `rows`, （数值 `values` <Badge type="success">@antv/s2@^1.44.0 新增</Badge>) 标记为链接样式，`columns` 暂不支持
+支持将行头 `rows`, （数值 `values` <Badge type="success">@tant/s2@^1.44.0 新增</Badge>) 标记为链接样式，`columns` 暂不支持
 
 ```ts
 import { S2Event } from '@tant/s2'

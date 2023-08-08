@@ -55,10 +55,10 @@ npm i -g yarn
 1. `yarn bootstrap`: Installation dependency.
 2. `yarn site:bootstrap`: Install site related dependencies.
 3. `yarn site:start`: Starts the local `S2` website.
-4. `yarn core:start`:  Debug and test local `@antv/s2`（Based on jest-electron）.
-5. `yarn react:start` Debug and test local `@antv/s2-react` (Based on jest-electron).
-6. `yarn vue:start` Debug and test local `@antv/s2-vue` (Based on jest-electron).
-7. `yarn react:playground` Starts the local `@antv/s2-react` playground (Based on vite).
-8. `yarn vue:playground` Starts the local `@antv/s2-vue` playground (Based on vite).
-9. `yarn build`: Builds `@antv/s2` and `@antv/s2-react` and `@antv/s2-vue` , outputs are `umd`, `esm` and `lib` directories.
+4. `yarn core:start`:  Debug and test local `@tant/s2`（Based on jest-electron）.
+5. `yarn react:start` Debug and test local `@tant/s2-react` (Based on jest-electron).
+6. `yarn vue:start` Debug and test local `@tant/s2-vue` (Based on jest-electron).
+7. `yarn react:playground` Starts the local `@tant/s2-react` playground (Based on vite).
+8. `yarn vue:playground` Starts the local `@tant/s2-vue` playground (Based on vite).
+9. `yarn build`: Builds `@tant/s2` and `@tant/s2-react` and `@tant/s2-vue` , outputs are `umd`, `esm` and `lib` directories.
 10. `yarn test`:  Run unit tests.

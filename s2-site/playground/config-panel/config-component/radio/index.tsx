@@ -1,7 +1,7 @@
 import React from 'react';
 import { Radio as AntdRadio, type RadioChangeEvent } from 'antd';
 import { map } from 'lodash';
-import { type S2DataConfig } from '@antv/s2';
+import { type S2DataConfig } from '@tant/s2';
 import { BaseComponent } from '../base';
 import { DraggerUpload } from '../dragger-upload';
 

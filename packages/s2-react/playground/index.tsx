@@ -19,7 +19,6 @@ import {
   type InteractionCellSelectedHighlightType,
 } from '@tant/s2';
 import type { Adaptive, SheetType } from '@tant/s2-shared';
-import corePkg from '@tant/s2/package.json';
 import { useUpdateEffect } from 'ahooks';
 import {
   Button,

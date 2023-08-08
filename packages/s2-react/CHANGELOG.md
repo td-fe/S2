@@ -1,4 +1,4 @@
-# [@antv/s2-react-v1.38.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.37.1...@antv/s2-react-v1.38.0) (2023-03-24)
+# [@tant/s2-react-v1.38.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.37.1...@tant/s2-react-v1.38.0) (2023-03-24)
 
 
 ### Features
@@ -6,14 +6,14 @@
 * implement data cell link([7f2bd69](https://github.com/antvis/S2/commit/7f2bd690bd703b8e4d678c03b9fc79db30848ca3))
 
 
-# [@antv/s2-react-v1.37.1](https://github.com/antvis/S2/compare/@antv/s2-react-v1.37.0...@antv/s2-react-v1.37.1) (2023-03-10)
+# [@tant/s2-react-v1.37.1](https://github.com/antvis/S2/compare/@tant/s2-react-v1.37.0...@tant/s2-react-v1.37.1) (2023-03-10)
 
 
 ### Bug Fixes
 
 * **interaction:** 修复行头滚动刷选范围判断错误 ([#2101](https://github.com/antvis/S2/issues/2101)) ([8e38fb0](https://github.com/antvis/S2/commit/8e38fb0df6123360d2bd835cf80bcf72898a80b9))
 
-# [@antv/s2-react-v1.37.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.36.0...@antv/s2-react-v1.37.0) (2023-02-24)
+# [@tant/s2-react-v1.37.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.36.0...@tant/s2-react-v1.37.0) (2023-02-24)
 
 
 ### Features
@@ -21,7 +21,7 @@
 * **interaction:** 点击角头后支持选中所对应那一列的行头 close [#2073](https://github.com/antvis/S2/issues/2073) ([#2081](https://github.com/antvis/S2/issues/2081)) ([ad2b5d8](https://github.com/antvis/S2/commit/ad2b5d87edf4c529d7c9a5e1348e893e14547ef3))
 * **interaction:** 行头支持滚动刷选 ([#2087](https://github.com/antvis/S2/issues/2087)) ([65c3f3b](https://github.com/antvis/S2/commit/65c3f3b6a37709c0fa684b0f5717d3b349251e48))
 
-# [@antv/s2-react-v1.36.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.35.0...@antv/s2-react-v1.36.0) (2023-01-16)
+# [@tant/s2-react-v1.36.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.35.0...@tant/s2-react-v1.36.0) (2023-01-16)
 
 
 ### Bug Fixes
@@ -35,7 +35,7 @@
 
 * tooltip summaries 返回原始数据 ([#2044](https://github.com/antvis/S2/issues/2044)) ([f8efdd9](https://github.com/antvis/S2/commit/f8efdd997b8e76b4aab7615fb16af644a42d3d8e))
 
-# [@antv/s2-react-v1.35.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.34.0...@antv/s2-react-v1.35.0) (2023-01-03)
+# [@tant/s2-react-v1.35.0](https://github.com/antvis/S2/compare/@tant/s2-react-v1.34.0...@tant/s2-react-v1.35.0) (2023-01-03)
 
 
 ### Bug Fixes

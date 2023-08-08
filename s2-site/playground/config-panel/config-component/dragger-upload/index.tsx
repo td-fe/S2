@@ -3,7 +3,7 @@ import { Modal, Upload, message } from 'antd';
 import { RcFile, UploadFile } from 'antd/lib/upload';
 import { InboxOutlined } from '@ant-design/icons';
 import { isObject, has } from 'lodash';
-import { type S2DataConfig } from '@antv/s2';
+import { type S2DataConfig } from '@tant/s2';
 import './index.less';
 
 const { Dragger } = Upload;

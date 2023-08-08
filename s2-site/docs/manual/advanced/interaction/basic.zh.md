@@ -278,11 +278,11 @@ const s2Options = {
 
 <img src="https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*pmskQL_WvMIAAAAAAAAAAAAADmJ7AQ/original" alt="preview" width="600" />
 
-##### 行头滚动圈选 <Badge type="success">@antv/s2@^1.42.0 新增</Badge>
+##### 行头滚动圈选 <Badge type="success">@tant/s2@^1.42.0 新增</Badge>
 
 <img src="https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*r8fFQ6ySwScAAAAAAAAAAAAADmJ7AQ/original" alt="preview" width="600" />
 
-### 角头选中 <Badge type="success">@antv/s2@^1.42.0 新增</Badge>
+### 角头选中 <Badge type="success">@tant/s2@^1.42.0 新增</Badge>
 
 单击行头所对应的角头，可以快捷选中当前列
 

@@ -1,4 +1,4 @@
-# [@antv/s2-v1.44.0](https://github.com/antvis/S2/compare/@antv/s2-v1.43.0...@antv/s2-v1.44.0) (2023-03-24)
+# [@tant/s2-v1.44.0](https://github.com/antvis/S2/compare/@tant/s2-v1.43.0...@tant/s2-v1.44.0) (2023-03-24)
 
 
 ### Bug Fixes
@@ -10,7 +10,7 @@
 
 * implement data cell link([7f2bd69](https://github.com/antvis/S2/commit/7f2bd690bd703b8e4d678c03b9fc79db30848ca3))
 
-# [@antv/s2-v1.43.0](https://github.com/antvis/S2/compare/@antv/s2-v1.42.0...@antv/s2-v1.43.0) (2023-03-10)
+# [@tant/s2-v1.43.0](https://github.com/antvis/S2/compare/@tant/s2-v1.42.0...@tant/s2-v1.43.0) (2023-03-10)
 
 
 ### Bug Fixes
@@ -23,7 +23,7 @@
 * 在 shape 中添加文本的原始值 ([#2109](https://github.com/antvis/S2/issues/2109)) ([4d81e72](https://github.com/antvis/S2/commit/4d81e72440d797fd7a06179794c342f009fc39c3))
 * 增加自定义merged-cell ([534cc15](https://github.com/antvis/S2/commit/534cc15da9f766f95be3c622e65e45d8796ff020))
 
-# [@antv/s2-v1.42.0](https://github.com/antvis/S2/compare/@antv/s2-v1.41.1...@antv/s2-v1.42.0) (2023-02-24)
+# [@tant/s2-v1.42.0](https://github.com/antvis/S2/compare/@tant/s2-v1.41.1...@tant/s2-v1.42.0) (2023-02-24)
 
 
 ### Features
@@ -32,7 +32,7 @@
 * **interaction:** 行头支持滚动刷选 ([#2087](https://github.com/antvis/S2/issues/2087)) ([65c3f3b](https://github.com/antvis/S2/commit/65c3f3b6a37709c0fa684b0f5717d3b349251e48))
 * 复制支持自定义transformer ([#2090](https://github.com/antvis/S2/issues/2090)) ([250eecd](https://github.com/antvis/S2/commit/250eecd32ed4f48b95ed7c4e480fa3c75d4bb5d7))
 
-# [@antv/s2-v1.41.1](https://github.com/antvis/S2/compare/@antv/s2-v1.41.0...@antv/s2-v1.41.1) (2023-02-17)
+# [@tant/s2-v1.41.1](https://github.com/antvis/S2/compare/@tant/s2-v1.41.0...@tant/s2-v1.41.1) (2023-02-17)
 
 
 ### Bug Fixes
@@ -40,7 +40,7 @@
 * 修复 2k 显示器切换到 MacBook 后表格渲染模糊 close [#2072](https://github.com/antvis/S2/issues/2072) ([#2074](https://github.com/antvis/S2/issues/2074)) ([a98d3fd](https://github.com/antvis/S2/commit/a98d3fd20ff5e3f817f1ac269504719ce7967f04))
 * 自定义 svg 支持无后缀的在线链接 ([#2065](https://github.com/antvis/S2/issues/2065)) ([4602b42](https://github.com/antvis/S2/commit/4602b42406689706f91e634d0453335eff8dcada))
 
-# [@antv/s2-v1.41.0](https://github.com/antvis/S2/compare/@antv/s2-v1.40.0...@antv/s2-v1.41.0) (2023-01-16)
+# [@tant/s2-v1.41.0](https://github.com/antvis/S2/compare/@tant/s2-v1.40.0...@tant/s2-v1.41.0) (2023-01-16)
 
 
 ### Bug Fixes
@@ -55,7 +55,7 @@
 
 * tooltip summaries 返回原始数据 ([#2044](https://github.com/antvis/S2/issues/2044)) ([f8efdd9](https://github.com/antvis/S2/commit/f8efdd997b8e76b4aab7615fb16af644a42d3d8e))
 
-# [@antv/s2-v1.40.0](https://github.com/antvis/S2/compare/@antv/s2-v1.39.1...@antv/s2-v1.40.0) (2023-01-03)
+# [@tant/s2-v1.40.0](https://github.com/antvis/S2/compare/@tant/s2-v1.39.1...@tant/s2-v1.40.0) (2023-01-03)
 
 
 ### Bug Fixes

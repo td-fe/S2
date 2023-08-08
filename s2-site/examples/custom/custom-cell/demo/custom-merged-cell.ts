@@ -1,4 +1,4 @@
-import { PivotSheet, MergedCell } from '@antv/s2';
+import { PivotSheet, MergedCell } from '@tant/s2';
 
 /**
  * 自定义 MergedCell，改变背景色

@@ -15,7 +15,7 @@ yarn start
 
 ## 发布
 
-记得将 `package.json` 对应的 `@antv/s2` 和 `@antv/s2-react` **更新到最新版本**, 并将更新后的 `yarn.lock` 提交上来。
+记得将 `package.json` 对应的 `@tant/s2` 和 `@tant/s2-react` **更新到最新版本**, 并将更新后的 `yarn.lock` 提交上来。
 
 ```bash
 yarn deploy
