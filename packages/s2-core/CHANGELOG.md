@@ -1,3 +1,54 @@
+# [@antv/s2-v1.51.2](https://github.com/antvis/S2/compare/@antv/s2-v1.51.1...@antv/s2-v1.51.2) (2023-10-27)
+
+
+### Bug Fixes
+
+* **interaction:** 修复拖动水平滚动条后单元格选中状态被重置 close [#2376](https://github.com/antvis/S2/issues/2376) ([#2380](https://github.com/antvis/S2/issues/2380)) ([b2e9700](https://github.com/antvis/S2/commit/b2e97008122f5320342fd069a08f6e821a5c9ad6))
+* **layout:** 修复在紧凑模式列头宽度未按文本自适应 close [#2385](https://github.com/antvis/S2/issues/2385) ([#2392](https://github.com/antvis/S2/issues/2392)) ([2edd99c](https://github.com/antvis/S2/commit/2edd99c367116bad661a02893a303311787eb647))
+* 修复分组汇总时，按汇总排序获取排序数据为空 ([#2370](https://github.com/antvis/S2/issues/2370)) ([2443762](https://github.com/antvis/S2/commit/24437622e1b259288bf7f8f3505837088a6e1b9d))
+* 修复树状角头，当有存在icon时，内容与box宽度恰好相等，出现换行 close [#2389](https://github.com/antvis/S2/issues/2389) ([#2390](https://github.com/antvis/S2/issues/2390)) ([19497b3](https://github.com/antvis/S2/commit/19497b34aaa9bd19ca5f410926f3035f1aa76d09))
+
+# [@antv/s2-v1.51.1](https://github.com/antvis/S2/compare/@antv/s2-v1.51.0...@antv/s2-v1.51.1) (2023-10-13)
+
+
+### Bug Fixes
+
+* **layout:** 修复隐藏结点时对父节点的布局计算错误 close [#2355](https://github.com/antvis/S2/issues/2355) ([#2360](https://github.com/antvis/S2/issues/2360)) ([c8d2c94](https://github.com/antvis/S2/commit/c8d2c94c21527ae52ece3485524d374d09b1cba7))
+* **table-sheet:** 明细表数据为空时错误的展示一行空数据 close [#2255](https://github.com/antvis/S2/issues/2255) ([#2357](https://github.com/antvis/S2/issues/2357)) ([7751c49](https://github.com/antvis/S2/commit/7751c4968b69752243928cbcd2c50333b06b2c66))
+* 列头绘制多列文本时错误的使用了数值单元格的样式 close [#2359](https://github.com/antvis/S2/issues/2359) ([#2364](https://github.com/antvis/S2/issues/2364)) ([4953b4e](https://github.com/antvis/S2/commit/4953b4e430f3c1857ce6648bcdc2493c37bb1092))
+
+# [@antv/s2-v1.51.0](https://github.com/antvis/S2/compare/@antv/s2-v1.50.0...@antv/s2-v1.51.0) (2023-09-22)
+
+
+### Features
+
+* 对比值无波动时也显示灰色 ([#2351](https://github.com/antvis/S2/issues/2351)) ([12f2d02](https://github.com/antvis/S2/commit/12f2d0268d447ec99a1227ffedd5ed266d93e86b))
+* 小计/总计功能，支持按维度分组汇总 ([#2346](https://github.com/antvis/S2/issues/2346)) ([20e608f](https://github.com/antvis/S2/commit/20e608f2447e9ffdb135d98e4cc7f39f1cfb308d))
+
+# [@antv/s2-v1.50.0](https://github.com/antvis/S2/compare/@antv/s2-v1.49.2...@antv/s2-v1.50.0) (2023-09-09)
+
+
+### Bug Fixes
+
+* condition.mapping 返回值与文档不符合，允许返回undefined与null ([#2320](https://github.com/antvis/S2/issues/2320)) ([fcc36bd](https://github.com/antvis/S2/commit/fcc36bd9d0f72d78a39ec8a4f7e2e3d7a97e3a6a))
+* **scroll:** 修复移动端快速滚动时控制台报错 close [#2266](https://github.com/antvis/S2/issues/2266) ([#2302](https://github.com/antvis/S2/issues/2302)) ([4ccc03d](https://github.com/antvis/S2/commit/4ccc03d50ef6622774a8c9e3599c988d2a7e126e))
+* **scroll:** 修复调用 scrollWithAnimation 后 unmount 表格导致频繁报错 ([#2317](https://github.com/antvis/S2/issues/2317)) ([e8f3eb1](https://github.com/antvis/S2/commit/e8f3eb12fb4a3935ee5b9bf0f392cfb2984e71d6))
+* **table-facet:** 修复过滤多列时，删除一列过滤将同时清空后续过滤列 ([#2323](https://github.com/antvis/S2/issues/2323)) ([3ad35b1](https://github.com/antvis/S2/commit/3ad35b1791a3a5c832d4e2875af30ac0f2362606))
+* 优化 handleDimensionValueFilter 复杂度 ([#2325](https://github.com/antvis/S2/issues/2325)) ([e0d3de8](https://github.com/antvis/S2/commit/e0d3de8c1b972a5f277838fe433666e34a6997a3))
+
+
+### Features
+
+* 交叉表行头叶子节点支持斑马纹风格 ([#2332](https://github.com/antvis/S2/issues/2332)) ([5320fbf](https://github.com/antvis/S2/commit/5320fbf29bdd81f26ceb3eade1180bfe163743a5))
+* 趋势分析表无波动的字体不用红绿色显示 ([#2339](https://github.com/antvis/S2/issues/2339)) ([f1d4eed](https://github.com/antvis/S2/commit/f1d4eeda82945aec3d28c8a1d562901b4b5e53ad))
+
+# [@antv/s2-v1.49.2](https://github.com/antvis/S2/compare/@antv/s2-v1.49.1...@antv/s2-v1.49.2) (2023-08-11)
+
+
+### Bug Fixes
+
+* 修复复制整行时错位 ([#2278](https://github.com/antvis/S2/issues/2278)) ([8076481](https://github.com/antvis/S2/commit/807648180fe64f47e9f70df865890ab480b07603))
+
 # [@antv/s2-v1.49.1](https://github.com/antvis/S2/compare/@antv/s2-v1.49.0...@antv/s2-v1.49.1) (2023-07-24)
 
 

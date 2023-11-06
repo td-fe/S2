@@ -21,6 +21,7 @@ export interface BaseNodeConfig {
   isSubTotals?: boolean;
   isCollapsed?: boolean;
   isGrandTotals?: boolean;
+  isTotalRoot?: boolean;
   hierarchy?: Hierarchy;
   isPivotMode?: boolean;
   seriesNumberWidth?: number;
@@ -62,6 +63,7 @@ export class Node {
       isGrandTotals,
       isSubTotals,
       isCollapsed,
+      isTotalRoot,
       hierarchy,
       isPivotMode,
       seriesNumberWidth,
@@ -95,6 +97,7 @@ export class Node {
     this.isLeaf = isLeaf;
     this.isGrandTotals = isGrandTotals;
     this.isSubTotals = isSubTotals;
+    this.isTotalRoot = isTotalRoot;
     this.extra = extra;
   }
 
@@ -301,6 +304,11 @@ export class Node {
 
   public isSubTotals?: boolean;
 
+  public isTotalRoot?: boolean;
+
+  /**
+   * @deprecated 已废弃, 该属性只记录相邻一级的隐藏信息，将会在未来版本中移除
+   */
   public hiddenChildNodeInfo?: HiddenColumnsInfo | null;
 
   public extra?: Record<string, any>;

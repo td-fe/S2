@@ -1,3 +1,38 @@
+# [@antv/s2-react-v1.44.1](https://github.com/antvis/S2/compare/@antv/s2-react-v1.44.0...@antv/s2-react-v1.44.1) (2023-10-27)
+
+
+### Bug Fixes
+
+* **interaction:** 修复拖动水平滚动条后单元格选中状态被重置 close [#2376](https://github.com/antvis/S2/issues/2376) ([#2380](https://github.com/antvis/S2/issues/2380)) ([b2e9700](https://github.com/antvis/S2/commit/b2e97008122f5320342fd069a08f6e821a5c9ad6))
+* **layout:** 修复在紧凑模式列头宽度未按文本自适应 close [#2385](https://github.com/antvis/S2/issues/2385) ([#2392](https://github.com/antvis/S2/issues/2392)) ([2edd99c](https://github.com/antvis/S2/commit/2edd99c367116bad661a02893a303311787eb647))
+
+# [@antv/s2-react-v1.44.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.43.0...@antv/s2-react-v1.44.0) (2023-09-22)
+
+
+### Features
+
+* 对比值无波动时也显示灰色 ([#2351](https://github.com/antvis/S2/issues/2351)) ([12f2d02](https://github.com/antvis/S2/commit/12f2d0268d447ec99a1227ffedd5ed266d93e86b))
+* 小计/总计功能，支持按维度分组汇总 ([#2346](https://github.com/antvis/S2/issues/2346)) ([20e608f](https://github.com/antvis/S2/commit/20e608f2447e9ffdb135d98e4cc7f39f1cfb308d))
+
+# [@antv/s2-react-v1.43.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.42.1...@antv/s2-react-v1.43.0) (2023-09-09)
+
+
+### Bug Fixes
+
+* **scroll:** 修复移动端快速滚动时控制台报错 close [#2266](https://github.com/antvis/S2/issues/2266) ([#2302](https://github.com/antvis/S2/issues/2302)) ([4ccc03d](https://github.com/antvis/S2/commit/4ccc03d50ef6622774a8c9e3599c988d2a7e126e))
+
+
+### Features
+
+* 趋势分析表无波动的字体不用红绿色显示 ([#2339](https://github.com/antvis/S2/issues/2339)) ([f1d4eed](https://github.com/antvis/S2/commit/f1d4eeda82945aec3d28c8a1d562901b4b5e53ad))
+
+# [@antv/s2-react-v1.42.1](https://github.com/antvis/S2/compare/@antv/s2-react-v1.42.0...@antv/s2-react-v1.42.1) (2023-08-11)
+
+
+### Performance Improvements
+
+* **react:** 防止不必要的重新渲染 ([#2250](https://github.com/antvis/S2/issues/2250)) ([a06560d](https://github.com/antvis/S2/commit/a06560daaab05915997a38905cfd5e5d6e087af5))
+
 # [@antv/s2-react-v1.42.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.41.0...@antv/s2-react-v1.42.0) (2023-07-14)
 
 
