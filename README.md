@@ -73,7 +73,7 @@ $ npm install @tant/s2
 ### 1. 数据准备
 
 <details>
-  <summary> s2DataConfig</summary>
+  <summary>s2DataConfig</summary>
 
 ```ts
 const s2DataConfig = {
@@ -220,9 +220,6 @@ yarn site:start
 <p>
   <a>
     <img width="300" height="auto" alt="DingTalk" src="https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*2VvTSZmI4vYAAAAAAAAAAAAADmJ7AQ/original">
-  </a>
-  <a>
-    <img width="300" height="auto" alt="qq" src="https://gw.alipayobjects.com/zos/antfincdn/v4TlwgORE/qq_qr_code.JPG">
   </a>
 </p>
 

@@ -13,13 +13,16 @@ fetch(
       height: 480,
     };
 
-
     ReactDOM.render(
-      <SheetComponent dataCfg={dataCfg} options={s2Options} adaptive={{
+      <SheetComponent
+        dataCfg={dataCfg}
+        options={s2Options}
+        adaptive={{
           width: true,
           height: false,
-          getContainer: () => document.getElementById('container')
-      }} />,
+          getContainer: () => document.getElementById('container'),
+        }}
+      />,
       document.getElementById('container'),
     );
   });

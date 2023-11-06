@@ -299,6 +299,32 @@ export const isUpDataValue = (value: number | string): boolean => {
 };
 
 /**
+ * Determines whether the data is actually equal to 0 or empty or nil
+ * example: "0.00%" => true
+ * @param value
+ */
+export const isZeroOrEmptyValue = (value: number | string): boolean => {
+  return (
+    isNil(value) ||
+    value === '' ||
+    Number(String(value).replace(/[^0-9.]+/g, '')) === 0
+  );
+};
+
+/**
+ * Determines whether the data is actually equal to 0 or empty or nil or equals to compareValue
+ * example: "0.00%" => true
+ * @param value
+ * @param compareValue
+ */
+export const isUnchangedValue = (
+  value: number | string,
+  compareValue: number | string,
+): boolean => {
+  return isZeroOrEmptyValue(value) || value === compareValue;
+};
+
+/**
  * 根据单元格对齐方式计算文本的 x 坐标
  * @param x 单元格的 x 坐标
  * @param paddingRight
@@ -331,9 +357,7 @@ const calX = (
 const getDrawStyle = (cell: S2CellType) => {
   const { isTotals } = cell.getMeta();
   const isMeasureField = (cell as ColCell).isMeasureField?.();
-  const cellStyle = cell.getStyle(
-    isMeasureField ? CellTypes.COL_CELL : CellTypes.DATA_CELL,
-  );
+  const cellStyle = cell.getStyle(cell.cellType || CellTypes.DATA_CELL);
 
   let textStyle: TextTheme;
   if (isMeasureField) {

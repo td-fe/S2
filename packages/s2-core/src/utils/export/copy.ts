@@ -10,21 +10,19 @@ import {
   max,
   orderBy,
   reduce,
-  repeat,
   zip,
 } from 'lodash';
 import type { ColCell, RowCell } from '../../cell';
 import {
+  type CellMeta,
   CellTypes,
   CopyType,
   EXTRA_FIELD,
   ID_SEPARATOR,
   InteractionStateName,
+  type RowData,
   SERIES_NUMBER_FIELD,
   VALUE_FIELD,
-  type CellMeta,
-  type RowData,
-  DATA_CELL_ID_CONNECTOR,
 } from '../../common';
 import type { DataType } from '../../data-set/interface';
 import type { Node } from '../../facet/layout/node';
@@ -32,6 +30,7 @@ import type { SpreadSheet } from '../../sheet-type';
 import { copyToClipboard } from '../../utils/export';
 import { flattenDeep } from '../data-set-operate';
 import { getEmptyPlaceholder } from '../text';
+import { getHeaderTotalStatus } from '../dataset/pivot-data-set';
 
 export function keyEqualTo(key: string, compareKey: string) {
   if (!key || !compareKey) {
@@ -117,6 +116,7 @@ const getValueFromMeta = (
         rowNode.isTotalMeasure ||
         colNode.isTotals ||
         colNode.isTotalMeasure,
+      totalStatus: getHeaderTotalStatus(rowNode, colNode),
     });
     return cell?.[VALUE_FIELD] ?? '';
   }
@@ -402,6 +402,7 @@ const getDataMatrix = (
           rowNode.isTotalMeasure ||
           colNode.isTotals ||
           colNode.isTotalMeasure,
+        totalStatus: getHeaderTotalStatus(rowNode, colNode),
       });
       return getFormat(
         colNode.colIndex,
@@ -680,6 +681,27 @@ function getLastLevelCells(
   });
 }
 
+/** 处理有合并单元格的复制（小记总计格）
+ *  维度1 ｜ 维度2  ｜ 维度3
+ *  总计           ｜  维度三
+ *  => 总计  总计  维度三
+ */
+function getTotalCellMatrixId(meta: Node, maxLevel: number) {
+  let nextNode = meta;
+  let lastNode = { level: maxLevel };
+  let cellId = nextNode.label;
+  while (nextNode.level >= 0) {
+    let repeatNumber = lastNode.level - nextNode.level;
+    while (repeatNumber > 0) {
+      cellId = `${nextNode.label}${ID_SEPARATOR}${cellId}`;
+      repeatNumber--;
+    }
+    lastNode = nextNode;
+    nextNode = nextNode.parent;
+  }
+  return cellId;
+}
+
 function getCellMatrix(
   lastLevelCells: Array<RowCell | ColCell>,
   maxLevel: number,
@@ -687,22 +709,19 @@ function getCellMatrix(
 ) {
   return map(lastLevelCells, (cell: RowCell | ColCell) => {
     const meta = cell.getMeta();
-    const { id, label, isTotals, level } = meta;
+    const { id, label, isTotals } = meta;
     let cellId = id;
 
-    // 为总计小计补齐高度
-    if (isTotals && level !== maxLevel) {
-      cellId = id + ID_SEPARATOR + repeat(label, maxLevel - level);
+    if (isTotals) {
+      cellId = getTotalCellMatrixId(meta, maxLevel);
     }
 
     // 将指标维度单元格的标签替换为实际文本
     const actualText = cell.getActualText();
     const headerList = getHeaderList(cellId, allLevel.size);
-    const formattedHeaderList = map(headerList, (header) =>
+    return map(headerList, (header) =>
       isEqual(header, label) ? actualText : header,
     );
-
-    return formattedHeaderList;
   });
 }
 

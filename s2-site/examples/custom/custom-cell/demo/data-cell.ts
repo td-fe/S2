@@ -1,4 +1,4 @@
-import { PivotSheet, DataCell, drawObjectText } from '@tant/s2';
+import { PivotSheet, DataCell } from '@tant/s2';
 import { isObject } from 'lodash';
 
 /**
@@ -15,15 +15,6 @@ class CustomDataCell extends DataCell {
       },
     });
   }
-
-  // 当配置对象时，完全接管绘制（实现趋势表的mini图功能）
-  protected drawTextShape() {
-    if (isObject(this.getMeta().fieldValue)) {
-      drawObjectText(this);
-    } else {
-      super.drawTextShape();
-    }
-  }
 }
 
 fetch(
@@ -39,28 +30,7 @@ fetch(
         values: ['number'],
       },
       meta: res.meta,
-      data: [
-        ...res.data,
-        // 用于绘制 mini 图的数据
-        {
-          province: '海南省',
-          city: '三亚市',
-          type: '家具',
-          sub_type: '桌子',
-          number: {
-            values: {
-              type: 'line',
-              data: [
-                { date: '周一', value: 110 },
-                { date: '周二', value: 150 },
-                { date: '周三', value: 90 },
-                { date: '周三', value: 190 },
-              ],
-              encode: { x: 'date', y: 'value' },
-            },
-          },
-        },
-      ],
+      data: res.data,
     };
 
     const s2Options = {
@@ -75,6 +45,5 @@ fetch(
     };
     const s2 = new PivotSheet(container, s2DataConfig, s2Options);
 
-    // 使用
     s2.render();
   });
