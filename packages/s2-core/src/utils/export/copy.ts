@@ -23,6 +23,7 @@ import {
   type RowData,
   SERIES_NUMBER_FIELD,
   VALUE_FIELD,
+  DATA_CELL_ID_CONNECTOR,
 } from '../../common';
 import type { DataType } from '../../data-set/interface';
 import type { Node } from '../../facet/layout/node';
