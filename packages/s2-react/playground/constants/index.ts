@@ -13,6 +13,7 @@ const SHADOW_COLORS_RIGHT = 'rgba(0, 0, 0, 0)';
 const BRUSH_SELECTED_BG_COLOR = '#3583EF';
 const FONT_FAMILY =
   "'TA-Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'";
+
 export const getCustomTheme = (type, isCard) => {
   const FONT_SIZE = isCard ? 12 : 14;
   const isPivot = type === 'privot';
@@ -83,14 +84,14 @@ export const getCustomTheme = (type, isCard) => {
         fontSize: FONT_SIZE,
         fontWeight: 500,
         textAlign: 'center',
-        // fontFamily: FONT_FAMILY,
+        fontFamily: FONT_FAMILY,
       },
       bolderText: {
         fill: HEAD_FONT_COLOR,
         fontSize: FONT_SIZE,
         fontWeight: 500,
         cursor: 'pointer',
-        // fontFamily: FONT_FAMILY,
+        fontFamily: FONT_FAMILY,
       },
     },
     rowCell: {
@@ -104,13 +105,13 @@ export const getCustomTheme = (type, isCard) => {
         fill: FONT_COLOR,
         fontSize: FONT_SIZE,
         fontWeight: 'normal',
-        // fontFamily: FONT_FAMILY,
+        fontFamily: FONT_FAMILY,
       },
       bolderText: {
         fill: FONT_COLOR,
         fontSize: FONT_SIZE,
         fontWeight: 'normal',
-        // fontFamily: FONT_FAMILY,
+        fontFamily: FONT_FAMILY,
       },
       cell: {
         horizontalBorderColor: BORDER_COLOR,
@@ -185,14 +186,14 @@ export const getCustomTheme = (type, isCard) => {
         fontSize: FONT_SIZE,
         fontWeight: 500,
         cursor: 'pointer',
-        // fontFamily: FONT_FAMILY,
+        fontFamily: FONT_FAMILY,
       },
       text: {
         fill: HEAD_FONT_COLOR,
         fontSize: FONT_SIZE,
         fontWeight: 500,
         cursor: 'pointer',
-        // fontFamily: FONT_FAMILY,
+        fontFamily: FONT_FAMILY,
       },
       bolderText: {
         fill: HEAD_FONT_COLOR,
@@ -200,7 +201,7 @@ export const getCustomTheme = (type, isCard) => {
         fontWeight: 500,
         // cursor: 'pointer',
         textAlign: 'center',
-        // fontFamily: FONT_FAMILY,
+        fontFamily: FONT_FAMILY,
       },
     },
     dataCell: {
@@ -248,13 +249,13 @@ export const getCustomTheme = (type, isCard) => {
       text: {
         fill: FONT_COLOR,
         fontSize: FONT_SIZE,
-        // // fontFamily: FONT_FAMILY,
+        fontFamily: FONT_FAMILY,
         fontWeight: 'normal',
       },
       bolderText: {
         fill: FONT_COLOR,
         fontSize: FONT_SIZE,
-        // // fontFamily: FONT_FAMILY,
+        fontFamily: FONT_FAMILY,
         fontWeight: 'normal',
       },
     },

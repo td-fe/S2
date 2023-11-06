@@ -72,6 +72,7 @@ import {
 } from './config';
 import './index.less';
 import { ResizeConfig } from './resize';
+import { getCustomTheme } from './constants';
 
 class ResetTooltip extends BaseTooltip {
   renderContent() {
@@ -1156,6 +1157,9 @@ function MainLayout() {
           </Collapse>
           {render && (
             <SheetComponent
+              themeCfg={{
+                theme: getCustomTheme(sheetType, false),
+              }}
               dataCfg={{
                 data: [
                   {
@@ -1593,14 +1597,6 @@ function MainLayout() {
                   'temperature@~@1': 144,
                 },
                 isShowColorScale: true,
-              }}
-              themeCfg={{
-                theme: {
-                  prepareSelectMask: {
-                    backgroundColor: 'yellow',
-                    borderColor: 'yellowgreed',
-                  },
-                },
               }}
               options={{
                 interaction: {
