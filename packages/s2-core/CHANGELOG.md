@@ -1,3 +1,40 @@
+# [@antv/s2-v1.53.0](https://github.com/antvis/S2/compare/@antv/s2-v1.52.1...@antv/s2-v1.53.0) (2023-12-08)
+
+
+### Bug Fixes
+
+* **interaction:** 修复数值单元格取消选中 & 点击空白处取消选中时没触发 GLOBAL_SELECTED 事件 ([#2449](https://github.com/antvis/S2/issues/2449)) ([07f7201](https://github.com/antvis/S2/commit/07f72012a6ec4dd00409f4962b8108f0b4e432fe)), closes [#2447](https://github.com/antvis/S2/issues/2447)
+* seriesNumberHeader 不应该使用  custom row cell ([#2459](https://github.com/antvis/S2/issues/2459)) ([fd1b883](https://github.com/antvis/S2/commit/fd1b883a9b03ee8f40d9126c7706bcfdc661c20c))
+* **table-sheet:** 修复明细表 tooltip 展示了错误的汇总数据的问题 ([#2457](https://github.com/antvis/S2/issues/2457)) ([51bc110](https://github.com/antvis/S2/commit/51bc1105d8c52bd46cc89dfe2698b0fe42745c69))
+* **table-sheet:** 修复明细表排序后开启行列冻结, 冻结行展示错误 close [#2388](https://github.com/antvis/S2/issues/2388) ([#2453](https://github.com/antvis/S2/issues/2453)) ([741e27a](https://github.com/antvis/S2/commit/741e27aab78b4b415d5f9e49760b401c93a84ca9))
+* 修复透视表数据为空时，行列交叉单元格缺失的问题 ([#2452](https://github.com/antvis/S2/issues/2452)) ([87202f5](https://github.com/antvis/S2/commit/87202f581bd97adfd86a92be4ba1aca37f730af4))
+* 区分 GuiIcon 报错类型 close [#2345](https://github.com/antvis/S2/issues/2345) ([#2451](https://github.com/antvis/S2/issues/2451)) ([02f0b3b](https://github.com/antvis/S2/commit/02f0b3b5c966b6652b692d35893700829671415e))
+
+
+### Features
+
+* 交叉表支持冻结首行能力 ([#2416](https://github.com/antvis/S2/issues/2416)) ([b81b795](https://github.com/antvis/S2/commit/b81b7957b9e8b8e1fbac9ebc6cacdf45a14e5412))
+
+# [@antv/s2-v1.52.1](https://github.com/antvis/S2/compare/@antv/s2-v1.52.0...@antv/s2-v1.52.1) (2023-12-01)
+
+
+### Bug Fixes
+
+* **copy:** 修复刷选复制行列头时, 数值单元格未格式化 & 存在省略号时未复制原始值 ([#2410](https://github.com/antvis/S2/issues/2410)) ([708fde4](https://github.com/antvis/S2/commit/708fde479bb48b941445b3adaf1f56cf5cb6b301))
+* **interaction:** 修复行列头圈选后滑出可视范围后, 错误的选择了数值单元格 close [#2340](https://github.com/antvis/S2/issues/2340) ([#2411](https://github.com/antvis/S2/issues/2411)) ([3c0884b](https://github.com/antvis/S2/commit/3c0884b4c95efc65279db375327860a3b4335af8))
+* 修复中英文标点符号 ([#2442](https://github.com/antvis/S2/issues/2442)) ([17a2d00](https://github.com/antvis/S2/commit/17a2d00f13ff1db4cc8236176b2a26c5212a2dbd))
+* 修复交叉模式下 行序号位置不正确&总计行未添加行序号 ([#2412](https://github.com/antvis/S2/issues/2412)) ([55359af](https://github.com/antvis/S2/commit/55359af64d08492298187c2ef15d0a780440d1fd))
+* 修复维度缺失部分维值时, 行维值以及对应的数值展示错误 ([#2436](https://github.com/antvis/S2/issues/2436)) ([1207fa0](https://github.com/antvis/S2/commit/1207fa041d1ab31f68785ff683a90954dda5c05c))
+* 修复缺失维度所生成的 query 多了 empty extra value 字段 ([#2444](https://github.com/antvis/S2/issues/2444)) ([3439da8](https://github.com/antvis/S2/commit/3439da88eb8f72d1cf00a6190eda6d4cd2a8c187))
+* 修复隐藏列总计时行总计也被隐藏问题 ([#2417](https://github.com/antvis/S2/issues/2417)) ([3b771c0](https://github.com/antvis/S2/commit/3b771c0df436ef3687f6e20968cf5aa20680e732))
+
+# [@antv/s2-v1.52.0](https://github.com/antvis/S2/compare/@antv/s2-v1.51.2...@antv/s2-v1.52.0) (2023-11-10)
+
+
+### Features
+
+* 支持透视表明细表单元格虚线&分割线虚线([#2400](https://github.com/antvis/S2/issues/2400)) ([#2401](https://github.com/antvis/S2/issues/2401)) ([432c0c7](https://github.com/antvis/S2/commit/432c0c766e993b2124f3cc372c0d4776fed690d1))
+
 # [@antv/s2-v1.51.2](https://github.com/antvis/S2/compare/@antv/s2-v1.51.1...@antv/s2-v1.51.2) (2023-10-27)
 
 

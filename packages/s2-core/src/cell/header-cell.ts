@@ -48,7 +48,7 @@ export abstract class HeaderCell extends BaseCell<Node> {
 
   protected abstract isBolderText(): boolean;
 
-  protected handleRestOptions(...[headerConfig]: [BaseHeaderConfig]) {
+  protected handleRestOptions(...[headerConfig]: [BaseHeaderConfig, unknown]) {
     this.headerConfig = { ...headerConfig };
     const { value, query } = this.meta;
     const sortParams = this.spreadsheet.dataCfg.sortParams;
@@ -72,6 +72,10 @@ export abstract class HeaderCell extends BaseCell<Node> {
     this.resetTextAndConditionIconShapes();
     this.actionIcons = [];
     this.hasDefaultHiddenIcon = false;
+  }
+
+  public getTreeIcon(): GuiIcon {
+    return this.treeIcon;
   }
 
   protected getInteractiveBorderShapeStyle(border: number) {
@@ -415,6 +419,7 @@ export abstract class HeaderCell extends BaseCell<Node> {
 
     switch (stateInfo?.stateName) {
       case InteractionStateName.SELECTED:
+      case InteractionStateName.BRUSH_SELECTED:
         this.handleSelect(cells, stateInfo?.nodes);
         break;
       case InteractionStateName.HOVER_FOCUS:

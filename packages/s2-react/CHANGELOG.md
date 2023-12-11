@@ -1,3 +1,31 @@
+# [@antv/s2-react-v1.45.0](https://github.com/antvis/S2/compare/@antv/s2-react-v1.44.3...@antv/s2-react-v1.45.0) (2023-12-08)
+
+
+### Bug Fixes
+
+* **table-sheet:** 修复明细表 tooltip 展示了错误的汇总数据的问题 ([#2457](https://github.com/antvis/S2/issues/2457)) ([51bc110](https://github.com/antvis/S2/commit/51bc1105d8c52bd46cc89dfe2698b0fe42745c69))
+* **table-sheet:** 修复明细表排序后开启行列冻结, 冻结行展示错误 close [#2388](https://github.com/antvis/S2/issues/2388) ([#2453](https://github.com/antvis/S2/issues/2453)) ([741e27a](https://github.com/antvis/S2/commit/741e27aab78b4b415d5f9e49760b401c93a84ca9))
+
+
+### Features
+
+* 交叉表支持冻结首行能力 ([#2416](https://github.com/antvis/S2/issues/2416)) ([b81b795](https://github.com/antvis/S2/commit/b81b7957b9e8b8e1fbac9ebc6cacdf45a14e5412))
+
+# [@antv/s2-react-v1.44.3](https://github.com/antvis/S2/compare/@antv/s2-react-v1.44.2...@antv/s2-react-v1.44.3) (2023-12-01)
+
+
+### Bug Fixes
+
+* **copy:** 修复刷选复制行列头时, 数值单元格未格式化 & 存在省略号时未复制原始值 ([#2410](https://github.com/antvis/S2/issues/2410)) ([708fde4](https://github.com/antvis/S2/commit/708fde479bb48b941445b3adaf1f56cf5cb6b301))
+* 修复中英文标点符号 ([#2442](https://github.com/antvis/S2/issues/2442)) ([17a2d00](https://github.com/antvis/S2/commit/17a2d00f13ff1db4cc8236176b2a26c5212a2dbd))
+
+# [@antv/s2-react-v1.44.2](https://github.com/antvis/S2/compare/@antv/s2-react-v1.44.1...@antv/s2-react-v1.44.2) (2023-11-10)
+
+
+### Bug Fixes
+
+* 修复趋势分析表自定义列头 tooltip 后错误的使用行头的 tooltip ([#2399](https://github.com/antvis/S2/issues/2399)) ([0310c2f](https://github.com/antvis/S2/commit/0310c2f7f6ea054a79f0fc71b972ee1d3dd1c649))
+
 # [@antv/s2-react-v1.44.1](https://github.com/antvis/S2/compare/@antv/s2-react-v1.44.0...@antv/s2-react-v1.44.1) (2023-10-27)
 
 

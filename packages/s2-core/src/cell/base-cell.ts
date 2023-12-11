@@ -14,6 +14,8 @@ import {
 } from 'lodash';
 import {
   CellTypes,
+  ELLIPSIS_SYMBOL,
+  EMPTY_FIELD_VALUE,
   InteractionStateName,
   SHAPE_ATTRS_MAP,
   SHAPE_STYLE_MAP,
@@ -134,8 +136,18 @@ export abstract class BaseCell<T extends SimpleBBox> extends Group {
     return this.actualText;
   }
 
+  // TODO: 2.0 使用 G 内置的方法
+  public isTextOverflowing() {
+    return this.getActualText().includes(ELLIPSIS_SYMBOL);
+  }
+
   public getFieldValue() {
-    return this.getFormattedFieldValue().formattedValue;
+    const { formattedValue } = this.getFormattedFieldValue();
+
+    if (formattedValue === EMPTY_FIELD_VALUE) {
+      return this.getActualText();
+    }
+    return formattedValue;
   }
 
   /**

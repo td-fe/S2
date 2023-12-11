@@ -1,6 +1,6 @@
 import type { Point } from '@antv/g-canvas';
 import { isNil, last, map } from 'lodash';
-import { RowCell } from '../../cell';
+import { BaseRowCell, RowCell } from '../../cell';
 import { InterceptType, S2Event } from '../../common/constant';
 import {
   InteractionBrushSelectionStage,
@@ -96,7 +96,7 @@ export class RowBrushSelection extends BaseBrushSelection {
 
     this.spreadsheet.interaction.changeState({
       cells: selectedCellMetas,
-      stateName: InteractionStateName.SELECTED,
+      stateName: InteractionStateName.BRUSH_SELECTED,
       onUpdateCells: this.onUpdateCells,
     });
 
@@ -129,7 +129,7 @@ export class RowBrushSelection extends BaseBrushSelection {
       }
 
       // TODO: 先暂时不考虑自定义单元格的情况, next 分支把这些单元格 (包括自定义单元格) 都放在了 s2.options.rowCell 里
-      return new RowCell(node, this.spreadsheet);
+      return this.spreadsheet.facet.rowHeader.createCellInstance(node);
     });
   }
 
